@@ -3,7 +3,7 @@
 ## Syntax
 
 ```sh
-for VARIABLE_NAME in ITEM_1 ITEM_N
+for VARIABLE_NAME in ITEM_1 ITEM_2 ITEM_N
 do
     command 1
     command 2
@@ -11,7 +11,9 @@ do
 done
 ```
 
-The first variable (`ITEM_1`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed. Then the second variable (`ITEM_2`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed again. This happens for each itemn in the list.
+- The first variable (`ITEM_1`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed.
+- The second variable (`ITEM_2`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed again.
+- This happens for each itemn (`ITEM_N`) in the list.
 
 **Example**
 
@@ -26,6 +28,7 @@ done
 # COLOR: green
 # COLOR: blue
 ```
+
 **Example 2**
 
 ```sh
