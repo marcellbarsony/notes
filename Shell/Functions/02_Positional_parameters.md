@@ -30,4 +30,6 @@ passwd -l ${USER}
 tar cf /archives/${USER}.tar.gx /home/${USER}
 ```
 
+** All parameters**
+
 Access all the positional parameters from `$1` to `$9` with `$@`
