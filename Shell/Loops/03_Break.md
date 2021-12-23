@@ -16,10 +16,10 @@ do
     2)
       uptime
       ;;
-	  *)
-	    break
-	    ;;
-	esac
+    *)
+      break
+      ;;
+  esac
 done
 ```
 
