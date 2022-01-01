@@ -1,13 +1,15 @@
 ## Infobox
 
+Infobox simply displays a message
+
 ## Synopsis
 
 ```sh
-dialog <title> --msgbox <message> <height> <width>
+dialog <title> --infobox <message> <height> <width>
 ```
 
 **Example**
 
 ```sh
-dialog --title "Title" --msgbox "Displayed message content" 8 40
+dialog --title "Title" --infobox "Displayed message content" 8 40
 ```
