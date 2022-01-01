@@ -14,7 +14,7 @@ result=$(dialog --title "Title" --menu "Select option" 20 78 10 ${options[@]} 3>
 
 ## Evaluation
 
-I believe the best option is to save the output to a variable (`$result`) and evaluate the result based on the exit status
+The best option is to save the output to a variable (`$result`) and evaluate the result based on the exit status
 
 ```sh
 case $? in

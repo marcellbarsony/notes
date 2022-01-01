@@ -13,3 +13,13 @@ dialog <title> --msgbox <message> <height> <width>
 ```sh
 dialog --title "Title" --msgbox "Displayed message content" 8 40
 ```
+
+## Evaluation
+
+```sh
+if [[ $? == 0 ]] ; then
+    echo "OK pressed."
+else
+    echo "ESC pressed."
+fi
+```
