@@ -9,7 +9,7 @@ dialog --title "Title" --menu "Menu text" <window height> <window widht> <list h
 **Example**
 
 ```sh
-result=$(dialog --title "Language" --menu "Select language" 20 78 10 ${options[@]} 3>&1 1>&2 2>&3)
+result=$(dialog --title "Title" --menu "Select option" 20 78 10 ${options[@]} 3>&1 1>&2 2>&3)
 ```
 
 ## Evaluation
@@ -20,7 +20,7 @@ I believe the best option is to save the output to a variable (`$result`) and ev
 case $? in
     0)
       echo "OK pressed."
-      echo "Language selected: $result"
+      echo "Option selected: $result"
     ;;
     1)
       echo "CANCEL pressed."

@@ -9,6 +9,20 @@ dialog [[man](https://linux.die.net/man/1/dialog)] - display dialog boxes from s
 - dialog --print-maxsize
 - dialog _common-options_ _box-options_
 
+## Installation
+
+**Arch-derived distributions**
+
+```sh
+pacman -S dialog
+```
+
+**Debian-derived distributions**
+
+```sh
+apt-get install dialog
+```
+
 ## Options
 
 --ascii-lines
