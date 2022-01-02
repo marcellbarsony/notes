@@ -3,25 +3,34 @@
 ## Synopsis
 
 ```sh
-dialog <title> --textbox <file> <height> <width>
+--paswordbox "Question" <height> <width>
 ```
 
 **Example**
 
 ```sh
-dialog --title "Title" --textbox ./file.txt 16 60 --scrolltext
+password=$(dialog --title "Passwordbox" --passwordbox "Please enter the password" 8 60 3>&1 1>&2 2>&3)
 ```
-
-**--scrolltext** allows to scroll the content of the textbox with the arrow keys.
 
 ## Evaluation
 
-We can evaluate the result based on the exit code (OK = 0, ESC = 255)
+The best option is to save the output to a variable (`$password`) and evaluate the result based on the exit status
 
 ```sh
-if [[ $? == 0 ]] ; then
-    echo "OK pressed."
-else
-    echo "ESC pressed."
-fi
+case $? in
+    0)
+      echo "OK pressed."
+      echo "Password entered: $password"
+    ;;
+    1)
+      echo "CANCEL pressed."
+    ;;
+    255)
+      echo "ESC pressed."
+    ;;
+    *)
+      echo "Exit status $?"
+      # In theory, this shouldn't happen
+    ;;
+esac
 ```

@@ -3,13 +3,29 @@
 ## Synopsis
 
 ```sh
-dialog --title "Title" --menu "Menu text" <window height> <window widht> <list height> <options> <description> ...
+--menu "Menu text" <window height> <window widht> <list height> <options> <description>
 ```
 
 **Example**
 
 ```sh
-result=$(dialog --title "Title" --menu "Select option" 20 78 10 ${options[@]} 3>&1 1>&2 2>&3)
+result=$(dialog --title "Menu" --menu "Select an option" 20 78 10 ${options[@]} 3>&1 1>&2 2>&3)
+```
+
+## Options
+
+Option properties
+
+- Value: Value of the option, transmitted in the program.
+- Label: Label of the option.
+
+```sh
+"A option" "A option description" \
+"B option" "B option description" \
+"C option" "C option description" \
+"D option" "D option description" \
+"E option" "E option description" \
+"F option" "F option description" \
 ```
 
 ## Evaluation

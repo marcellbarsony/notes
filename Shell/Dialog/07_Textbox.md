@@ -3,13 +3,13 @@
 ## Synopsis
 
 ```sh
-dialog <title> --textbox <file> <height> <width>
+--textbox <file> <height> <width>
 ```
 
 **Example**
 
 ```sh
-dialog --title "Title" --textbox ./file.txt 16 60 --scrolltext
+dialog --title "Textbox" --textbox ./file.txt 16 60 --scrolltext
 ```
 
 **--scrolltext** allows to scroll the content of the textbox with the arrow keys.

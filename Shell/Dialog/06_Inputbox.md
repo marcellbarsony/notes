@@ -9,7 +9,7 @@ dialog <title> --inputbox <message> <height> <width> <default message>
 **Example**
 
 ```sh
-value=$(dialog --title "Title" --inputbox "Displayed message content" 8 40 "Make your choice" 3>&1 1>&2 2>&3)
+value=$(dialog --title "Inputbox" --inputbox "Displayed message content" 8 40 "Make your choice" 3>&1 1>&2 2>&3)
 ```
 
 ## Evaluation

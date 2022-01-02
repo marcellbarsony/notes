@@ -15,7 +15,7 @@ Make "NO" the default value of the yes/no box.
 **Example**
 
 ```sh
-dialog --title "Title" --defaultno --yesno "Displayed message content" 8 40
+dialog --title "Yesnobox" --defaultno --yesno "Displayed message content" 8 40
 ```
 
 ## Evaluation

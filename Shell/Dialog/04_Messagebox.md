@@ -5,13 +5,13 @@ Message box stops the program from running and waits for the user to acknowledge
 ## Synopsis
 
 ```sh
-dialog <title> --msgbox <message> <height> <width>
+--msgbox "Message" <height> <width>
 ```
 
 **Example**
 
 ```sh
-dialog --title "Title" --msgbox "Displayed message content" 8 40
+dialog --title "Msgbox" --msgbox "Displayed message content" 8 40
 ```
 
 ## Evaluation
