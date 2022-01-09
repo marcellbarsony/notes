@@ -1,14 +1,14 @@
 ## TCP/IP model part 1: Bits, Frames, Packets, Segments and more
 
-| No. | OSI          | TCP/IP       |              |
-| --- | ------------ | ------------ | ------------ |
-|   7 | Application  |              |              |
-|   6 | Presentation |              |              |
-|   5 | Session      | Application  |              |
-|   4 | Transport    | Transport    | Segments     |
-|   3 | Network      | Network      | Packets      |
-|   2 | Data Link    | Data Link    | Frames       |
-|   1 | Physical     | Physical     | Bits         |
+| No. | OSI          | TCP/IP      |          | Description                                                                  |
+| --- | ------------ | ----------- | -------- | ---------------------------------------------------------------------------- |
+| 7   | Application  |             |          | Human-computer interaction layer, where applications access network services |
+| 6   | Presentation |             |          | Ensures that data is in usable format applies data encryption                |
+| 5   | Session      | Application |          | Maintains connections and is responsible for controlling ports and sessions  |
+| 4   | Transport    | Transport   | Segments | Transmits data using transmission protocols (incl. TCP and UTP)              |
+| 3   | Network      | Network     | Packets  | Decides which physical path the data will take                               |
+| 2   | Data Link    | Data Link   | Frames   | Defines the format of data on the network                                    |
+| 1   | Physical     | Physical    | Bits     | Transmits raw bit stream over the physical medium                            |
 
 ## Bits
 
@@ -20,7 +20,7 @@ A **frame** is a digital **data transmission unit** in computer networking.<br> 
 
 In general, the **frame** is a formatting unit resource for data that needs to be split up into recognizable pieces in order to be interpreted by a receiver.
 
-[Wikipedia - Frame (networking)](https://en.wikipedia.org/wiki/Frame_(networking))
+[Wikipedia - Frame (networking)](<https://en.wikipedia.org/wiki/Frame_(networking)>)
 
 ## Packets
 
@@ -36,4 +36,3 @@ A **packet** consists of **control information** and **user data**; the latter i
 A **network segment** is a portion of a computer network. The nature and extent of a segment depends on the nature of the network and the device (or devices) used to interconnect end stations.
 
 [Wikipedia - Network segment](https://en.wikipedia.org/wiki/Network_segment)
-
