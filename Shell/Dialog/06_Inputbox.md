@@ -3,7 +3,7 @@
 ## Synopsis
 
 ```sh
-dialog <title> --inputbox <message> <height> <width> <default message>
+--inputbox "Challenge" <height> <width> <default message>
 ```
 
 **Example**

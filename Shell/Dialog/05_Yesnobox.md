@@ -5,7 +5,7 @@ Yes/No question box
 ## Synopsis
 
 ```sh
-dialog <title> --yesno <message> <height> <width>
+--yesno "Challenge" <height> <width>
 ```
 
 **--defaultno**

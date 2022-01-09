@@ -46,28 +46,46 @@ apt-get install dialog
 > Override the label used for "Cancel" buttons.
 
 --clear
-Clears the widget screen, keeping only the screen_color background. Use this when you combine widgets with "--and-widget" to erase the contents of a previous widget on the screen, so it won't be seen under the contents of a following widget. Understand this as the complement of "--keep-window". To compare the effects, use these:
+
+Clears the widget screen, keeping only the `screen_color background`. Use this when you combine widgets with `--and-widget` to erase the contents of a previous widget on the screen, so it won't be seen under the contents of a following widget. Understand this as the complement of `--keep-window`.<br>To compare the effects, use these:
+
 All three widgets visible, staircase effect, ordered 1,2,3:
+
+```sh
 dialog --begin 2 2 --yesno "" 0 0 \
  --and-widget --begin 4 4 --yesno "" 0 0 \
  --and-widget --begin 6 6 --yesno "" 0 0
+```
+
 Only the last widget is left visible:
+
+```sh
 dialog --clear --begin 2 2 --yesno "" 0 0 \
  --and-widget --clear --begin 4 4 --yesno "" 0 0 \
  --and-widget --begin 6 6 --yesno "" 0 0
+```
+
 All three widgets visible, staircase effect, ordered 3,2,1:
+
+```sh
 dialog --keep-window --begin 2 2 --yesno "" 0 0 \
  --and-widget --keep-window --begin 4 4 --yesno "" 0 0 \
  --and-widget --begin 6 6 --yesno "" 0 0
-First and third widget visible, staircase effect, ordered 3,1:
+```
+
+First and third widget visible, staircase effect, ordered 3,1:\
+
+```sh
 dialog --keep-window --begin 2 2 --yesno "" 0 0 \
  --and-widget --clear --begin 4 4 --yesno "" 0 0 \
  --and-widget --begin 6 6 --yesno "" 0 0
+```
+
 Note, if you want to restore original console colors and send your cursor home after the dialog program has exited, use the clear (1) command.
 
 --colors
 
-> Interpret embedded "\Z" sequences in the dialog text by the following character, which tells dialog to set colors or video attributes: 0 through 7 are the ANSI used in curses: black, red, green, yellow, blue, magenta, cyan and white respectively. Bold is set by 'b', reset by 'B'. Reverse is set by 'r', reset by 'R'. Underline is set by 'u', reset by 'U'. The settings are cumulative, e.g., "\Zb\Z1" makes the following text bold (perhaps bright) red. Restore normal settings with "\Zn".
+> Interpret embedded "\Z" sequences in the dialog text by the following character, which tells dialog to set colors or video attributes: 0 through 7 are the ANSI used in curses: black, red, green, yellow, blue, magenta, cyan and white respectively. Bold is set by 'b', reset by 'B'. Reverse is set by 'r', reset by 'R'. Underline is set by 'u', reset by 'U'. The settings are cumulative, e.g., "\Zb\Z1" makes the following text bold (perhaps bright) red.Restore normal settings with "\Zn".
 
 --column-separator string
 

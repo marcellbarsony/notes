@@ -3,7 +3,7 @@
 ## Synopsis
 
 ```sh
---paswordbox "Question" <height> <width>
+--paswordbox "Challenge" <height> <width>
 ```
 
 **Example**
