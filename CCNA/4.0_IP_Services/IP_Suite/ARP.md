@@ -1,14 +1,24 @@
 ## ARP - Address Resolution Protocol
 
+The **Address Resolution Protocol (ARP)** is a communication protocol used for discovering the **Data Link layer (Layer 2)** address, such as a MAC address, associated with a given internet layer address, typically an IPv4 address.
+
+[Wikipedia - ARP](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
+
+## Operating scope
+
+The The **Address Resolution Protocol** is a request-response protocol whose messages encapsulated by a link layer protocol. It is communicated within the boundaries of a single network, never routed across internetworking nodes.
+
+## Practical demonstration
+
 We're sending an HTTP request from **Inside PC 0** to **Internal-Server2**.
 
 Two packets are created: **ARP** and **TCP**
 
-![figure1](./src/screenshot.png)
+![figure1](./src/arp1.png)
 
 ## Inside PC 0
 
-### Otbound
+### Outbound
 
 #### Layer 2
 
