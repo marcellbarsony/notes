@@ -58,6 +58,8 @@ Two packets are created: **ARP** and **TCP**
 
 1. This is a broadcast frame. The Multilayer Switch sends out the frame to all ports in the same VLAN except the receiving port.
 
+![figure2](./src/pdu_outbound.png)
+
 #### Layer 1
 
 1. GigabitEthernet1/0/1 sends out the frame.
