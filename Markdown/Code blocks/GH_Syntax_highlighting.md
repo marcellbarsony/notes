@@ -8,6 +8,8 @@ GitHub is using [Linguist](https://github.com/github/linguist) to perform langua
 - **Bash:** bash, sh, zsh
 - **PowerShell:** powershell, ps
 - **DOS:** dos, bat, cmd
+- **Markdown:** md
+- GitHub's complete [keyword list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 Highlight the first word as a command with `properties`:
 
@@ -21,8 +23,6 @@ Highlight shell session command sequence with `console`:
 foo@bar:~$ whoami
 foo
 ```
-
-Complete [keyword list](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 [[GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)]
 

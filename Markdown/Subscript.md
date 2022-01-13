@@ -1,0 +1,19 @@
+## Subscript
+
+Some Markdown processors allows to use of **Subscript** and **Superscript**.
+
+To create a **subscript**, use one tilde symbol (~) before and after the character.
+
+```
+H~2~O
+```
+
+**Rendered output**
+
+H~2~O
+
+Alternatively, if the Markdown application supports HTML:
+
+```
+H<sub>2</sub>O
+```
