@@ -6,11 +6,13 @@
 
 ## 1. Acquire build files
 
-Clone its git repository. This is the preferred method as it can be updated easily via `git pull`.
+1.1 Clone PacketTracer's git repository.
 
 ```sh
 git clone https://aur.archlinux.org/packettracer.git
 ```
+
+This is the preferred method as it can be updated easily via `git pull`.
 
 ## 2. Acquire PacketTracer deb package
 
@@ -35,7 +37,7 @@ makepkg -si
 
 ## 4. Dependencies
 
-The QT5 theme is required to launch Packet Tracer (1/13/2022)
+The QT5 theme is required to launch Packet Tracer (_as of 1/13/2022_)
 
 ```sh
 pacman -S qt5-multimedia qt5-webengine qt5-networkauth qt5-websockets qt5-script qt5-speech qt5svg
@@ -44,5 +46,6 @@ pacman -S qt5-multimedia qt5-webengine qt5-networkauth qt5-websockets qt5-script
 To check the missing dependencies, navigate to `/opt/packettracer/bin` and launch `PacketTracer`
 
 ```sh
+cd /opt/packettracer/bin
 ./PacketTracer
 ```
