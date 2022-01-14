@@ -8,7 +8,7 @@ Task lists (also referred to as _checklist_ or _todo lists_) can be created in M
 - [ ] Contact the media
 ```
 
-Output:
+### Rendered output
 
 - [x] Write the press release
 - [ ] Update the website

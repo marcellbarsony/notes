@@ -6,6 +6,8 @@ To create a blockquote, add a > in front of a paragraph.
 > This is a blockquote
 ```
 
+### Rendered output
+
 > This is a blockquote
 
 ## Blockquotes with multiple paragraphs
@@ -17,6 +19,8 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 >
 > This is a new paragraph.
 ```
+
+### Rendered output
 
 > This is a paragraph.
 >
@@ -48,6 +52,8 @@ Blockquotes can contain other Markdown formatted elements. Note that not all ele
 >
 >  This text is _italic_ and **bold**.
 ```
+
+### Rendered output
 
 > #### Header level 4
 >

@@ -6,11 +6,13 @@ Some Markdown processors allows text highlighting. To highlight words, use two e
 These ==important words== must be highlighted.
 ```
 
-Output:
+### Rendered output
 
 These ==important words== must be highlighted.
 
-Alternatively, HTML tags (\<mark>) can be used if the Markdown application supports them.
+## HTML syntax
+
+Alternatively, HTML tags (`<mark>`) can be used if the Markdown application supports them.
 
 ```
 These <mark>important words</mark> must be highlighted.

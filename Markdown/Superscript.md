@@ -8,9 +8,11 @@ To create a **superscript**, use one caret symbol (^) before and after the chara
 X^2^
 ```
 
-**Rendered output**
+### Rendered output
 
 X^2^
+
+### HTML syntax
 
 Alternatively, if the Markdown application supports HTML:
 

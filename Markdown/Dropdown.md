@@ -8,7 +8,7 @@ Dropdown content
 </details>
 ```
 
-**Rendered output**
+### Rendered output
 
 <details>
 <summary>Dropdown summary</summary>
@@ -26,7 +26,7 @@ Dropdown content
 </details>
 ```
 
-**Rendered output**
+### Rendered output
 
 <details open>
 <summary>Open Dropdown summary</summary>

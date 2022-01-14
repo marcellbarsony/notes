@@ -8,9 +8,11 @@ To create a **subscript**, use one tilde symbol (~) before and after the charact
 H~2~O
 ```
 
-**Rendered output**
+### Rendered output
 
 H~2~O
+
+### HTML syntax
 
 Alternatively, if the Markdown application supports HTML:
 
