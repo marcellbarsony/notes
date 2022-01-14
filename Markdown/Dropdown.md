@@ -1,5 +1,3 @@
-## Dropdown
-
 ## Closed dropdown
 
 ```
