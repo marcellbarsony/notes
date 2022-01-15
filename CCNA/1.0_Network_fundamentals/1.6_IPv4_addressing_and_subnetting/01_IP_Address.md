@@ -9,7 +9,7 @@ Two main functions:
 - Network interface identification
 - Location addressing
 
-**IPv4** defines an IP address as a 32-bit number number in the [address space](https://en.wikipedia.org/wiki/Address_space) - _2^32 = 4,294,967,296 possible addresses._
+**IPv4** defines an IP address as a 32-bit number number in the [address space](https://en.wikipedia.org/wiki/Address_space) - _2^32^ = 4,294,967,296 possible addresses_.
 
 **IPv4** addresses are usually represented in dot-decimal notation, consisting 4 decimal numbers, each ranging from 0 to 255, separated by dots. Each part represents a group of 8 bits (an octet).
 

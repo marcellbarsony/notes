@@ -1,6 +1,8 @@
 ## Highlight
 
-Some Markdown processors allows text highlighting. To highlight words, use two equal signs (==) before and after the words.
+Some Markdown processors allows text highlighting - GitHub does not!
+
+To highlight words, use two equal signs (==) before and after the words.
 
 ```
 These ==important words== must be highlighted.
