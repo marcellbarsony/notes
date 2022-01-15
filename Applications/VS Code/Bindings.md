@@ -12,6 +12,10 @@ Markdown preview
 
 <kbd>Ctrl</kbd> + <kbd>K</kbd> <kbd>V</kbd>
 
+Zen mode
+
+<kbd>Ctrl</kbd> + <kbd>K</kbd> <kbd>Z</kbd>
+
 Explorer
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd>

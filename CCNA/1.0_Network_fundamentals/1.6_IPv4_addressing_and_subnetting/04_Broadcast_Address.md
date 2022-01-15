@@ -1,0 +1,27 @@
+## Directed Broadcast Address
+
+A broadcast address is a network address used to transmit to all devices connected to a multiple-access communications network.
+A message sent to a broadcast address may be received by all network-attached hosts.
+
+In contrast, a **multicast address** is used to address a specific group of devices, and a **unicast address** is used to address a single device.
+
+For network layer communications, a broadcast address may be a specific IP address. At the data link layer on Ethernet networks, it is a specific MAC address.
+
+Network
+
+```cmd
+172. 31.  0.  0 = 10101100.00011111.00000000.00000000
+                  10nnnnnn.nnnnnnnn.HHHHHHHH.HHHHHHHH
+```
+
+Directed Broadcast Address
+
+- The entire host portion of the address is populated with binary ones.
+
+```cmd
+172. 31.255.255 = 10101100.00011111.11111111.11111111
+                  10nnnnnn.nnnnnnnn.HHHHHHHH.HHHHHHHH
+```
+
+Routers can route directed broadcast.
+By default, directed broadcasts are not routed from one physical interface to another or from one VLAN to another.

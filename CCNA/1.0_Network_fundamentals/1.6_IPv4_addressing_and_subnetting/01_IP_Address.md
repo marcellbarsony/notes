@@ -39,10 +39,12 @@ An IP address is recognized as consisting of two parts:
 
 The **subnet mask** or [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) determines how the IP address is divided into network and host parts.
 
-The term **subnet mask** is only used for IPv4. Both IP versions however use the CIDR concept and notation.
+The term **subnet mask** is only used for IPv4.
+Both IP versions however use the CIDR concept and notation.
 
 The IP address is followed by a slash and the number (in decimal) of bits used for the network part (routing prefix).
 
 Example:
 
-An IPv4 address and its subnet mask may be 192.0.2.1 and 255.255.255.0, respectively. The CIDR notation for the IP address and the subnet is 192.0.2.1/24, because the first 24 bits of the IP address indicate the network and the subnet.
+An IPv4 address and its subnet mask may be 192.0.2.1 and 255.255.255.0, respectively.
+The CIDR notation for the IP address and the subnet is 192.0.2.1/24, because the first 24 bits of the IP address indicate the network and the subnet.

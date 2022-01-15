@@ -45,7 +45,8 @@ IPv4 addresses are 32-bit integers which will be expressed in decimal notation. 
 
 The network part conjointly **identifies the category of the network** that’s assigned.
 
-Routers maintain **routing tables** that contain network addresses: routers will look at the destination IP address of a packet and match that to a network address in their routing table.
+Routers maintain **routing tables** that contain network addresses:
+routers will look at the destination IP address of a packet and match that to a network address in their routing table.
 
 The network part indicates the distinctive variety that’s appointed to the network.
 
@@ -57,11 +58,15 @@ For each host on the network, the network part is the same, however, the host ha
 
 ### Subnet
 
-This is the nonobligatory part of IPv4. Local networks that have massive numbers of hosts are divided into subnets and subnet numbers are appointed to that.
+This is the nonobligatory part of IPv4.
+Local networks that have massive numbers of hosts are divided into subnets and subnet numbers are appointed to that.
 
 ## Connectionless
 
-IPv^4^ is a connectionless protocol, meaning there are no sessions formed when the traffic is transmitted. The transmitter simply sends data without notification to the receiver. No status information is sent back from the receiver to the transmitter. IPv4 does not have data recovery features - it relies on higher layer protocols (eg. TCP) to handle dropped, corrupted, misdirected, etc.
+IPv^4^ is a connectionless protocol, meaning there are no sessions formed when the traffic is transmitted.
+The transmitter simply sends data without notification to the receiver.
+No status information is sent back from the receiver to the transmitter.
+IPv4 does not have data recovery features - it relies on higher layer protocols (eg. TCP) to handle dropped, corrupted, misdirected, etc.
 
 Each packet is treated independently from other packets - traffic may take different path based on:
 
