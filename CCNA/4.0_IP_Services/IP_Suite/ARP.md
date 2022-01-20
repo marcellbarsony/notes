@@ -14,7 +14,7 @@ We're sending an HTTP request from **Inside PC 0** to **Internal-Server2**.
 
 Two packets are created: **ARP** and **TCP**
 
-![figure1](https://www.dropbox.com/s/rsgh6dahdrkqak6/arp1.png?dl=1)
+<img src="https://www.dropbox.com/s/rsgh6dahdrkqak6/arp1.png?dl=1" alt="network" class="arp1" />
 
 ## Inside PC 0
 
@@ -58,7 +58,7 @@ Two packets are created: **ARP** and **TCP**
 
 1. This is a broadcast frame. The Multilayer Switch sends out the frame to all ports in the same VLAN except the receiving port.
 
-![figure2](https://www.dropbox.com/s/nzcsyrupaqzjt6l/pdu_outbound.png?dl=1)
+<img src="https://www.dropbox.com/s/nzcsyrupaqzjt6l/pdu_outbound.png?dl=1" alt="pdu_outbound" class="inline" />
 
 #### Layer 1
 

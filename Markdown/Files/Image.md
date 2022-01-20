@@ -25,3 +25,9 @@ If the picture is located at the same folder as the markdown file:
 ```md
 ![alt text](https://server/path/to/image.ext)
 ```
+
+HTML
+
+```html
+<img src="https://server/path/to/image.ext" alt="network" class="inline" />
+```
