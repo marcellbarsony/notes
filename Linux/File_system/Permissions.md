@@ -12,5 +12,3 @@
 | 5      | Read + Execute         |  r-x  |  r-x  |   r-x   |
 | 6      | Read + Write           |  rw-  |  rw-  |   rw-   |
 | 7      | Read + Write + Execute |  rwx  |  rwx  |   rwx   |
-
-

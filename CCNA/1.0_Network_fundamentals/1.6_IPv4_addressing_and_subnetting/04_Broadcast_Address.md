@@ -30,3 +30,17 @@ Routers can route directed broadcast.
 By default, directed broadcasts are not routed from one physical interface to another or from one VLAN to another.
 
 ## Local Broadcast Address
+
+A **local broadcast address** is used to communicate with all the devices on a **local network**.
+
+The entire address is populated with binary ones.
+
+```cmd
+255.255.255.255 = 11111111.11111111.11111111.11111111
+```
+
+A **local broadcast address** is used by hosts to request IP addresses from the DHCP server:<br>
+- The **host** sends a broadcast to the broadcast address to request an IP address.<br>
+- The **DHCP server** allocates an IP address from the pool of IP addresses.
+
+By default, the local broadcast address is always dropped by routers and layer 3 switches; but one can override this by configuring the device with **DHCP forwarding** or **DHCP relay**.
