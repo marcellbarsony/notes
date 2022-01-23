@@ -3,11 +3,11 @@
 | No. | OSI          | TCP/IP      |          | Examples                             | Description                                                                            |
 | --- | ------------ | ----------- | -------- | ------------------------------------ | -------------------------------------------------------------------------------------- |
 | 7   | Application  |             |          | HTTP, FTP, IRC, SSH, DNS             | Human-computer interaction layer, where applications access network services           |
-| 6   | Presentation |             |          | SSL, TLS, SSH, IMAP, FTP, MPEG, JPEG | Ensures that data is in usable format applies data encryption                          |
+| 6   | Presentation |             |          | SSL, TLS, SSH, IMAP, FTP, MPEG, JPEG | Ensures that data is in usable format, applies data encryption and compression         |
 | 5   | Session      | Application |          | API's, Sockets, WinSock              | Maintains connections and is responsible for controlling ports and sessions            |
 | 4   | Transport    | Transport   | Segments | TCP, UDP                             | Transmits data using transmission protocols (incl. TCP and UTP header)                 |
 | 3   | Network      | Network     | Packets  | IP, ARP, ICMP, IPSec, IGMP           | Decides which physical path the data will take (contains src. and destination address) |
-| 2   | Data Link    | Data Link   | Frames   | Ethernet, PPP, ATM, Switch, Bridge   | Defines the format of data on the network                                              |
+| 2   | Data Link    | Data Link   | Frames   | Ethernet, PPP, ATM, Switch, Bridge   | Defines the format of data on the network (MAC, Logical Link Control)                  |
 | 1   | Physical     | Physical    | Bits     | Fiber, Wireless, Hubs, Repeaters     | Transmits raw bit stream via the hardware                                              |
 
 [Wikipedia - Internet Protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite)

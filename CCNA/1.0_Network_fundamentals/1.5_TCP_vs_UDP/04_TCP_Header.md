@@ -1,6 +1,6 @@
 ## TCP Header
 
-**TCP** accepts data from a data stream, divides it into chunks, and adds a TXP header creating a **TCP segment**.
+**TCP** accepts data from a data stream, divides it into chunks, and adds a TCP header creating a **TCP segment**.
 The **TCP segment** is then encapsulated into an IP datagram, and exchanged with peers.
 
 A **TCP** segment consists of a segment header and a data section.
@@ -83,17 +83,37 @@ If the URG flag is set, then this 16-bit field is an offset from the sequence nu
 
 ### Options (Variable 0–320 bits, in units of 32 bits)
 
-The length of this field is determined by the data offset field.
-Options have up to three fields: Option-Kind (1 byte), Option-Length (1 byte), Option-Data (variable).
-The Option-Kind field indicates the type of option and is the only field that is not optional. Depending on Option-Kind value, the next two fields may be set.
+The length of this field is determined by the data offset field.<br>
+Options have up to three fields:
+
+- Option-Kind (1 byte),
+- Option-Length (1 byte),
+- Option-Data (variable).
+
+The Option-Kind field indicates the type of option and is the only field that is not optional.
+Depending on Option-Kind value, the next two fields may be set.
 Option-Length indicates the total length of the option, and Option-Data contains data associated with the option, if applicable.
 For example, an Option-Kind byte of 1 indicates that this is a no operation option used only for padding, and does not have an Option-Length or Option-Data fields following it.
-An Option-Kind byte of 0 marks the end of options, and is also only one byte. An Option-Kind byte of 2 is used to indicate Maximum Segment Size option, and will be followed by an Option-Length byte specifying the length of the MSS field.
+An Option-Kind byte of 0 marks the end of options, and is also only one byte.
+An Option-Kind byte of 2 is used to indicate Maximum Segment Size option, and will be followed by an Option-Length byte specifying the length of the MSS field.
 Option-Length is the total length of the given options field, including Option-Kind and Option-Length fields.
 So while the MSS value is typically expressed in two bytes, Option-Length will be 4.
 As an example, an MSS option field with a value of 0x05B4 is coded as (0x02 0x04 0x05B4) in the TCP options section.
+Some options may only be sent when SYN is set; they are indicated below as [SYN].
+Option-Kind and standard lengths given as (Option-Kind, Option-Length).
 
-Some options may only be sent when SYN is set; they are indicated below as [SYN]. Option-Kind and standard lengths given as (Option-Kind, Option-Length).
+| Option - Kind | Option - Length       | Option - Data   | Purpose                                  | Notes                                                                                                                          |
+| ------------- | --------------------- | --------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 0             | N/A                   | N/A             | End of options list                      |                                                                                                                                |
+| 1             | N/A                   | N/A             | No operation                             | this may be used to align option fields on 32-bit boundaries for better performance                                            |
+| 2             | 4                     | SS              | Maximum segment size                     | See [maximum segment size](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Maximum_segment_size)                   |
+| 3             | 3                     | S               | Window scale                             | See [window scaling](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Window_scaling)                               |
+| 4             | 2                     | N/A             | Selective Acknowledgement permitted      | See [selective acknowledgement](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Selective_acknowledgments)         |
+| 5             | N (10, 18, 26, or 34) | BBBB, EEEE, ... | Selective ACKnowledgement (SACK)         | These first two bytes are followed by a list of 1-4 blocks being actively acknowledged, specified as 32-bit begin/end pointers |
+| 8             | 10                    | TTTT, EEEE      | Timestamp and echo of previous timestamp | See [TCP timestamps](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_timestamps)                               |
+
+The remaining Option-Kind values are historical, obsolete, experimental, not yet standardized or unassigned.
+Option number assignments are maintained by IANA.
 
 ### Padding
 
