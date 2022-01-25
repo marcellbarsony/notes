@@ -10,7 +10,7 @@ The **Subnet mask** also determines if the device is remote or local.
 
 ## Slash notation
 
-**Subnet mask** cam be also written in **slash notation**.<br>
+**Subnet mask** can be also written in **slash notation**.<br>
 To determine the slash notation of the subnet mask, convert the dotted decimal format into binary, count the series of 1s, and add a slash on the start.
 
 For example, we have the dotted decimal **subnet mask** of **255.0.0.0**.<br>

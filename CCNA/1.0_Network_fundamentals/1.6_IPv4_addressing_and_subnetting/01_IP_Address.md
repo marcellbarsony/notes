@@ -15,11 +15,10 @@ Two main functions:
 
 The IP address space is managed globally by [IANA](https://www.iana.org/), and by five regional Internet registers ([RIRs](https://en.wikipedia.org/wiki/Regional_Internet_registry)) responsible in their designated territories for assignment to local Internet registries, such as ISPs and other end users.
 
-Network administrators assign (statically or dynamically) an IP address to each device connected to a network.
-
-|       10. |      129. |       16. |      123 |
-| --------: | --------: | --------: | -------: |
-| 00001010. | 10000001. | 00010000. | 01111011 |
+| Format         | 1<sup>st</sup> octet | 2<sup>nd</sup> octet | 3<sup>rd</sup> octet | 4<sup>th</sup> octet |
+| -------------- | -------------------: | -------------------: | -------------------: | -------------------: |
+| Dotted Decimal |                  10. |                 129. |                  16. |                  123 |
+| Binary         |            00001010. |            10000001. |            00010000. |             01111011 |
 
 | Base ^ Exponent | 2^7 | 2^6 | 2^5 | 2^4 | 2^3 | 2^2 | 2^1 | 2^0 |
 | --------------- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,6 +26,24 @@ Network administrators assign (statically or dynamically) an IP address to each 
 | Decimal         | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 
 [Wikipedia - IP address](https://en.wikipedia.org/wiki/IP_address)
+
+## Static vs. Dynamic
+
+Network administrators assign (statically or dynamically) an IP address to each device connected to a network.
+
+- **Static** – Static IP address is set manually on the device.
+  It is best practice to set static IP addresses on network devices, such as routers, switches and servers.
+
+- **Dynamic** – Dynamic IP address can be automatically allocated to a device via DHCP.
+  Dynamic IP addresses are best to be used on end devices.
+
+## Public vs. Private
+
+- **Public** – Used to route Internet traffic.
+  This is given out by ISPs to their customers.
+
+- **Private** – Used in private networks for internal traffics within the LAN.
+  Private addresses are not routable on the Internet.
 
 ## Subnetworks
 

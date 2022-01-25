@@ -147,7 +147,7 @@ The Option Type column is derived from the Copied, Option Class, and Option Numb
 |        82 / 0x52        |     TR      | Traceroute                    |
 |        94 / 0x5E        |     EXP     | RFC3692-style Experiment      |
 |       130 / 0x82        |     SEC     | Security (RIPSO)              |
-|       131 / 0x83        |     LSR     | oose Source Route             |
+|       131 / 0x83        |     LSR     | Loose Source Route            |
 |       133 / 0x85        |    E-SEC    | Extended Security (RIPSO)     |
 |       134 / 0x86        |    CIPSO    | Commercial IP Security Option |
 |       136 / 0x88        |     SID     | Stream ID                     |
@@ -182,5 +182,7 @@ Some of th common payload protocols include:
 | 41           | IPv6 encapsulation                   | ENCAP        |
 | 89           | Open Shortest Path First             | OSPF         |
 | 132          | Stream Control Transmission Protocol | SCTP         |
+
+[[Wikipedia - IPv4](https://en.wikipedia.org/wiki/IPv4)]
 
 [[Study CCNA](https://study-ccna.com/ip-header/)]
