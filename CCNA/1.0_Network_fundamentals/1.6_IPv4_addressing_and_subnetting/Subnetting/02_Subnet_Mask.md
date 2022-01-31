@@ -17,4 +17,12 @@ For example, we have the dotted decimal **subnet mask** of **255.0.0.0**.<br>
 In binary, it is **11111111.00000000.00000000.0000000**.<br>
 The number of succeeding 1s are 8, therefore the slash notation of **255.0.0.0** is **/8**.
 
+## Discontiguous Network Mask
+
+Cisco devices do not support discontiguous masks:<br>
+**11110000.11111111.00000110.11000000** = 140.255.3.91
+
+Only contiguous subnet masks are supported:<br>
+**11111111.11111111.11000000.00000000** = 255.255.192.0
+
 [[Study CCNA](https://study-ccna.com/subnet-mask/)]
