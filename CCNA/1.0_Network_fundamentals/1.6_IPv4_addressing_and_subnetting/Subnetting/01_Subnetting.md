@@ -26,3 +26,9 @@ Devices in each subnet are now in a different broadcast domain.
 This will reduce the amount of traffic flowing on the network and allows us to implement packet filtering on the router.
 
 [[Study CCNA](https://study-ccna.com/subnetting-explained/)]
+
+## Resources
+
+[[TCM's subnetting cheatsheet (Google Drive)](https://docs.google.com/spreadsheets/d/1Bcl8rzfd_2VgBsBx-kzXq406avIIOCqLTN9fvCt063Y/edit?usp=sharing)]
+
+[[David Bombal's Subnet Quiz](https://davidbombal.com/subnet-quiz/)]
