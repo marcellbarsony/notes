@@ -8,7 +8,9 @@
 | #         | Privileged           | enable / en                 |
 | (config)# | Global configuration | configure terminal / conf t |
 
-## User mode
+<details>
+<summary>User mode</summary>
+<br>
 
 | Command    | Description                         |
 | ---------- | ----------------------------------- |
@@ -27,7 +29,11 @@
 | terminal   | Set terminal line parameters        |
 | traceroute | Trace route to destination          |
 
-## Privileged mode
+</details><br>
+
+<details>
+<summary>Privileged mode</summary>
+<br>
 
 | Command    | Description                                                 |
 | ---------- | ----------------------------------------------------------- |
@@ -65,20 +71,25 @@
 | vlan       | Configure VLAN parameters                                   |
 | write      | Write running configuration to memory, network, or terminal |
 
-### Basic
+</details><br>
 
-| Command                            | Description                          | Mode   |
-| ---------------------------------- | ------------------------------------ | ------ |
-| ?                                  | Available commands                   | all    |
-| show version                       | Show software version                | #      |
-| sh ver                             | Show software version                | #      |
-| hostname <value>                   | Hostname configuration               | config |
-| host <value>                       | Hostname configuration               | config |
-| copy running-config startup-config | Save configuration                   | #      |
-| wr                                 | Save configuration                   | #      |
-| show ip interface brief            | Show current interface configuration | #      |
-| show running-config                | Show current configuration           | #      |
-| show arp                           | Show ARP table                       | #      |
+| Command                                     | Description                                | Mode       |
+| ------------------------------------------- | ------------------------------------------ | ---------- |
+| ?                                           | Available commands (help)                  | all        |
+| show version **/** sh ver                   | Show software version                      | #          |
+| hostname <value> **/** host <value>         | Hostname configuration                     | config     |
+| copy running-config startup-config **/** wr | Save configuration                         | #          |
+| show ip interface brief                     | Show current interface configuration       | #          |
+| show running-config                         | Show current configuration                 | #          |
+| show cdp neighbors                          | CDP neighbors                              | #          |
+| show arp                                    | Show ARP table                             | #          |
+| int g0/0/0                                  | Configure interface GE 0/0/0               |            |
+| interface GigabitEthernet 0/0/0             | Configure interface GE 0/0/0               |            |
+| no shut **/** no shutdown                   | No shutdown                                |            |
+| no ip address                               | Remove configure ip address from interface | config-if# |
+| ip domain-lookup                            |                                            |            |
+| ip name-server <ip_address>                 | Set IP name server                         |            |
+| ip default gateway <ip_address>             | Default Gateway                            | config     |
 
 ### Password
 
@@ -87,10 +98,3 @@
 | enable password <password>  | Enable password            | config |
 | service password-encryption | Enable password encryption | config |
 | enable secret <password>    | Enable secret password     | config |
-
-| Command                         | Description                  |
-| ------------------------------- | ---------------------------- |
-| int g0/0/0                      | Configure interface GE 0/0/0 |
-| interface GigabitEthernet 0/0/0 | Configure interface GE 0/0/0 |
-| no shut                         | No shutdown                  |
-| no shutdown                     | No shutdown                  |
