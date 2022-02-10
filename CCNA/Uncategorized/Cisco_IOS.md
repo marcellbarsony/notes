@@ -1,6 +1,6 @@
 ## Cisco IOS
 
-Cisco IOS (Internetwork Oeprating System) is a multitasking operating system used on most Cisco routers and switches.
+Cisco IOS (Internetwork Operating System) is a multitasking operating system used on most Cisco routers and switches.
 IOS has a command line interface with the predetermined number of multiple-word commands.
 This system is used to configure features supported by a Cisco device.
 

@@ -1,8 +1,6 @@
 ## Loopback address
 
-**Local Loopback Address** is used to let a system send a message to itself -
-without requiring a physical NIC -
-to make sure that TCP/IP stack is installed correctly on the machine.
+**Local Loopback Address** is used to let a system send a message to itself - without requiring a physical NIC - to make sure that TCP/IP stack is installed correctly on the machine.
 (e.g., a locally installed website may be accessed from a web browser by the URL _http://localhost_ to display its home page)
 
 [[Wikipedia - localhost](https://en.wikipedia.org/wiki/Localhost)]<br>
@@ -16,7 +14,7 @@ The address `127.0.0.1` is the standard address for loopback traffic.
 
 **IPv6 network standard** assigns only a single address for loopback: `::1`
 
-The resolution of the name _localhost_ is normally configured in the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file))
+The resolution of the name _localhost_ is normally configured in the [hosts file](<https://en.wikipedia.org/wiki/Hosts_(file)>)
 
 ```cmd
 127.0.0.1    localhost

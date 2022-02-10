@@ -1,7 +1,7 @@
 ## Collision domain
 
 A **collision domain** is the part of the network where packet collisions can occur.
-A collision occurs when two devices send a packet at the same ime on the shared network segment.
+A collision occurs when two devices send a packet at the same time on the shared network segment.
 When packets collide, both devices mst send the packets again.
 
 Collisions are often in a **hub** environment, because each port is in the same collision domain.<br>
