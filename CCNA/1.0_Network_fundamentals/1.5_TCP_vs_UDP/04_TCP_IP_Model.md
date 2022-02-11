@@ -39,3 +39,11 @@ A **network segment** is a portion of a computer network.
 The nature and extent of a segment depends on the nature of the network and the device (or devices) used to interconnect end stations.
 
 [Wikipedia - Network segment](https://en.wikipedia.org/wiki/Network_segment)
+
+## Socket
+
+A **socket** is the combination of
+
+- **IP address** of a host
+- **Port number** used
+- **Transport protocol** used (_TCP or UDP_)

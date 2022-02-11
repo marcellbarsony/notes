@@ -27,4 +27,33 @@ In the Domain Name System the name localhost is reserved as a top-level domain n
 
 ## Routers & Switches
 
-Routers and switches also have loopback addresses which are not the same as the local loopback address.
+CISCO Routers and switches also have loopback addresses that are not the same as the local loopback address:
+
+A loopback interface is a logical interface that will not go down unless it is shut down manually.<br>
+It typically has only one IP address but allows to configure multiple IP addresses.
+
+```
+Router(config)#interface loopback ?
+  <0-2147483647>  Loopback interface number
+Router(config)#interface loopback 0
+
+%LINK-5-CHANGED: Interface Loopback0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+
+Router(config-if)#ip address 2.2.2.2 255.255.255.255
+Router(config-if)#
+```
+
+### OSPF
+
+Routing protocols, such as OSPF, use the loopback to determine the the router IDs in the OSPF network.
+
+When a routing protocol (e.g. OSPF) is enabled, it selects a router ID for itself.
+
+```
+Router(config)#router ospf 1
+Router(config-router)#network 0.0.0.0 255.255.255.255 area 0
+```
+
+[[Study CCNA](https://study-ccna.com/loopback-interface-loopback-address/)]
