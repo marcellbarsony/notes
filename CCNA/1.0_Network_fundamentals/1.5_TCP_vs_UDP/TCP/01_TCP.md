@@ -13,7 +13,7 @@ The sender can also retransmit the data if it is lost during the transmission.
 
 **TCP** is considered to be complicated and costly in terms of network usage, due to its characteristics.
 
-**TCP** example vulnerabilities
+**TCP** example vulnerabilities:
 
 - [Denial of service](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 - [Connection hijacking](https://en.wikipedia.org/wiki/TCP_sequence_prediction_attack)
