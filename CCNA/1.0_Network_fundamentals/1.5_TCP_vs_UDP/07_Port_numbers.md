@@ -24,7 +24,7 @@ An **ephemeral port** is a short-lived transport protocol port for IP communicat
 An **ephemeral port** (random) is typically used as the port assignment for the **client end** of a client-server communication.
 A **server service will listen** on a **well-known port** number.
 
-### Range
+### Ephemeral range
 
 RFC 6056 says that the range should be 1024-65535.
 

@@ -1,13 +1,16 @@
 ## TCP Header
 
-**TCP** accepts data from a data stream, divides it into chunks, and adds a TCP header creating a **TCP segment**.
-The **TCP segment** is then encapsulated into an IP datagram, and exchanged with peers.
+**TCP** accepts data from a data stream, divides it into chunks, and adds a TCP header creating a **TCP segment**.<br>
+The **TCP segment** is then encapsulated into an IP datagram, and exchanged with peers: **TCP segments** are sent using IP packets.
 
-A **TCP** segment consists of a segment header and a data section.
-The segment header contains 10 mandatory fields, and an optional extension field (Options).
-The data section follows the header and is the payload data carried for the application.
-The length of the data section is not specified in the segment header;
-It can be calculated by subtracting the combined length of the segment header and IP header of the total IP datagram length specified in the IP header.
+The **TCP header** will follow the **IP header** supplying information specific to the **TCP protocol**.
+
+A **TCP** segment consists of a **segment header** and a **data section**:
+
+- The **segment header** contains 10 mandatory fields, and an optional extension field (_Options_).
+- The **data section** follows the header and is the payload data carried for the application.<br>
+  The length of the data section is not specified in the segment header;
+  It can be calculated by subtracting the combined length of the segment header and IP header of the total IP datagram length specified in the IP header.
 
 The **TCP header** is up to 24 bytes long and consists of the following fields:
 
@@ -34,12 +37,13 @@ Has a dual role:
 
 If the ACK flag is set then the value of this field is the next sequence number that the sender of the ACK is expecting.
 This acknowledges receipt of all prior bytes (if any).
-The first ACK sent by each end acknowledges the other end's initial sequence number itself, but no data.
+The first ACK sent by each end acknowledges the other end's initial sequence number, but no data.
 
 ### Data offset (4 bits)
 
-Specifies the size of the TCP header in 32-bit words.
-The minimum size header is 5 words and the maximum is 15 words thus giving the minimum size of 20 bytes and maximum of 60 bytes, allowing for up to 40 bytes of options in the header.
+Specifies the size of the TCP header in 32-bit words.<br>
+The minimum size header is 5 words and the maximum is 15 words, thus giving the minimum size of 20 bytes and maximum of 60 bytes (in IPv4), allowing for up to 40 bytes of options in the header.
+
 This field gets its name from the fact that it is also the offset from the start of the TCP segment to the actual data.
 
 ### Reserved (3 bits)
@@ -51,6 +55,7 @@ For future use and should be set to zero.
 Contains 9 1-bit flags (control bits) as follows:
 
 - NS (1 bit): ECN-nonce - concealment protection
+
 - CWR (1 bit): Congestion window reduced (CWR) flag is set by the sending host to indicate that it received a TCP segment with the ECE flag set and had responded in congestion control mechanism.
 
 - ECE (1 bit): ECN-Echo has a dual role, depending on the value of the SYN flag. It indicates:
@@ -60,12 +65,17 @@ Contains 9 1-bit flags (control bits) as follows:
     This serves as an indication of network congestion (or impending congestion) to the TCP sender.
 
 - URG (1 bit): Indicates that the Urgent pointer field is significant
+
 - ACK (1 bit): Indicates that the Acknowledgment field is significant. All packets after the - initial SYN packet sent by the client should have this flag set.
+
 - PSH (1 bit): Push function. Asks to push the buffered data to the receiving application.
+
 - RST (1 bit): Reset the connection
-- SYN (1 bit): Synchronize sequence numbers.
+
+- SYN (1 bit): Synchronize sequence numbers.<br>
   Only the first packet sent from each end should have this flag set.
   Some other flags and fields change meaning based on this flag, and some are only valid when it is set, and others when it is clear.
+
 - FIN (1 bit): Last packet from sender
 
 ### Window size (16 bits)
