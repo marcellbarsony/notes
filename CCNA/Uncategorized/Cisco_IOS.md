@@ -141,23 +141,25 @@ Beginning with IOS 12.3, **privileged exec mode** commands can be executed withi
 <summary>Additional useful commands</summary>
 <br>
 
-| Command                                     | Description                                | Mode       |
-| ------------------------------------------- | ------------------------------------------ | ---------- |
-| ?                                           | Available commands (help)                  | all        |
-| show version **/** sh ver                   | Show software version                      | #          |
-| hostname <value> **/** host <value>         | Hostname configuration                     | config     |
-| copy running-config startup-config **/** wr | Save configuration                         | #          |
-| show ip interface brief                     | Show current interface configuration       | #          |
-| show running-config                         | Show current configuration                 | #          |
-| show cdp neighbors                          | CDP neighbors                              | #          |
-| show arp                                    | Show ARP table                             | #          |
-| int g0/0/0                                  | Configure interface GE 0/0/0               |            |
-| interface GigabitEthernet 0/0/0             | Configure interface GE 0/0/0               |            |
-| no shut **/** no shutdown                   | No shutdown                                |            |
-| no ip address                               | Remove configure ip address from interface | config-if# |
-| ip domain-lookup                            |                                            |            |
-| ip name-server <ip_address>                 | Set IP name server                         |            |
-| ip default gateway <ip_address>             | Default Gateway                            | config     |
+| Command                                                     | Description                                | Mode       |
+| ----------------------------------------------------------- | ------------------------------------------ | ---------- |
+| ?                                                           | Available commands (help)                  | all        |
+| show version **/** sh ver                                   | Show software version                      | #          |
+| hostname <value> **/** host <value>                         | Hostname configuration                     | config     |
+| copy running-config startup-config **/** wr                 | Save configuration                         | #          |
+| show ip interface brief                                     | Show current interface configuration       | #          |
+| show running-config                                         | Show current configuration                 | #          |
+| show cdp neighbors                                          | CDP neighbors                              | #          |
+| show arp                                                    | Show ARP table                             | #          |
+| int g0/0/0                                                  | Configure interface GE 0/0/0               |            |
+| interface GigabitEthernet 0/0/0                             | Configure interface GE 0/0/0               |            |
+| no shut **/** no shutdown                                   | No shutdown                                |            |
+| no ip address                                               | Remove configure ip address from interface | config-if# |
+| ip domain-lookup                                            |                                            |            |
+| ip name-server <ip_address>                                 | Set IP name server                         |            |
+| ip default gateway <ip_address>                             | Default Gateway                            | config     |
+| monitor session 1 source interface gigabitEthernet 0/0      | Copy traffic from source interface         | config     |
+| montior session 1 destination interface gigabitEthernet 0/0 | Duplicate traffic to destination interface | config     |
 
 ### Password
 
