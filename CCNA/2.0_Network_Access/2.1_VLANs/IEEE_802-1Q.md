@@ -1,0 +1,49 @@
+## IEEE 802.1Q
+
+**IEEE 802.1Q** (referred as **Dot1q**) is the networking standard that supports VLANs on an IEEE 802.3 Ethernet network.<br>
+This standard was created by the Institute of Electrical and Electronics Engineers (IEEE), so it is an open standard and also can be used on non-Cisco switches.
+
+[[Wikipedia - IEEE 802.1Q](https://en.wikipedia.org/wiki/IEEE_802.1Q)]
+
+### Frame format
+
+<img src="https://www.dropbox.com/s/w9li627h3g1nl4g/802.1Q_Insert.jpg?dl=1" alt="802.1Q_insert" class="inline" />
+
+To identify which VLAN a frame belongs to, a 802.1Q adds a 32-bit field between the source MAC address and the [Ether type](https://en.wikipedia.org/wiki/EtherType) fields of the original frame.
+
+| Destination MAC | Source MAC | **802.1Q Tag** | Length/Type | Data | FCS |
+
+Under 802.1Q, the **maximum frame size** is extended from 1518 bytes to 1522 bytes.<br>
+The **minimum frame size** remains 64 bytes, but a bridge may extend the minimum size frame from 64 to 68 bytes on transmission.
+
+<img src="https://www.dropbox.com/s/auy9yje75p6cbfy/802.1Q_tag_format.jpg?dl=1" alt="802.1Q_tag_format" class="inline" />
+
+### Tag protocol identifier (TPID)
+
+A 16-bit field set to a value of **0x8100** in order to identify the frame as an IEEE 802.1Q-tagged frame.<br>
+This field is located at the same position as the EtherType field in untagged frames, and is thus used to distinguish the frame from untagged frames.
+
+### Tag control information (TCI)
+
+A 16-bit field containing the following sub-fields:
+
+#### Priority code point (PCP)
+
+A 3-bit field which refers to the IEEE 802.1p class of service and maps to the frame priority level.<br>
+Different PCP values can be used to prioritize different classes of traffic.
+
+#### Drop eligible indicator (DEI)
+
+A 1-bit field.<br>
+(formerly CFI) May be used separately or in conjunction with PCP to indicate frames eligible to be dropped in the presence of congestion.
+
+#### VLAN identifier (VLAN ID - VID)
+
+A 12-bit field specifying the VLAN to which the frame belongs.<br>
+The values of 0 and 4095 (0x000 and 0xFFF in hexadecimal) are reserved.
+All other values may be used as VLAN identifiers, allowing up to 4,094 VLANs.
+
+The reserved value 0x000 indicates that the frame does not carry a VLAN ID; in this case, the 802.1Q tag specifies only a priority (in PCP and DEI fields) and is referred to as a priority tag.
+On bridges, VID 0x001 (the default VLAN ID) is often reserved for a network management VLAN; this is vendor-specific.
+The VID value 0xFFF is reserved for implementation use; it must not be configured or transmitted.
+0xFFF can be used to indicate a wildcard match in management operations or filtering database entries.
