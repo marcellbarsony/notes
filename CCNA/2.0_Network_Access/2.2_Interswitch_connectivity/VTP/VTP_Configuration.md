@@ -16,6 +16,20 @@ A switch can only be configured in a single **VTP domain** at any given time.
 - **VTP mode off** – similar to VTP transparent mode, with a difference that a switch using this mode will not forward received VTP updates.
   This command is supported only in VTP V3.
 
+## VTP Revision Number
+
+The **VTP configuration revision number** is a 32-bit number that indicates the level of revision for a VTP packet.
+Each VTP device track the VTP configuration revision number that is assigned to it.
+Most of the VTP packets contain the VTP configuration revision number of the sender.
+
+**VTP revision number** is used in order to determine whether the received information is more recent than the current version.
+Each time that a VLAN change is made in a VTP device, the configuration revision is incremented by one.
+To reset the configuration number of a switch, change the VTP domain name, and then change the name back to the original name.
+
+```
+switch(config)#do show vtp status
+```
+
 ## VTP Password
 
 If a password is configured for VTP, the password must be configured on all switches in the VTP domain - the password must be the same on all switches.
