@@ -42,3 +42,32 @@ However, VTP can create unnecessary traffic.
 All unknown unicasts and broadcasts in a VLAN are flooded over the entire VLAN.
 All switches in a network receive all broadcasts, even in situations in which few users are connected in that VLAN.
 **VTP pruning** is a feature that can eliminate or _prune_ unnecessary traffic.
+
+## Commands
+
+| Command                                   | Description                    |
+| ----------------------------------------- | ------------------------------ |
+| show vlan                                 | Show VLAN database             |
+| SW1(config)#vlan 10                       | Create VLAN 10                 |
+| SW1(config-if)#switchport mode ?          | Switch port mode               |
+| SW1(config-if)#switchport access vlan 100 | Assign port to VLAN            |
+| SW1(config)#ip routing                    | Enable IP routing              |
+| show vtp status                           | Show VTP status                |
+| SW1#show int g0/1 switchport              | Show switch port configuration |
+
+Verify native VLAN configuration
+
+```
+Switch1# show int trunk
+```
+
+```
+Switch1#(config-if)# switchport trunk native vlan 33
+```
+
+Set interface port as trunk
+
+```
+Switch1(config-if)# switchport trunk encapsulation dot1q
+Switch1(config-if)# switchport mode trunk
+```
