@@ -5,7 +5,7 @@ This is done to ensure that switches know out which ports to forward frames.
 
 Example network topology:
 
-<img src="" alt="" class="inline" />
+<img src="https://www.dropbox.com/s/4qn30u2bw1xv1vv/frame_tagging.jpg?dl=1" alt="frame_tagging" class="inline" />
 
 There are two VLANs (VLAN 3 & 4) in the topology pictured above:
 

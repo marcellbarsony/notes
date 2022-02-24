@@ -41,17 +41,17 @@ SW1(config-if)#switchport mode dynamic desirable
   The port will not send out DTP frames or be affected by any incoming DTP frames.
 
 ```
-SW1(config-if)#switchport mode nonegotiate
+SW1(config-if)#switchport nonegotiate
 ```
 
 ## DTP logical table
 
-| SW1/SW2               | Dynamic Auto | Dynamic Desirable | Trunk                | Access               |
-| --------------------- | ------------ | ----------------- | -------------------- | -------------------- |
-| **Dynamic Auto**      | Access       | Trunk             | Trunk                | Access               |
-| **Dynamic Desirable** | Trunk        | Trunk             | Trunk                | Access               |
-| **Trunk**             | Trunk        | Trunk             | Trunk                | Limited connectivity |
-| **Access**            | Access       | Access            | Limited connectivity | Access               |
+| SW1/SW2               | Dynamic Auto | Dynamic Desirable |        Trunk         |        Access        |
+| --------------------- | :----------: | :---------------: | :------------------: | :------------------: |
+| **Dynamic Auto**      |    Access    |       Trunk       |        Trunk         |        Access        |
+| **Dynamic Desirable** |    Trunk     |       Trunk       |        Trunk         |        Access        |
+| **Trunk**             |    Trunk     |       Trunk       |        Trunk         | Limited connectivity |
+| **Access**            |    Access    |      Access       | Limited connectivity |        Access        |
 
 - **Desirable** - The switch initiates trunking with the remote end
 - **Auto** - Doesn't initiate but will use trunking if the other side initiates
