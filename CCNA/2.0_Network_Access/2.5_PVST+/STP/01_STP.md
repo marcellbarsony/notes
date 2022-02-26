@@ -11,17 +11,3 @@ In 2001, the IEEE introduced **Rapid Spanning Tree Protocol (RSTP)** as 802.1w.
 **RSTP** was designed to be backwards-compatible with standard **STP**.
 
 [Wikipedia - STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)
-
-## How STP works?
-
-**STP** uses the **Spanning-Tree Algorithm (SPA)** to create a topology database of the network.<br>
-To prevent loops, **SPA** places some interfaces in forwarding state and other interfaces in blocking state.
-**STP** decides in which state the port will be placed based on the following criteria:
-
-- A **root switch** is elected by the switches in a network.
-  All working interfaces on the root switch are placed in forwarding state.
-
-- **Nonroot switches** (all other switches) determine the best path to get to the root switch.
-  The port used to reach to root switch (root port) is placed in forwarding state.
-
-- \*\*
