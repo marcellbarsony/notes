@@ -12,7 +12,7 @@ TCNs are injected into the network by a non-root switch and propagated to the ro
 Upon receipt of the TCN, the root switch will set the Topology Change flag in its normal BPDUs.
 This flag is propagated to all other switches and instructs them to rapidly age out their forwarding table entries.
 
-[[Wikipedia - STP](https://www.reddit.com/r/UkrainianConflict/)]
+[[Wikipedia - STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)]
 
 ### Blocking
 
