@@ -23,7 +23,7 @@ On the **Root Switch**, all working interfaces are placed in forwarding state.
 **Path cost** is the cost to get to the root bridge/root switch.<br>
 **Path cost** is calculated from the cost of a port and the number of links.
 
-**Path cost** for different port speed and STP variation
+**Path cost** for different port speed and STP variation:
 
 |  Data rate | Original STP (IEEE 1998) | RSTP/MSTP (IEEE 2004) |
 | ---------: | -----------------------: | --------------------: |
@@ -38,4 +38,16 @@ The default values can be overridden on per-interface basis with the following c
 
 ```
 SW1(config-if)#spanning-tree cost <value>
+```
+
+Check cost value on specific port (e.g. gigabitEthernet 0/3)
+
+```
+SW1#show spanning-tree interface gigabitEthernet 0/3 cost
+```
+
+Check total cost value to the Root switch
+
+```
+SW1#show spanning-tree root
 ```

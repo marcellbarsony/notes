@@ -43,7 +43,7 @@ Electing an older switch as the **Root Bridge** could cause a suboptimal operati
 To influence the election process, the BID priority can be changed to a lower value on a switch.
 
 ```
-SW1(config)#spanning-tree vlan <ID> priority <value>
+SW1(config)#spanning-tree vlan <vlan_id> priority <value>
 ```
 
 The priority must be in increments of 4096:
@@ -62,7 +62,7 @@ To prevent having a suboptimal network, a Root Bridge could be chosen manually.<
 To do that, the value of the Root Bridge could be manually configured using the `root primary` command.
 
 ```
-SW1(config)#spanning-tree vlan 1 root primary
+SW1(config)#spanning-tree vlan <vlan_id> root primary
 ```
 
 ### Root secondary
@@ -72,12 +72,12 @@ To do that, we enter the `root secondary` command.
 This command will set the bridge priority to 28672, which is lower than the default priority but higher than the root primary.
 
 ```
-SW2(config)#spanning-tree vlan 1 root secondary
+SW2(config)#spanning-tree vlan <vlan_id> root secondary
 ```
 
 ### Verify changes
 
-The changes can be verified with the `show spanning-tree` command
+The changes can be verified with the `show spanning-tree vlan <vlan_id>` command
 
 ```
 SW1#show spanning-tree vlan 1

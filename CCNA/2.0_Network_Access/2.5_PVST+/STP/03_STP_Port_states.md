@@ -2,17 +2,15 @@
 
 All switch ports in the LAN where STP is enabled are categorized.
 
-When a device is first attached to a switch port, it will not immediately start to forward data.
-It will instead go through a number of states while it processes BPDUs and determines the topology of the network.
-The port attached to a host such as a computer, printer or server always goes into the forwarding state, albeit after a delay of about 30 seconds while it goes through the listening and learning states.
-The time spent in the listening and learning states is determined by a value known as the forward delay (default 15 seconds and set by the root bridge).
-If another switch is connected, the port may remain in blocking mode if it is determined that it would cause a loop in the network.
-Topology Change Notification (TCN) BPDUs are used to inform other switches of port changes.
-TCNs are injected into the network by a non-root switch and propagated to the root.
-Upon receipt of the TCN, the root switch will set the Topology Change flag in its normal BPDUs.
-This flag is propagated to all other switches and instructs them to rapidly age out their forwarding table entries.
-
 [[Wikipedia - STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)]
+
+|    STP mode    | Receive BPDUs | Send BPDUs | Forwards data frames? | Learn MAC Address | Transitory or Stable state? |
+| :------------: | :-----------: | :--------: | :-------------------: | :---------------: | :-------------------------: |
+|  **Blocking**  |      Yes      |    Yes     |          No           |        No         |           Stable            |
+| **Listening**  |      Yes      |    Yes     |          No           |        No         |         Transitory          |
+|  **Learning**  |      Yes      |    Yes     |          No           |        Yes        |         Transitory          |
+| **Forwarding** |      Yes      |    Yes     |          Yes          |        Yes        |           Stable            |
+|  **Disabled**  |      Yes      |    Yes     |          No           |        No         |           Stable            |
 
 ### Blocking
 
@@ -38,3 +36,13 @@ The port monitors incoming BPDUs that would indicate it should return to the blo
 ### Disabled
 
 A network administrator has manually disabled the switch port.
+
+When a device is first attached to a switch port, it will not immediately start to forward data.
+It will instead go through a number of states while it processes BPDUs and determines the topology of the network.
+The port attached to a host such as a computer, printer or server always goes into the forwarding state, albeit after a delay of about 30 seconds while it goes through the listening and learning states.
+The time spent in the listening and learning states is determined by a value known as the forward delay (default 15 seconds and set by the root bridge).
+If another switch is connected, the port may remain in blocking mode if it is determined that it would cause a loop in the network.
+Topology Change Notification (TCN) BPDUs are used to inform other switches of port changes.
+TCNs are injected into the network by a non-root switch and propagated to the root.
+Upon receipt of the TCN, the root switch will set the Topology Change flag in its normal BPDUs.
+This flag is propagated to all other switches and instructs them to rapidly age out their forwarding table entries.

@@ -73,9 +73,9 @@ Spanning tree modes can be selected with the following commands
 ```
 SW1(config)# spanning-tree mode ?
 
-mst - Multiple spanning tree mode
+  mst - Multiple spanning tree mode
 
-pvst - Per-Vlan spanning tree mode
+  pvst - Per-Vlan spanning tree mode
 
-rapid-pvst - Per-Vlan rapid spanning tree mode
+  rapid-pvst - Per-Vlan rapid spanning tree mode
 ```
