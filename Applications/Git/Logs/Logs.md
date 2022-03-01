@@ -1,4 +1,4 @@
-## Pretty logs
+# Pretty logs
 
 Print a pretty log for commits and branches
 

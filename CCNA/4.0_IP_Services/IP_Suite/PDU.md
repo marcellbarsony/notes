@@ -1,4 +1,4 @@
-## Protocol Data Unit
+# Protocol Data Unit
 
 A **Protocol Data Unit** is a single unit of information transmitted among peer entities of a computer network.<br>
 A **PDU** is composed of protocol-specific **control information** and **user data**.

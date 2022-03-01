@@ -1,4 +1,4 @@
-## Multicast Address
+# Multicast Address
 
 **Multicast addresses** represent a group of devices in a LAN (one-to-many communication).
 A frame sent to a multicast address will be forwarded to a group of devices on the LAN.

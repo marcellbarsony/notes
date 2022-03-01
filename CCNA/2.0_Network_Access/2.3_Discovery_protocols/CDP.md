@@ -1,4 +1,4 @@
-## Cisco Discovery Protocol (CDP)
+# Cisco Discovery Protocol (CDP)
 
 **CDP (Cisco Discovery Protocol)** is a proprietary protocol developed by Cisco used to discovers information about the locally attached Cisco equipment.
 With CDP, the administrator can gather hardware and protocol information about neighboring devices, which can be helpful when troubleshooting or documenting the network.

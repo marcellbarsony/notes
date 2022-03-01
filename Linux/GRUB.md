@@ -1,4 +1,4 @@
-## GRUB 2
+# GRUB 2
 
 Grand Unified Bootloader
 

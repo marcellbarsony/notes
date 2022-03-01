@@ -15,12 +15,12 @@
 
 ### Severity
 
-| Color      | Description                                      | Description                                     |
-| ---------- | ------------------------------------------------ | ----------------------------------------------- |
-| Red        | Confirmed Vulnerability                          | Security weakness verified by an "active test"  |
-| Yellow     | Potential Vulnerability                          | Security weakness requiring manual verification |
-| Blue       | Information Gathered                             | Configuration data                              |
-| Red/Yellow | Result will vary depending on authentication     |                                                 |
+| Color      | Description                                  | Description                                     |
+| ---------- | -------------------------------------------- | ----------------------------------------------- |
+| Red        | Confirmed Vulnerability                      | Security weakness verified by an "active test"  |
+| Yellow     | Potential Vulnerability                      | Security weakness requiring manual verification |
+| Blue       | Information Gathered                         | Configuration data                              |
+| Red/Yellow | Result will vary depending on authentication |                                                 |
 
 | Severity Level | Description                                                                                                                                                                                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -1,4 +1,4 @@
-## Bridge Protocol Data Unit (BPDU)
+# Bridge Protocol Data Unit (BPDU)
 
 **BPDU**s are messages used by the switches to share STP information with each other in order to elect a root switch and detect loops.
 The most common messages are **Hello BPDU**s which include the following information:
@@ -12,16 +12,16 @@ A bridge sends a **BPDU** information using the unique MAC address of the port i
 
 There are three types of **BPDU**s in the STP specification:
 
-- **CBPDU (Configuration BPDU)** — Used for spanning tree computation
-- **TCN BPDU (Topology Change Notification BPDU)** — Used to announce changes in the network topology.
-- **ABPDU (Acknowledgement BPDU)** — Used to confirm the receipt of a topology change in a notification.
+- **Configuration (CBPDU)** — Used for spanning tree computation
+- **Topology Change Notification BPDU (TCN BPDU)** — Used to announce changes in the network topology.
+- **Acknowledgement BPDU - (ABPDU)** — Used to confirm the receipt of a topology change in a notification.
 
 **BPDU**s are exchanged regularly (2 seconds by default) and enable switches to keep track of network changes and to start and stop forwarding at ports as required.
 
 [[Study CCNA](https://study-ccna.com/how-stp-works/)]<br>
 [[Wikipedia - STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)]
 
-## BDPU fields
+## BPDU fields
 
 IEEE 802.1D and IEEE 802.1aq BDPUs have the following format:
 
@@ -62,3 +62,23 @@ IEEE 802.1D and IEEE 802.1aq BDPUs have the following format:
 
 The TCN BPDU includes fields 1–3 only.
 ```
+
+## STP Timers
+
+| Timer         | Default Value  | Description                                                                               |
+| ------------- | -------------- | ----------------------------------------------------------------------------------------- |
+| Hello         | 2 seconds      | Time between two consecutive Hello BPDU created by root switch                            |
+| MaxAge        | 10\*Hello time | Max time a switch must wait if no Hello received before proceeding to do change           |
+| Forward Delay | 15 seconds     | Time taken by switch to change status of ports from forwarding to blocking and vice-versa |
+
+The reaction of switches are :
+
+- When a switch does not get expected **Hello** within **Hello time**, it continues to work as normal and wait until **MaxAge** time.
+- Switch waits for **MaxAge time** if Hello BPDU is received within **MaxAge time**, switch consider it as some delay in network and continues as before.
+  If not then switch start changing their topology.
+- Now the status of different ports may change according to new topology adopted by STP.
+  Ports may change their status from forwarding to blocking and vice-versa.
+  But this port status process changing does not do immediately, it goes through two intermediate states (i.e, Listening and Learning states).
+- The change of state from blocking to forwarding along with intermediate listening and learning state is bounded by the time of **Forward Delay**.
+
+[[GeekforGeeks - STP Convergence](https://www.geeksforgeeks.org/spanning-tree-topology-stp-convergence/)]

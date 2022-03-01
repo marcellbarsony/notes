@@ -1,4 +1,4 @@
-## Spanning Tree Protocol (STP)
+# Spanning Tree Protocol (STP)
 
 **Spanning Tree Protocol (STP)** is a IEEE 802.1Q-2014 network protocol that builds a loop-free topology for Ethernet networks (on Layer 2).
 The basic function of **STP** is to prevent [bridge loops](https://en.wikipedia.org/wiki/Switching_loop) and the [broadcast radiation](https://en.wikipedia.org/wiki/Broadcast_storm) that results from them.

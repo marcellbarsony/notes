@@ -1,4 +1,4 @@
-## Allowed VLANs
+# Allowed VLANs
 
 By default, all VLANs are allowed across a trunk link on a Cisco switch.
 This can be verified using the `show interfaces trunk` command:

@@ -1,4 +1,4 @@
-## Configure duplex and speed
+# Configure duplex and speed
 
 By default, Cisco switches will auto-negotiate the speed and duplex settings.<br>
 When a device (either a switch, router, or a workstation) is connected to a port on a Cisco switch, the negotiation process will occur and the devices will agree on the transmission parameters.

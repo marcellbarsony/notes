@@ -1,4 +1,4 @@
-## TCP Header
+# TCP Header
 
 **TCP** accepts data from a data stream, divides it into chunks, and adds a TCP header creating a **TCP segment**.<br>
 The **TCP segment** is then encapsulated into an IP datagram, and exchanged with peers: **TCP segments** are sent using IP packets.

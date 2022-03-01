@@ -1,4 +1,4 @@
-## Encapsulation
+# Encapsulation
 
 **Encapsulation** is used to describe a process of adding headers and trailers around some data.<br>
 

@@ -1,4 +1,4 @@
-## Full Duplex & Half Duplex
+# Full Duplex & Half Duplex
 
 In telecommunication, a **duplex communication system** is a point-to-point system of two devices that can communicate with each other in both direction.
 These two types of duplex communication systems exist in Ethernet environments:

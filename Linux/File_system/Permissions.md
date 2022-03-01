@@ -1,14 +1,14 @@
-## Permissions
+# Permissions
 
 ## Octal permissions
 
-| Number | Permissions            | User  | Group | Others  |
-| -----: | ---------------------- | :---: | :---: | :-----: |
-| 0      | No permission          |  ---  |  ---  |   ---   |
-| 1      | Execute                |  --x  |  --x  |   --x   |
-| 2      | Write                  |  -w-  |  -w-  |   -w-   |
-| 3      | Write + Execute        |  -wx  |  -wx  |   -wx   |
-| 4      | Read                   |  r--  |  r--  |   r--   |
-| 5      | Read + Execute         |  r-x  |  r-x  |   r-x   |
-| 6      | Read + Write           |  rw-  |  rw-  |   rw-   |
-| 7      | Read + Write + Execute |  rwx  |  rwx  |   rwx   |
+| Number | Permissions            | User | Group | Others |
+| -----: | ---------------------- | :--: | :---: | :----: |
+|      0 | No permission          | ---  |  ---  |  ---   |
+|      1 | Execute                | --x  |  --x  |  --x   |
+|      2 | Write                  | -w-  |  -w-  |  -w-   |
+|      3 | Write + Execute        | -wx  |  -wx  |  -wx   |
+|      4 | Read                   | r--  |  r--  |  r--   |
+|      5 | Read + Execute         | r-x  |  r-x  |  r-x   |
+|      6 | Read + Write           | rw-  |  rw-  |  rw-   |
+|      7 | Read + Write + Execute | rwx  |  rwx  |  rwx   |

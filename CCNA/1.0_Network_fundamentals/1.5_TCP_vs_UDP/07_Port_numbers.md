@@ -1,4 +1,4 @@
-## Port numbers
+# Port numbers
 
 In computer networking, a **port** is a software-based virtual communication endpoint. Specific port numbers are reserved to identify specific process or service.
 

@@ -1,4 +1,4 @@
-## IP Packet
+# IP Packet
 
 An **IP packet** consists of a header section and a data section.
 An **IP packet** has no data checksum or any other footer after the data section.

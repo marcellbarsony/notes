@@ -1,4 +1,4 @@
-## Rapid Spanning Tree Protocol (RSTP)
+# Rapid Spanning Tree Protocol (RSTP)
 
 **Rapid Spanning Tree Protocol (RSTP)**
 **RSTP** was designed to be backward-compatible with standard STP.

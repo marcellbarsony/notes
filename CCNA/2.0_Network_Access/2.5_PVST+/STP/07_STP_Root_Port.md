@@ -1,4 +1,4 @@
-## Selecting STP Root port
+# Selecting STP Root port
 
 All **Nonroot Switches** need to determine the best path to get to the root switch.
 The port used to reach the root switch (**Root Port**) is placed in forwarding state.

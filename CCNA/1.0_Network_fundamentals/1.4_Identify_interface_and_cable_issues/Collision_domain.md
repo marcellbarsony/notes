@@ -1,4 +1,4 @@
-## Collision domain
+# Collision domain
 
 A **collision domain** is the part of the network where packet collisions can occur.
 A collision occurs when two devices send a packet at the same time on the shared network segment.

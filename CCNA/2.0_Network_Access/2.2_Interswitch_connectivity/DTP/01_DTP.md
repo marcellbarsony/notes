@@ -1,4 +1,4 @@
-## Dynamic Trunking Protocol (DTP)
+# Dynamic Trunking Protocol (DTP)
 
 **Dynamic Trunking Protocol (DTP)** is a Cisco proprietary trunking protocol that is used to automatically negotiate trunking on a link between two VLAN-aware switches, and to negotiate the type of trunking encapsulation to be used.
 It works on Layer 2 of the OSI model.

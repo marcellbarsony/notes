@@ -1,6 +1,6 @@
-## ELF - Executable and Linkable Format
+# ELF - Executable and Linkable Format
 
-Executable File Format (formerly Extensible Linking Format) is a standard file format for [executable](https://en.wikipedia.org/wiki/Executable) files, object code, [shared libraries](https://en.wikipedia.org/wiki/Library_(computing)) and [core dumps](https://en.wikipedia.org/wiki/Core_dump).
+Executable File Format (formerly Extensible Linking Format) is a standard file format for [executable](https://en.wikipedia.org/wiki/Executable) files, object code, [shared libraries](<https://en.wikipedia.org/wiki/Library_(computing)>) and [core dumps](https://en.wikipedia.org/wiki/Core_dump).
 
 [[Wikipedia](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)]
 
@@ -16,8 +16,6 @@ Executable File Format (formerly Extensible Linking Format) is a standard file f
 
 [[OSDev Wiki](https://wiki.osdev.org/ELF)]
 
-
-
 ## File layout
 
 Each ELF file is made up of one ELF header, followed by file data. The data can include:
@@ -28,8 +26,7 @@ Each ELF file is made up of one ELF header, followed by file data. The data can 
 
 Segments:
 
-Segments contain information that is needed for [run time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)) execution of the file.
-
+Segments contain information that is needed for [run time](<https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)>) execution of the file.
 
 - Sections:
 

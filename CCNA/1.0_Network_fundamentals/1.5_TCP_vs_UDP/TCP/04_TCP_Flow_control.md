@@ -1,4 +1,4 @@
-## TCP Flow Control
+# TCP Flow Control
 
 **TCP Flow Control** uses a system of buffers and variables to determine how quickly data can be transmitted.<br>
 The underlying concept is that a receiving end system is able to notify the sending end system that its application is unable to keep up with the transmission rate.

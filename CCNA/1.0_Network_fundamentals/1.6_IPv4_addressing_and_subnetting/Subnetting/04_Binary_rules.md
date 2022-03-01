@@ -1,4 +1,4 @@
-## Binary rules
+# Binary rules
 
 Subnetting binary rules
 

@@ -1,4 +1,4 @@
-## Unicast Address
+# Unicast Address
 
 Unicast addresses represent a single LAN interface.
 A unicast frame will be sent to a specific device, not to a group of devices on a LAN.

@@ -1,4 +1,4 @@
-## VTP Configuration
+# VTP Configuration
 
 When configuring VTP, devices are belong to the **null domain** by default.
 To configure VTP, devices are need to be placed in a specific VTP domain.

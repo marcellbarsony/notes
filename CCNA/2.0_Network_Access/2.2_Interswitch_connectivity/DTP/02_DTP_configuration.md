@@ -1,4 +1,4 @@
-## DTP configuration
+# DTP configuration
 
 Show DTP configuration on the specified interface
 

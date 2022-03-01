@@ -1,4 +1,4 @@
-## 3-Way Handshake
+# 3-Way Handshake
 
 Since **TCP** is a connection-oriented protocol, a connection needs to be established before two devices can communicate.
 **TCP** uses a process called **3-way handshake** to negotiate the sequence and acknowledgement fields and start the session.

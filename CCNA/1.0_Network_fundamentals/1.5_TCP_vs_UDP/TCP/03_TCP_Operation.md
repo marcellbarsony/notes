@@ -1,4 +1,4 @@
-## TCP Protocol Operation
+# TCP Protocol Operation
 
 **TCP operation** may be divided into three phases:
 

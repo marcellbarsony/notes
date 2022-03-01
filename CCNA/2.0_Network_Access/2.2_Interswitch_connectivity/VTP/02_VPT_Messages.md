@@ -1,4 +1,4 @@
-## VTP Messages
+# VTP Messages
 
 **VTP packets** are either sent via ISL or 802.1Q frames.
 **VTP messages** are sent to destination MAC address `01-00-0C-CC-CC-CC` with a logical link control (LLC) code of Subnetwork Access Protocol (SNAP) (AAAA) and a type of 2003 (in the SNAP header).

@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 [packettracer](https://aur.archlinux.org/packages/packettracer/) (AUR) cannot be installed using automated methods (e.g. AUR helper) as the software's tarball must be installed first before building the package.
 

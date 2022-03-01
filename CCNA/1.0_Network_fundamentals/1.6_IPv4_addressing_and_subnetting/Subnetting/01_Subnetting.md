@@ -1,4 +1,4 @@
-## Subnetting
+# Subnetting
 
 **Subnetting** is the practice of dividing a network into two or more smaller networks.
 It increases routing efficiency, enhances security and reduces the size of the broadcast domain.

@@ -1,4 +1,4 @@
-## VLAN configuration
+# VLAN configuration
 
 By default, all ports on a switch are in **VLAN 1**.
 This can be verified by typing the `show vlan` command in **enable** mode.

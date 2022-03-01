@@ -6,7 +6,7 @@ By default, Spanning Trees are enabled on most interconnected Cisco switches.
 Switches send out BDPU on all active interfaces.
 BPDU contains STP information needed to elect a root switch and detect loops.
 
-## STP Root Switch Election
+# STP Root Switch Election
 
 The SPA process begins with the **Root Switch Election**.<br>
 

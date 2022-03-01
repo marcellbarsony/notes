@@ -1,4 +1,4 @@
-## Loopback address
+# Loopback address
 
 **Local Loopback Address** is used to let a system send a message to itself - without requiring a physical NIC - to make sure that TCP/IP stack is installed correctly on the machine.
 (e.g., a locally installed website may be accessed from a web browser by the URL _http://localhost_ to display its home page)

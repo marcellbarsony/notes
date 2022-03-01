@@ -22,11 +22,15 @@ A blocked port may go into forwarding mode if the other links in use fail and th
 ### Listening
 
 The switch processes BPDUs and awaits possible new information that would cause it to return to the blocking state.
-It does not populate the MAC table and it does not forward frames.
+It does not populate the MAC table and it does not forward frames.<br>
+Forward Delay timer (15 seconds).<br>
+Transitional state.
 
 ### Learning
 
 While the port does not yet forward frames, it does learn source addresses from frames received and adds them to the MAC table.
+Forward Delay timer (15 seconds).<br>
+Transitional state.
 
 ### Forwarding
 

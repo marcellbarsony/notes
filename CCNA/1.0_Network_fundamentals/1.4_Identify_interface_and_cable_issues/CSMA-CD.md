@@ -1,4 +1,4 @@
-## CSMA/CD
+# CSMA/CD
 
 **CSMA/CD (Carrier Sense Multiple Access with Collision Detection)** helps hosts to decide when to send packets on a shared network segment and how to detect collisions if the occur.
 

@@ -1,4 +1,4 @@
-## Frame tagging
+# Frame tagging
 
 To identify the VLAN a packet is belonging to, switches ise tagging to assign a numerical value to each frame in a network with multiple VLANs.
 This is done to ensure that switches know out which ports to forward frames.

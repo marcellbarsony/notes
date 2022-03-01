@@ -1,4 +1,4 @@
-## TCP/IP Suite of protocols
+# TCP/IP Suite of protocols
 
 The **TCP/IP suite** is a set of protocols used on a computer networks today.<br>
 It provides end-to-end connectivity by specifying how data should be packetized, addressed, transmitted, routed and received on a **TCP/IP** network.

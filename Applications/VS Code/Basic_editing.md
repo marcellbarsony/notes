@@ -1,4 +1,4 @@
-## Basic editing
+# Basic editing
 
 [[Visual Studio Docs](https://code.visualstudio.com/docs/editor/codebasics)]
 

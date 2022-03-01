@@ -1,4 +1,4 @@
-## IP address
+# IP address
 
 An **Internet Protocol (IP)** address is a numerical label on **layer 3** that is used to identify and locate a network interface of a computer or a network node.
 

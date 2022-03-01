@@ -1,4 +1,4 @@
-## Simple Mail Transfer Protocol (SMTP)
+# Simple Mail Transfer Protocol (SMTP)
 
 **SMTP** is an internet standard communication protocol for electronic mail transmission.
 

@@ -1,4 +1,4 @@
-## Inter-Switch Link (ISL)
+# Inter-Switch Link (ISL)
 
 **Inter-Switch Link (ISL)** is a Cisco proprietary encapsulation protocol that maintains VLAN information in Ethernet frames as traffic flows between switches and routers.
 **ISL** functions at the data-link layer (Layer 2) of the OSI model.

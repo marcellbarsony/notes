@@ -1,4 +1,4 @@
-## Revert
+# Revert
 
 Revert does not remove any old commit. Instead, it created a new commit that undoes all the changes from the old commit to preserve history of the repository.
 

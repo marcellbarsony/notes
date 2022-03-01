@@ -1,4 +1,4 @@
-## IP Classes
+# IP Classes
 
 A **classful network** is a [network addressing](https://en.wikipedia.org/wiki/Network_address) architecture used in the Internet from 1981 until the introduction of **[CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing "Classless Inter-Domain Routing")** in 1993.
 

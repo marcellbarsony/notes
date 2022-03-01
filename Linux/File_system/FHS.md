@@ -1,4 +1,4 @@
-## Filesystem Hierarchy Standard
+# Filesystem Hierarchy Standard
 
 The **Filesystem Hierarchy Standard** ([FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)) defines the directory structure and directory contents in Linux distributions.
 

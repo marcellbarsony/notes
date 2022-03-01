@@ -1,4 +1,4 @@
-## Broadcast domain
+# Broadcast domain
 
 A **broadcast domain** is the domain in which a broadcast is forwarded.
 A **broadcast domain** contains all devices that can reach each other at the data link layer (Layer 2) by using broadcast.

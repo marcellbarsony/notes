@@ -1,4 +1,4 @@
-## STP modes
+# STP modes
 
 **STP** is enabled on all of the vendor's switches by default.<br>
 

@@ -1,4 +1,4 @@
-## SSH connection
+# SSH connection
 
 Attempt to SSH to GitHub
 

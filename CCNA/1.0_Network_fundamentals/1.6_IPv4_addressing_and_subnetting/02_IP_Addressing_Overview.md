@@ -1,4 +1,4 @@
-## IP Addressing Overview
+# IP Addressing Overview
 
 IPv4 addresses are 32-bit integers which will be expressed in decimal notation. (e.g.: 192.0.2.126)
 

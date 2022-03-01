@@ -1,4 +1,4 @@
-## TCP/IP model part 1: Bits, Frames, Packets, Segments and more
+# TCP/IP model part 1: Bits, Frames, Packets, Segments and more
 
 | No. | OSI          | TCP/IP      |          | Examples                             | Description                                                                            |
 | --- | ------------ | ----------- | -------- | ------------------------------------ | -------------------------------------------------------------------------------------- |

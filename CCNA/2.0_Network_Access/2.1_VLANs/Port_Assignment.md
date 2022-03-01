@@ -1,4 +1,4 @@
-## Dynamic vs. Static VLAN
+# Dynamic vs. Static VLAN
 
 **VLAN** is a collection of ports selected by the switch as belonging to the same broadcast domain.
 

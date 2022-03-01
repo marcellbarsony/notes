@@ -1,4 +1,4 @@
-## Git commands
+# Git commands
 
 Add all files that have been modified - excluding new files
 

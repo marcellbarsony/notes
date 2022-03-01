@@ -1,4 +1,4 @@
-## Subnet Mask
+# Subnet Mask
 
 An IP address is divided into two parts:
 

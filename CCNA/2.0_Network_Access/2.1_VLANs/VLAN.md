@@ -1,4 +1,4 @@
-## Virtual LAN
+# Virtual LAN
 
 **VLANs** are logical grouping of devices in the **same broadcast domain.**<br>
 VLANs are usually configured on switches by placing some interfaces into one broadcast domain and some interfaces into another.

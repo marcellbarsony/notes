@@ -1,4 +1,4 @@
-## Private IP Address
+# Private IP Address
 
 A **private network** is a computer network that uses a private address space of IP addresses.
 These addresses are used for LANs in residential, office, and enterprise environments.
@@ -22,8 +22,8 @@ The IANA has reserved the following IPv4 address ranges for private networks
 
 | RFC 1918 name | IP address range              | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classful description            |
 | ------------- | ----------------------------- | ------------------: | -------------------------------: | ------------ | --------- | ------------------------------- |
-| 24-bit block  | 10.0.0.0    – 10.255.255.255  |          16 777 216 |           10.0.0.0/8 (255.0.0.0) | 24 bits      | 8 bits    | single class A network          |
-| 20-bit block  | 172.16.0.0  – 172.31.255.255  |           1 048 576 |      172.16.0.0/12 (255.240.0.0) | 20 bits      | 12 bits   | 16 contiguous class B networks  |
+| 24-bit block  | 10.0.0.0 – 10.255.255.255     |          16 777 216 |           10.0.0.0/8 (255.0.0.0) | 24 bits      | 8 bits    | single class A network          |
+| 20-bit block  | 172.16.0.0 – 172.31.255.255   |           1 048 576 |      172.16.0.0/12 (255.240.0.0) | 20 bits      | 12 bits   | 16 contiguous class B networks  |
 | 16-bit block  | 192.168.0.0 – 192.168.255.255 |              65 536 |     192.168.0.0/16 (255.255.0.0) | 16 bits      | 16 bits   | 256 contiguous class C networks |
 
 ## RFC 1149

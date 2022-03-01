@@ -1,4 +1,4 @@
-## Directed Broadcast Address
+# Directed Broadcast Address
 
 A **broadcast address** is a network address used to transmit to all devices connected to a multiple-access communications network.
 A message sent to a broadcast address may be received by all network-attached hosts.
@@ -40,6 +40,7 @@ The entire address is populated with binary ones.
 ```
 
 A **local broadcast address** is used by hosts to request IP addresses from the DHCP server:<br>
+
 - The **host** sends a broadcast to the broadcast address to request an IP address.<br>
 - The **DHCP server** allocates an IP address from the pool of IP addresses.
 

@@ -1,4 +1,4 @@
-## VLAN Trunking Protocol (VTP)
+# VLAN Trunking Protocol (VTP)
 
 **VLAN Trunking Protocol (VTP)** is a Cisco proprietary Layer 2 protocol that propagates the definition of Virtual Local Area Networks (VLAN) on the whole LAN - reduces administration in a switched network.
 **VTP** carries VLAN information ta all the switches in a **VTP domain**.
