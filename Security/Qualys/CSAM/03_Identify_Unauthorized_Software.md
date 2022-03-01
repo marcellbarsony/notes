@@ -1,8 +1,8 @@
-## Identify Unauthorized Software
+# Identify Unauthorized Software
 
 Proactive tracking of unauthorized software is a key tool to reduce security risks and improve the health of the assets.
 
-**Rules** and the **Software Authorizations** wisget helps keep track and report installation of authorized and unauthorized software based on used defined lists.
+**Rules** and the **Software Authorizations** widget helps keep track and report installation of authorized and unauthorized software based on used defined lists.
 
 ## Software Rules
 

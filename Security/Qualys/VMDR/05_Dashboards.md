@@ -1,4 +1,4 @@
-## Dashboard
+# Dashboard
 
 A primary way to report against vulnerabilities is by using **Dashboards**.<br>
 **Dashboards** contains widgets that is visual representation of datapoint.

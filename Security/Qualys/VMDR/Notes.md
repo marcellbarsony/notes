@@ -1,4 +1,4 @@
-## Notes
+# Notes
 
 Qualys Cloud Agent log file
 

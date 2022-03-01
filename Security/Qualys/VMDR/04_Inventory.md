@@ -1,4 +1,4 @@
-## Inventory
+# Inventory
 
 With the agents deployed, **Global IT Asset Inventory** shows the assets where the agents have collected data.<br>
 By default, **Asset Inventory** is active on all deployed agents.

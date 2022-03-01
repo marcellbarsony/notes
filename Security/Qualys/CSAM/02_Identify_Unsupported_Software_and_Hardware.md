@@ -1,4 +1,4 @@
-## Identify Unsupported Software and Hardware
+# Identify Unsupported Software and Hardware
 
 **CSAM** allows you to visualize product lifecycle information to easily identify unsupported assets that no longer receive security updates, plan hardware refresh and software upgrades using information about upcoming lifecycle events.
 

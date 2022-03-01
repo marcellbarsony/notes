@@ -1,4 +1,4 @@
-## VMDR - Vulnerability Management, Detection, and Response
+# VMDR - Vulnerability Management, Detection, and Response
 
 The VMDR Prioritization Report can be used to create patch jobs for high risk vulnerabilities.
 

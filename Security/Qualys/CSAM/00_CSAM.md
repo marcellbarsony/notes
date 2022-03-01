@@ -1,4 +1,4 @@
-## CyberSecurity Asset Management (CSAM)
+# CyberSecurity Asset Management (CSAM)
 
 Qualys **CSAM** provides security-centric visibility of your IT asset infrastructure so security gaps could be identified and addressed.
 

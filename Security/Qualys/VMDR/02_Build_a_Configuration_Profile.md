@@ -1,4 +1,4 @@
-## Build a Configuration Profile
+# Build a Configuration Profile
 
 The **Configuration Profile** is what tells the agent how should they act.
 

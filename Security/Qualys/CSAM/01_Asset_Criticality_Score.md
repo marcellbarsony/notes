@@ -1,4 +1,4 @@
-## Asset Criticality Score
+# Asset Criticality Score
 
 **Global AssetView (GAV)** and **CyberSecurity Asset Management (CSAM)** could establish the relive business importance of an asset or software using an **Asset Criticality Score (ACS)**.
 

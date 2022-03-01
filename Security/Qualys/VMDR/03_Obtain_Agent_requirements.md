@@ -1,4 +1,4 @@
-## Obtain Agent requirements
+# Obtain Agent requirements
 
 Agent installation executables and installation commands are associated with existing Activation Keys, listed under **Agent Management**.
 

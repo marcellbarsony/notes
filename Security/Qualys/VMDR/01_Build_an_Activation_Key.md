@@ -1,4 +1,4 @@
-## Build an Activation Key
+# Build an Activation Key
 
 [[Qualys Video Library](https://www.iorad.com/player/1784494/Onboarding---Build-an-Activation-Key)]
 
