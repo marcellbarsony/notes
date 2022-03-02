@@ -144,6 +144,7 @@ Beginning with IOS 12.3, **privileged exec mode** commands can be executed withi
 | Command                                                     | Description                                | Mode       |
 | ----------------------------------------------------------- | ------------------------------------------ | ---------- |
 | ?                                                           | Available commands (help)                  | all        |
+| show history                                                | Show command history                       | all        |
 | show version **/** sh ver                                   | Show software version                      | #          |
 | hostname <value> **/** host <value>                         | Hostname configuration                     | config     |
 | copy running-config startup-config **/** wr                 | Save configuration                         | #          |

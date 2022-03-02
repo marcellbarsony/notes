@@ -1,4 +1,4 @@
-## Spanning Tree Priority: Root Primary and Root Secondary
+# Spanning Tree Priority: Root Primary and Root Secondary
 
 **STP** is a Layer 2 loop prevention mechanism that will block one port on the network switch if it detects a loop of broadcast messages within its architecture.
 By default, Spanning Trees are enabled on most interconnected Cisco switches.
@@ -6,7 +6,7 @@ By default, Spanning Trees are enabled on most interconnected Cisco switches.
 Switches send out BDPU on all active interfaces.
 BPDU contains STP information needed to elect a root switch and detect loops.
 
-# STP Root Switch Election
+## STP Root Switch Election
 
 The SPA process begins with the **Root Switch Election**.<br>
 
@@ -20,7 +20,7 @@ Each switch that participates in STP will have a 8-byte **Bridge ID** that compr
 
 A switch with the **lowest BID** will become a Root Switch - as lower number means higher priority.
 
-### PVST+ Extended Bridge ID
+## PVST+ Extended Bridge ID
 
 The **PVST+ Extended Bridge ID** is still 8-bytes in length and comprises of the following data:
 

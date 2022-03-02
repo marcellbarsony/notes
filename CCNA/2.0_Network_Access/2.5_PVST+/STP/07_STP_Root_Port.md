@@ -1,9 +1,9 @@
 # Selecting STP Root port
 
-All **Nonroot Switches** need to determine the best path to get to the root switch.
-The port used to reach the root switch (**Root Port**) is placed in forwarding state.
-The **Root port** is chosen based on lowest path cost.
+All **Nonroot Switches** need to determine the best path to get to the Root Switch.<br>
+The **Root Port** - that is used to reach the root switch - is placed in **forwarding state**.
 
+The **Root port** is chosen based on lowest path cost.<br>
 In case the best root cost ties for two or more paths, the following tiebreakers are applied:
 
 1. Lowest neighbor **Bridge ID**
