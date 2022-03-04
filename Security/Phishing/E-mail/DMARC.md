@@ -1,4 +1,4 @@
-## DMARC - Domain-based Message Authentication, Reporting and Conformance
+# DMARC - Domain-based Message Authentication, Reporting and Conformance
 
 **DMARC** (**Domain-based Message Authentication, Reporting and Conformance**) is an email authentication protocol.
 It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing
@@ -7,7 +7,7 @@ The purpose and primary outcome of implementing DMARC is to protect a domain fro
 Once the DMARC DNS entry is published, any receiving email server can authenticate the incoming email based on the instructions published by the domain owner within the DNS entry.
 If the email passes the authentication, it will be delivered and can be trusted.
 If the email fails the check, depending on the instructions held within the DMARC record the email could be delivered, quarantined or rejected.
-For example, one email forwarding service delivers the mail, but as "From: no-reply@<forwarding service>".[1]
+For example, one email forwarding service delivers the mail, but as "From: no-reply@<forwarding service>".
 
 DMARC extends two existing email authentication mechanisms, Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM).
 It allows the administrative owner of a domain to publish a policy in their DNS records to specify which mechanism (DKIM, SPF or both) is employed when sending email from that domain; how to check the From: field presented to end users; how the receiver should deal with failures - and a reporting mechanism for actions performed under those policies.
