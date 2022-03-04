@@ -154,6 +154,7 @@ Beginning with IOS 12.3, **privileged exec mode** commands can be executed withi
 | show arp                                                    | Show ARP table                             | #          |
 | int g0/0/0                                                  | Configure interface GE 0/0/0               |            |
 | interface GigabitEthernet 0/0/0                             | Configure interface GE 0/0/0               |            |
+| interface range g1/0/1 - 3                                  | Configure interface range GE 1/0/1 - 1/0/3 |            |
 | no shut **/** no shutdown                                   | No shutdown                                |            |
 | no ip address                                               | Remove configure ip address from interface | config-if# |
 | ip domain-lookup                                            |                                            |            |

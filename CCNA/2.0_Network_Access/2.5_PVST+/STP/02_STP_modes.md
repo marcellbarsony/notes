@@ -1,10 +1,11 @@
 # STP modes
 
-**STP** is enabled on all of the vendor's switches by default.<br>
+**STP** is enabled on all of Cisco switches by default.<br>
 
-### IEEE Open Standard modes
+## IEEE Open Standard modes
 
-- **STP IEEE 802.1D** — The first and original implementation of the STP standard.<br>
+- **STP IEEE 802.1D** — **STP** is the first and original implementation of the STP standard.<br>
+  Provides a single path between wny two end stations, avoiding and eliminating loops.
   A single instance of spanning tree is allowed in the LAN.
 
 - **RSTP IEEE 802.1w** — **Rapid STP** is an improved version of 802.1D STP.<br>
@@ -13,7 +14,7 @@
 
 - **MSTP IEEE 802.1s** — **Multiple STP** allows multiple separate spanning tree instances, and enables to map and allocate multiple VLANs to the instances.
 
-### Cisco proprietary modes
+## Cisco proprietary modes
 
 - **PVST+** — **Per VLAN STP+** is a Cisco-proprietary enhancement to the IEEE 802.1D STP, and it is the default STP version for Cisco switches.
   A single instance of spanning tree is allowed per VLAN.
@@ -22,9 +23,45 @@
   Similar to PVST+, it enables the creation of one STP instance per VLAN.
   Network convergence is also faster with RPVST+.
 
-## Single vs. Multiple STPs
+Cisco has enhanced its protocols with
 
-With **IEEE 802.1D STP** and **802.1w RSTP** standards, all of the VLANs will have one STP instance.
+- Portfast
+- Uplinkfast
+- Backbonefast
+- BPDU Guard
+- BPDU Filter
+- Root guard
+- Loop guard
+
+## Spanning Tree Versions - Comparison
+
+| Protocol         |  Standards   | Resources needed | Convergence |    Number of Trees     |
+| ---------------- | :----------: | :--------------: | :---------: | :--------------------: |
+| **STP**          |    802.1D    |       Low        |    Slow     |          One           |
+| **Rapid STP**    |    802.1w    |      Medium      |    Fast     |          One           |
+| **Multiple STP** | 802.1s/Cisco |   Medium/High    |    Fast     | One for multiple VLANs |
+| **PVST+**        |    Cisco     |       High       |    Slow     |  One for every VLANs   |
+| **Rapid PVST+**  |    Cisco     |    Very High     |    fast     | One for multiple VLANs |
+
+### Spanning tree mode commands
+
+Spanning tree modes can be selected with the following commands
+
+```
+SW1(config)# spanning-tree mode ?
+
+  mst - Multiple spanning tree mode
+
+  pvst - Per-Vlan spanning tree mode
+
+  rapid-pvst - Per-Vlan rapid spanning tree mode
+```
+
+## Examples
+
+### Single vs. Multiple STPs
+
+With **IEEE 802.1D STP** and **IEEE 802.1w RSTP** standards, all of the VLANs will have one STP instance.
 Some will be taking suboptimal paths just like in the example topology:
 
 <img src="https://www.dropbox.com/s/2jldo96yzznb1wx/stp_modes1.png?dl=1" alt="stp_modes1" class="inline" />
@@ -35,7 +72,7 @@ Multiple ST modes (IEEE 802.1s, MSTP, PVST+, RPVST+) allow us to have various ST
 These instances can take different paths through the network by having different root bridges, enabling load balancing to be possible.
 The traffic will be taking optimized paths for the same reason as well.
 
-## MSTP Example
+### MSTP Example
 
 With **MSTP** spanning-tree mode, we have one instance of spanning tree for each group of VLANs.
 
@@ -48,7 +85,7 @@ Now, there are 2 instances of spanning tree running.
 For the first instance, the traffic for VLAN10 and VLAN30 will be forwarded to SW1, and the links to SW2 will be blocked.<br>
 For the second instance, the traffic for VLAN20 and VLAN40 will be forwarded to SW2 and will be blocked on SW2.
 
-## PVST+ & RPVST+ Example
+### PVST+ & RPVST+ Example
 
 **PVST+** and **RPVST+** Cisco spanning-tree modes are both Per VLAN spanning tree protocols.
 Every VLAN ha a single instance of spanning tree.
@@ -65,17 +102,3 @@ It would be consuming more resources as compared to grouping the like in MSTP.
 > Note<br>
 > PVST+ uses Root ports, Designated ports, and Alternate ports.<br>
 > The Alternate ports are blocking ports.
-
-## Spanning tree mode command
-
-Spanning tree modes can be selected with the following commands
-
-```
-SW1(config)# spanning-tree mode ?
-
-  mst - Multiple spanning tree mode
-
-  pvst - Per-Vlan spanning tree mode
-
-  rapid-pvst - Per-Vlan rapid spanning tree mode
-```
