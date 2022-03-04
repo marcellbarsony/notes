@@ -6,7 +6,7 @@
 **RSPT** provides significantly faster spanning tree convergence after a topology change, introducing new behaviors and bridge port roles to accomplish this.
 While STP can take 30 to 50 seconds to respond to a topology change, RSTP is typically able to respond to changes within 3x _hello times_ (default: 3x2 seconds) or within a few milliseconds of a physical link failure.
 
-### RST Operation
+## RST Operation
 
 RSTP adds new bridge port roles in order to speed convergence following a link failure:
 

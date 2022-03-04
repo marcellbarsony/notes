@@ -2,6 +2,7 @@
 
 E-mail Header
 
+1. BIMI logo
 1. SPF - Sender Policy Framework
 2. DKIM - DomainKeys Identified Mail
 3. DMARC - Domain-based Message Authentication, Reporting and Conformance
