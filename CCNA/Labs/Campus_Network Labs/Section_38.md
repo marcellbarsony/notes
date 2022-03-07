@@ -1,6 +1,6 @@
-# Section 38
+# Section 38 - Campus Network Part 3
 
-## Step 1
+## Step 1 - Hostname
 
 Configure hostname on **Core1**, **Core2**, **Access1**, **Access2**, **Access3**, **IntRouter**.
 
@@ -11,7 +11,7 @@ Switch(config)#hostname Core1
 Core1(config)#
 ```
 
-## Step 2
+## Step 2 - Shut interface
 
 Shut down unused interfaces on SW **Core1** and **Core2**, router **IntRouter** and on the **Access Switches**.
 
@@ -25,7 +25,7 @@ Verify the changes with the `Core1#show ip interface brief ` command
 > Note<br>
 > Shut down multiple interfaces with the `range` command
 
-## Step 3
+## Step 3 - Enable interface
 
 Enable interface GigabitEthernet 0/0/0 and 0/0/1 on **IntRouter**.
 
@@ -38,7 +38,7 @@ IntRouter(config-if)#no shut
 
 Shut down unused interfaces.
 
-## Step 4
+## Step 4 - Password
 
 Configure enable password of `cisco`.
 
@@ -55,7 +55,7 @@ Core1(config)#enable secret cisco
 > Note<br>
 > It is recommended to use a secret password rather than an enable password.
 
-## Step 5
+## Step 5 - VTY lines
 
 Configure VTY lines.
 
@@ -75,7 +75,7 @@ Core1(config-line)#
 > Both `login` and `password cisco` commands are needed to configure VTY lines.<br>
 > The order of the commands doesn't matter.
 
-## Step 6
+## Step 6 - VTP mode
 
 Use VTP mode `transparent` and set VTP domain name `ccna`.
 
@@ -95,7 +95,7 @@ Core1#show vtp status
 > Note<br>
 > VTP must not be configured on a Router as it is a Layer 3 device.
 
-## Step 7
+## Step 7 - VLANs
 
 Configure VLANs `10`, `20`, `30`, `100` to the VLAN database.
 
@@ -115,7 +115,7 @@ Core1#show vlan brief
 > Note<br>
 > VLANs must not be configured on a Router as it is a Layer 3 device.
 
-## Step 8
+## Step 8 - Trunk ports
 
 Configure ports as Trunk ports between switches:
 
@@ -130,7 +130,7 @@ Core1(config-if-range)#switchport mode trunk
 
 Verify the configuration with the `Core1(config-if-range)#do show run` command.
 
-## Step 9
+## Step 9 - Access ports
 
 Configure ports as Access ports on links to PCs, to the Server, and to the IntRouter..
 

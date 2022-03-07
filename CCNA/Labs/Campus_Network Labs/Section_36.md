@@ -13,7 +13,7 @@
 | 7.  |    X     |    -     | `SW1#show spanning-tree`                             | Show Spanning Tree configuration             |
 | 8.  |    -     |    X     | `SW2(config-if)#no switchport`                       | Configure port as Routed Port (Layer 3 port) |
 
-### 2. Command
+### Step 2
 
 - This physical interface is a Layer 2 interface.
 - This interface supports protocols such as Spanning Tree
@@ -52,7 +52,7 @@ Unknown multicast blocked: disabled
 Appliance trust: none
 ```
 
-### 3. Command
+### Step 3
 
 - Only VLAN 1 and the other default VLANs are configured on the switches
 
@@ -74,7 +74,7 @@ VLAN Name                             Status    Ports
 1005 trnet-default                    active
 ```
 
-### 4. Command
+### Step 4
 
 - Create Switched Virtual Interface (SWI)
 - The interface came down
@@ -85,7 +85,7 @@ SW1(config)#int vlan 1
 SW1(config-if)#
 ```
 
-### 5-6. Command
+### Step 5-6
 
 - Configure IP address on the interface
 - Enable interface
@@ -101,7 +101,7 @@ SW1(config-if)#
 %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
 ```
 
-### 7. Command
+### Step 7
 
 - Interface Gi0/1 is the designated port
 - Interface Gi0/1 is forwarding
@@ -125,7 +125,7 @@ Interface        Role Sts Cost      Prio.Nbr Type
 Gi0/1            Desg FWD 4         128.25   P2p
 ```
 
-### 8. Command
+### Step 8
 
 - Make the port (Gig0/0) a Routed port (Layer 3)
 - Routed ports are typically used between Switches and Routers
