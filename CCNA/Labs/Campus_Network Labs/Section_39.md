@@ -345,10 +345,11 @@ Core1(config-if)#switchport trunk encapsulation dot1q
 Core1(config-if)#switchport mode trunk
 ```
 
-## Step 6 - SVIs, IP addresses, routing
+## Step 6 - SVIs, IP addresses, Inter-VLAN routing
 
-1. Configure IP routing
+### 1. Configure IP routing
 
+- The default gateway is not set
 - IP routing is not enabled on the Layer 3 switch by default
 
 ```
@@ -380,7 +381,7 @@ Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
 Gateway of last resort is not set
 ```
 
-2. Configure IP addresses on Switches Virtual Interfaces (SVIs)
+### 2. Configure IP addresses on Switches Virtual Interfaces (SVIs)
 
 - The command `vlan 1` or `vlan 10` would create a VLAN in the VLAN database
 - The command `interface vlan 1` or `interface vlan 10` would create a Switched Virtual Interfaces (or Layer 3 interface)
@@ -391,9 +392,10 @@ Core1(config-if)#ip address 10.1.1.251 255.255.255.0
 Core1(config-if)#no shut
 ```
 
-3. Verify IP routing
+### 3. Verify IP routing
 
 ```
+Core1#show ip route
 Codes: C - connected, S - static, I - IGRP, R - RIP, M - mobile, B - BGP
        D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
        N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
@@ -406,4 +408,20 @@ Gateway of last resort is not set
 
      10.0.0.0/24 is subnetted, 1 subnets
 C       10.1.1.0 is directly connected, Vlan1
+C       10.1.10.0 is directly connected, Vlan10
 ```
+
+> Note<br>
+> VLAN 1 is being shut down by default.
+> Always verify the state of the SVIs by the command `show ip interface brief`.
+
+## Step 7 - Access layer switch management IP
+
+### 1. Configure IP address on the Access Switches
+
+```
+Access1(config)#interface vlan 1
+Access1(config-if)#ip address 10.1.1.1 255.255.255.0
+```
+
+### 2. Configure default gateway
