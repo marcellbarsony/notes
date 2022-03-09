@@ -15,6 +15,14 @@ A **Routed Protocol** is a network protocol that is used to send the user data f
 
 **Routed Protocols** are routed by **Routing Protocols** to gather routing information for networks.
 
+#### Ships in the night
+
+Different **Routed Protocols** use different **Routing Protocols**:<br>
+**Routed Protocols** (such as IPv4 and IPv6) act and work independently of each other and use different **Routing Protocols**.
+
+- OSPF v2 is a **Routing Protocol** used in IPv4
+- OSPF v3 is a **Routing Protocol** used in IPv6
+
 ### Routing protocol
 
 **Routing Protocols** are used between routers (and Layer 3 devices) to dynamically advertise and learn routing information across the network, and store the information into a **Routing Table**.

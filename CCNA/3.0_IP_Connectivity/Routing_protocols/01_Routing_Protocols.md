@@ -1,13 +1,15 @@
-# Main Routing Protocols
+# Routing Protocol
 
-## Five types of routes
+A **Routing Protocol** specifies how routers communicate with each other to distribute information that enables them to select routes between nodes on a computer network.<br>
 
-| Route               | Description                                                                                                                                                                                                       |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **host route**      | Defines a gateway that can forward packets to a specific host on another network                                                                                                                                  |
-| **network route**   | Defines a gateway that can forward packets to any of the hosts on a specific network                                                                                                                              |
-| **default route**   | Defines a gateway to use when a host or network route to a destination is not otherwise defined                                                                                                                   |
-| **loopback route**  | Default route for all packets sent to local network addresses. The loopback route IP is always 127.0.0.1.                                                                                                         |
-| **broadcast route** | Default route for all broadcast packets. Two broadcast routes are automatically assigned to each subnet on which the network has an IP (one to the subnet address and one to the broadcast address of the subnet) |
+The specific characteristics of routing protocols include the manner in which they avoid routing loops, the manner in which they select preferred routes, using information about hop costs, the time they require to reach routing convergence, their scalability, and other factors such as relay multiplexing and cloud access framework parameters.
 
-[[IBM - TCP/IP Routing](https://www.ibm.com/docs/en/aix/7.1?topic=protocol-tcpip-routing)]
+[[Wikipedia - Routing protocol](https://en.wikipedia.org/wiki/Routing_protocol)]<br>
+[[Study CCNA - Routing protocols](https://study-ccna.com/routing-protocols/)]
+
+## Types of Routing Protocols
+
+There are two types of routing protocols:
+
+1. **Distance vector** (RIP, IGRP)
+2. **Link state** (OSPF, IS-IS)
