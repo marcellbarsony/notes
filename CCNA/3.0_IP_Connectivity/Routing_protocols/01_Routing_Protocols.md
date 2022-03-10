@@ -13,3 +13,6 @@ There are two types of routing protocols:
 
 1. **Distance vector** (RIP, IGRP)
 2. **Link state** (OSPF, IS-IS)
+
+Cisco has created its own routing protocol – **EIGRP**.<br>
+**EIGRP** is considered to be an advanced distance vector protocol, although some materials erroneously state that **EIGRP** is a hybrid routing protocol, a combination of distance vector and link state.

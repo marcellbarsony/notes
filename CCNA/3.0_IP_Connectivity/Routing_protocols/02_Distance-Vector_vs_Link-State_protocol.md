@@ -1,15 +1,15 @@
 # Distance Vector vs. Link State Protocol
 
-| Properties                     | Distance Vector Routing                                             | Link State Routing                                    |
-| ------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------- |
-| **Bandwidth requirement**      | Less - Local sharing, Small packets, No flooding                    | More - Flooding, Large link state packets             |
-| **Knowledge**                  | Local Knowledge - Updates table based on information from neighbors | Global Knowledge - Has knowledge about entire network |
-| **Algorithm**                  | Bellman-Ford                                                        | Dijkstra's                                            |
-| **Traffic**                    | Less traffic                                                        | More traffic                                          |
-| **Convergence**                | Converges slowly - Good news spread fast, Bad news spread slowly    | Converges faster                                      |
-| **Count to Infinity problem**  | Yes                                                                 | No                                                    |
-| **Persistent looping problem** | Yes                                                                 | No, Transient Loops only                              |
-| **Practical implementation**   | RIP and GRIP                                                        | OSPF and IS-IS                                        |
+| Properties                     | Distance Vector Routing                                             | Link State Routing                                                   |
+| ------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Bandwidth requirement**      | No flooding - Local sharing, Small packets                          | Flooding - Large link state packets (LSA - Link State Advertisement) |
+| **Knowledge**                  | Local Knowledge - Updates table based on information from neighbors | Global Knowledge - Has knowledge about entire network                |
+| **Algorithm**                  | Bellman-Ford                                                        | Dijkstra's                                                           |
+| **Traffic**                    | Less traffic                                                        | More traffic                                                         |
+| **Convergence**                | Converges slowly - Good news spread fast, Bad news spread slowly    | Converges faster                                                     |
+| **Count to Infinity problem**  | Yes                                                                 | No                                                                   |
+| **Persistent looping problem** | Yes                                                                 | No, Transient Loops only                                             |
+| **Practical implementation**   | RIP and GRIP                                                        | OSPF and IS-IS                                                       |
 
 [[GeeksforGeeks - Difference between Distance vector routing and Link State routing](https://www.geeksforgeeks.org/difference-between-distance-vector-routing-and-link-state-routing/)]
 
