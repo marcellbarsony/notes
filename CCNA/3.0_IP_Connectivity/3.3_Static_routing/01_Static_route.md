@@ -18,6 +18,24 @@ Static routing may have the following uses:
 - **Static routing** is often used as a complement to dynamic routing to provide a failsafe backup if a dynamic route is unavailable.
 - **Static routing** is often used to help transfer routing information from one routing protocol to another (routing redistribution).
 
+## Configuration
+
+### Cisco
+
+Add a static route:
+
+```
+Router> enable
+Router# configure terminal
+Router(config)# ip route 10.10.20.0 255.255.255.0 192.168.100.1
+```
+
+### Linux
+
+```
+root@router:~# ip route add 10.10.20.0 via 192.168.100.1
+```
+
 ## Advantages & Disadvantages
 
 ### Advantages

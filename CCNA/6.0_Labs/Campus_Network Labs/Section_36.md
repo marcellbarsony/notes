@@ -1,4 +1,4 @@
-# Campus Network
+# Section 36 - Campus Network
 
 [[Lecture](https://deloittedevelopment.udemy.com/course/complete-networking-fundamentals-course-ccna-start/learn/lecture/8297162#overview)]
 

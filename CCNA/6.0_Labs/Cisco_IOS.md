@@ -162,6 +162,7 @@ Beginning with IOS 12.3, **privileged exec mode** commands can be executed withi
 | ip default gateway <ip_address>                             | Default Gateway                            | config     |
 | monitor session 1 source interface gigabitEthernet 0/0      | Copy traffic from source interface         | config     |
 | montior session 1 destination interface gigabitEthernet 0/0 | Duplicate traffic to destination interface | config     |
+| debug ip icmp                                               | Debug ICMP messages                        | #          |
 
 ### Password
 
