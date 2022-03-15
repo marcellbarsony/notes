@@ -13,28 +13,3 @@ The [[resource records](https://en.wikipedia.org/wiki/Domain_Name_System#Resourc
 ### Domain Name Space
 
 The **Domain Name Space** consists of a tree data structure
-
-## DNS Services
-
-### DNS Server Types
-
-- **DNS Recursor** is a server designed to receive queries from client machines through applications such as web browsers.
-  The **DNS Recursor** is then responsible for making additional requests in order to satisfy the Client's DNS query.
-
-- **Root nameserver**
-
-- **TLD nameserver**
-
-- **Authoritative nameserver**
-
-[[Cloudflare - DNS Server Types](https://www.cloudflare.com/learning/dns/dns-server-types)]
-
-### Authoritative DNS
-
-### Recursive DNS Resolver
-
-### Difference: Authoritative DNS Server vs. Recursive DNS Resolver
-
-## DNS Lookup Steps
-
-[[Cloudflare - What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/11)]
