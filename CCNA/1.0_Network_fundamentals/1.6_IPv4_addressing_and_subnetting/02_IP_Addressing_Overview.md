@@ -15,7 +15,7 @@ IPv4 addresses are 32-bit integers which will be expressed in decimal notation. 
 - Networks ought to be designed either manually or with DHCP.
 - Packet fragmentation permits from routers and causing host.
 
-[[Geeksforgeeks](https://www.geeksforgeeks.org/what-is-ipv4/)]
+[[Geeksforgeeks - What is IPv4?](https://www.geeksforgeeks.org/what-is-ipv4/)]
 
 </details>
 
@@ -35,7 +35,7 @@ IPv4 addresses are 32-bit integers which will be expressed in decimal notation. 
 - Security features are nonobligatory.
 - Difficult to feature support for future desires as a result of adding it on is extremely high overhead since it hinders the flexibility to attach everything over IP.
 
-[[Geeksforgeeks](https://www.geeksforgeeks.org/what-is-ipv4/)]
+[[Geeksforgeeks - What is IPv4?](https://www.geeksforgeeks.org/what-is-ipv4/)]
 
 </details>
 

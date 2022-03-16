@@ -6,7 +6,7 @@ Trunk negotiations are managed by **DTP** only if the prt is directly connected 
 
 [[Wikipedia - Dynamic Trunking Protocol](https://en.wikipedia.org/wiki/Dynamic_Trunking_Protocol)]
 
-[[Study CCNA](https://study-ccna.com/dynamic-trunking-protocol-dtp-cisco/)]
+[[Study CCNA - Cisco Dynamic Trunking Protocol (DTP) Explained](https://study-ccna.com/dynamic-trunking-protocol-dtp-cisco/)]
 
 ### DTP vs VTP
 

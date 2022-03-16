@@ -29,6 +29,6 @@ This will reduce the amount of traffic flowing on the network and allows us to i
 
 ## Resources
 
-[[TCM's subnetting cheatsheet (Google Drive)](https://docs.google.com/spreadsheets/d/1Bcl8rzfd_2VgBsBx-kzXq406avIIOCqLTN9fvCt063Y/edit?usp=sharing)]
+[[Google Drive - TCM's subnetting cheatsheet](https://docs.google.com/spreadsheets/d/1Bcl8rzfd_2VgBsBx-kzXq406avIIOCqLTN9fvCt063Y/edit?usp=sharing)]
 
 [[David Bombal's Subnet Quiz](https://davidbombal.com/subnet-quiz/)]

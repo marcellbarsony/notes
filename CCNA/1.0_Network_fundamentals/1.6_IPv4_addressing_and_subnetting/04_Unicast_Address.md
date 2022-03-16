@@ -7,4 +7,4 @@ A unicast frame will be sent to a specific device, not to a group of devices on 
 
 The unicast address will have the value of the MAC address of the destination device.
 
-[[Study CCNA](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)]
+[[Study CCNA - Unicast, multicast, and broadcast addresses](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)]

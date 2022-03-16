@@ -5,7 +5,7 @@ It is a method of inter-VLAN routing where on e router is connected to a switch 
 The router has physical connections ot the broadcast domains where one or more VLANs require the need for routing between them.
 
 [[Wikipedia - Router on a stick](https://en.wikipedia.org/wiki/Router_on_a_stick)]<br>
-[[Configuration of Router on a stick](https://www.geeksforgeeks.org/configuration-of-router-on-a-stick/)]
+[[GeeksforGeeks - Configuration of Router on a stick](https://www.geeksforgeeks.org/configuration-of-router-on-a-stick/)]
 
 ## Configure sub-interface
 

@@ -30,4 +30,4 @@ The following table lists the differences between the three most popular interio
 | **Supported on non-Cisco routers** | Yes                                            | No                  | Yes             |
 | **Configuration complexity**       | Easy                                           | Medium              | Hard            |
 
-[[Study CCNA](https://study-ccna.com/comparing-internal-routing-protocols-igps/)]
+[[Study CCNA - Comparing internal routing protocols (IGPs)](https://study-ccna.com/comparing-internal-routing-protocols-igps/)]

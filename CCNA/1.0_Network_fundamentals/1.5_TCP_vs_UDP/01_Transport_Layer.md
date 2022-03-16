@@ -24,4 +24,4 @@ The below diagram shows a segment in which the raw data is encapsulated by trans
 
 <img src="https://www.dropbox.com/s/tktcizp4nnqrti3/transport_header.jpg?dl=1" alt="network" class="inline" />
 
-[[Study CCNA](https://study-ccna.com/transport-layer/)]
+[[Study CCNA - Transport layer](https://study-ccna.com/transport-layer/)]

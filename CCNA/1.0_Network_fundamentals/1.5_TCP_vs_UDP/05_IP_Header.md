@@ -169,7 +169,7 @@ The Option Type column is derived from the Copied, Option Class, and Option Numb
 the packet payload is not included in the checksum.
 Its contents are interpreted based on the value of the Protocol header field.
 
-[List of IP protocol numbers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers) contains a complete list of payload protocol types.
+[Wikipedia - List of IP protocol numbers](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers) contains a complete list of payload protocol types.
 
 Some of th common payload protocols include:
 
@@ -185,4 +185,4 @@ Some of th common payload protocols include:
 
 [[Wikipedia - IPv4](https://en.wikipedia.org/wiki/IPv4)]
 
-[[Study CCNA](https://study-ccna.com/ip-header/)]
+[[Study CCNA - IP header](https://study-ccna.com/ip-header/)]

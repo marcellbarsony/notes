@@ -1,4 +1,4 @@
-# UDP
+# User Datagram Protocol (UDP)
 
 **User Datagram Protocol (UDP)** provides delivery if data between application running on hosts on a TCP/IP network on **Layer 4** of the OSI Model.
 

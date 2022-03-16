@@ -13,7 +13,7 @@
 | **Updates**                   | Regular or periodic updates are used                       | Change-triggered updates are used                  |
 | **Fault Detection**           | Fault can be detected easily                               | Fault detection harder                             |
 
-[[GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-classful-routing-and-classless-routing/)]
+[[GeeksforGeeks - Difference between Classful Routing and Classless Routing](https://www.geeksforgeeks.org/difference-between-classful-routing-and-classless-routing/)]
 
 ## Classful Routing
 

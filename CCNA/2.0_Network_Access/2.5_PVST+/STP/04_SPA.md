@@ -21,4 +21,4 @@ To prevent loops, **SPA** places some interfaces in _forwarding state_ and other
 > Note<br>
 > STP considers working interfaces only - shutdown interfaces or interfaces without the cable installed are placed in an **STP disabled** state.
 
-[[Study CCNA](https://study-ccna.com/how-stp-works/)]
+[[Study CCNA - How STP works](https://study-ccna.com/how-stp-works/)]

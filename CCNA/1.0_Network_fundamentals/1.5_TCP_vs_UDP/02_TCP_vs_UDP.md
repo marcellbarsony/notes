@@ -51,4 +51,4 @@ A session is created when a source host needs to send data or information to a d
 Replies are often received but not mandatory.
 The session is created and controlled within the network application, which contains the functionality of OSI layers 5 through 7.
 
-[[Session multiplexing - Wikipedia](https://en.wikipedia.org/wiki/Session_multiplexing)]
+[[Wikipedia - Session multiplexing](https://en.wikipedia.org/wiki/Session_multiplexing)]

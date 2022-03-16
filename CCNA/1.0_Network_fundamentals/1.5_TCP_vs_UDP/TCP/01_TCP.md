@@ -1,4 +1,4 @@
-# TCP
+# Transmission Control Protcol (TCP)
 
 **Transmission Control Protocol (TCP)** is one of the main protocols of the [internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite).<br>
 **TCP** provides reliable, ordered and error-checked delivery of a stream of octets (bytes) between applications running on hosts on a TCP/IP network.
@@ -20,4 +20,4 @@ The sender can also retransmit the data if it is lost during the transmission.
 - TCP veto
 - [TCP reset attack](https://en.wikipedia.org/wiki/TCP_reset_attack)
 
-[[Study CCNA](https://study-ccna.com/tcp-explained/)]
+[[Study CCNA - TCP explained](https://study-ccna.com/tcp-explained/)]

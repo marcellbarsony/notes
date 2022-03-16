@@ -23,4 +23,4 @@ All other hosts on the LAN will discard them.
 This is an RIPv2 packet, and only routers on the network should read it.
 All other hosts on the LAN will discard the packet.
 
-[[Study CCNA](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)]
+[[Study CCNA - Unicast, multicast, and broadcast addresses](https://study-ccna.com/unicast-multicast-and-broadcast-addresses/)]

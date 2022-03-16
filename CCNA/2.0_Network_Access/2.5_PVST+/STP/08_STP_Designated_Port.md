@@ -4,7 +4,7 @@ The switch with the best path to reach the **Root Switch** is placed in **Forwar
 This switch is called the **Designated Switch** and its port is known as the **Designated Port**.
 To avoid loops, the **Non-Designated port** on the other end of the link is placed in **Blocking state**.
 
-[[Study CCNA](https://study-ccna.com/selecting-stp-designated-port-dp/)]
+[[Study CCNA - Selecting STP designated port (DP)](https://study-ccna.com/selecting-stp-designated-port-dp/)]
 
 The designated switch is determined based on the following criteria:
 

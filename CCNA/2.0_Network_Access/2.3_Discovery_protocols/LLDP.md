@@ -1,3 +1,3 @@
 # Link Layer Discovery Protocol (LLDP)
 
-[[Study CCNA](https://study-ccna.com/link-layer-discovery-protocol-lldp/)]
+[[Study CCNA - Link Layer Discovery Protocol (LLDP)](https://study-ccna.com/link-layer-discovery-protocol-lldp/)]

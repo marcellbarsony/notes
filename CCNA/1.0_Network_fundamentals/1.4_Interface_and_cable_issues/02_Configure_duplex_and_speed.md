@@ -52,4 +52,4 @@ If the device successfully senses the speed without IEEE autonegotiation, by jus
 - If the speed is 10 or 100 Mbps, use half duplex.
 - If the speed is 1,000 Mbps or faster, use full duplex.
 
-[[Study CCNA](https://study-ccna.com/configure-speed-and-duplex/)]
+[[Study CCNA - Configure speed and duplex](https://study-ccna.com/configure-speed-and-duplex/)]

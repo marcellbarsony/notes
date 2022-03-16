@@ -24,4 +24,4 @@ In Windows, duplex settings could be set in the Properties window of the network
 
 <img src="https://www.dropbox.com/s/co3ct31n2juqsts/duplex_settings.jpg?dl=1" alt="duplex_settings" class="inline" />
 
-[[Study CCNA](https://study-ccna.com/half-duplex-and-full-duplex/)]
+[[Study CCNA - Half duplex and full duplex](https://study-ccna.com/half-duplex-and-full-duplex/)]

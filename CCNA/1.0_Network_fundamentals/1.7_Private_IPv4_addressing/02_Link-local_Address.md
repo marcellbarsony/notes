@@ -4,7 +4,7 @@
 
 The IP address range for **APIPA** is **169.254.0.1**-**169.254.255.254**, with the subnet mask of **255.255.0.0**.
 
-[[Study CCNA](https://study-ccna.com/apipa-automatic-private-ip-addressing/)]
+[[Study CCNA - APIPA (Automatic Private IP Addressing)](https://study-ccna.com/apipa-automatic-private-ip-addressing/)]
 
 When a DHCP client boots up, it looks for a DHCP server in order to obtain network parameters.
 If the client can't communicate with the DHCP server, it uses **APIPA** to configure itself with an IP address from the **APIPA** range.

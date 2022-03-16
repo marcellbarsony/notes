@@ -18,7 +18,7 @@ There are three types of **BPDU**s in the STP specification:
 
 **BPDU**s are exchanged regularly (2 seconds by default) and enable switches to keep track of network changes and to start and stop forwarding at ports as required.
 
-[[Study CCNA](https://study-ccna.com/how-stp-works/)]<br>
+[[Study CCNA - How STP works](https://study-ccna.com/how-stp-works/)]<br>
 [[Wikipedia - STP](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol)]
 
 ## BPDU fields

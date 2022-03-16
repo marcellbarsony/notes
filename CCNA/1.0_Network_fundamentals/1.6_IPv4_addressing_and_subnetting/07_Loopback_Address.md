@@ -56,4 +56,4 @@ Router(config)#router ospf 1
 Router(config-router)#network 0.0.0.0 255.255.255.255 area 0
 ```
 
-[[Study CCNA](https://study-ccna.com/loopback-interface-loopback-address/)]
+[[Study CCNA - Understanding the Loopback Interface & Loopback Address](https://study-ccna.com/loopback-interface-loopback-address/)]

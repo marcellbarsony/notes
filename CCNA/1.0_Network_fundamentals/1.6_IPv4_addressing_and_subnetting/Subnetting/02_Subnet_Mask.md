@@ -25,4 +25,4 @@ Cisco devices do not support discontiguous masks:<br>
 Only contiguous subnet masks are supported:<br>
 **11111111.11111111.11000000.00000000** = 255.255.192.0
 
-[[Study CCNA](https://study-ccna.com/subnet-mask/)]
+[[Study CCNA - Subnet mask](https://study-ccna.com/subnet-mask/)]
