@@ -1,4 +1,4 @@
-# VPN
+# Virtual Private Network (VPN)
 
 A **Virtual Private Network (VPN)** extends a private network across a public network and enables users to safely exchange data across shared or public networks as if their computer were directly connected to the private network.<br>
 **VPN** prevents unauthorized people from eavesdropping on the traffic and allows the user to conduct work remotely.
