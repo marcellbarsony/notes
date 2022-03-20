@@ -13,10 +13,23 @@ Instead, **OSPF** forms IP datagrams directly, packaging them using protocol num
 
 ## Link State Packets
 
-### LSA - LSU - LSR
-
 **Link-State Advertisements (LSAs)** are used by **OSPF** routers to exchange topology information.
 Each **LSA** contains routing and topology information to describe a part of an **OSPF** network.
 When two neighbors decide to exchange routes, they send each other a list of all **LSA**s in their respective topology database.
 Each router then checks its topology database and sends a **Link State Request (LSR)** message requesting all **LSA**s not found in its topology table.
 Other router responds with the **Link State Update (LSU)** that contains all **LSA**s requested by the other neighbor.
+
+### Link State Request (LSR)
+
+**Link State Request** messages are used by one router to request updated information about a portion of the LSDB from another router.
+The message specifies the link(s) for which the requesting device wants more current information.
+
+### Link State Update (LSU)
+
+**Link State Update** messages contain updated information about the state of certain link on the LSDB.
+They are sent in response to a **Link State Request** message, and also broadcast or multicast by routers on a regular basis.
+Their contents are used to update the information in the LSDBs of routers that receive them.
+
+### Link state Acknowledgement (LSAck)
+
+**Link State Acknowledgement** messages provide reliability to the link-state exchange process, by explicitly acknowledging receipt of a **Link State Update** message.

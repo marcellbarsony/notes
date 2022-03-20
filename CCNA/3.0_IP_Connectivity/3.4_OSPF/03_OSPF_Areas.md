@@ -20,13 +20,26 @@ OSPF defines several area types:
 
 ## Backbone Area
 
-The **Backbone Area** (also known as **area 0** or **area 0.0.0.0**) forms the core of an **OSPF** network and other areas are connected to it (either directly or other routers).
+The **Backbone Area** (also known as **area 0** or **area 0.0.0.0**) forms the core of an OSPF network and other areas are connected to it (either directly or other routers).<br>
+Inter-area routing happens via routers connected to the **Backbone Area** and to their own associated areas.
+
+All **OSPF Areas** must connect to the **Backbone Area**.
+This connection, however, can be through a virtual link:<br>
+Area `0.0.0.2` could connect to the **Backbone Area** through Area `0.0.0.1` if it doesn't have direct connection.
 
 ## Regular Area
 
+A **Regular Area** is just a non-backbone (nonzero) area without specific feature, generating and receiving summary and external LSAs.
+The Backbone Area is a special type of such area.
+
 ## Transit Area
 
+A **Transit Area** is an area with two or more OSPF border routers and is used to pass network traffic from one adjacent area to another.
+The **Transit Area** does not originate this traffic and is not the destination of such traffic.
+
 ## Stub Area
+
+A **Stub Area** is an area that does not receive route advertisements external to the AS and routing from within the area is based entirely on a default route.
 
 ### Totally stubby area
 
