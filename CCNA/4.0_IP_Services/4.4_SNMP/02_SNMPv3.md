@@ -2,6 +2,8 @@
 
 The latest version is **SNMP version 3 (SNMPv3)**, wherein it addresses the weaknesses of the earlier SNMP versions, such as security problems, by adding cryptographic security features wherein its developers have been able to make things look much different by introducing new conventions, concepts, and terminology.
 
+[[Study CCNA - SNMPv3 Overview and Configuration](https://study-ccna.com/snmpv3-overview-configuration/)]
+
 ## SNMPv3 Features
 
 The SNMPv3 architecture introduces the **User-based Security Model (USM)** for message security.

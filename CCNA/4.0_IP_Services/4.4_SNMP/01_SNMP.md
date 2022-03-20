@@ -8,7 +8,7 @@ These variables can then be remotely queried and manipulated by managing applica
 An **SNMP**-managed network consists of two components:
 
 - **Network Management Station (NMS)** — The software which runs on the administrative computer.
-  **NMS** gathers **SNMP** data by requireing the devices on the network to disclose certain information.
+  **NMS** gathers **SNMP** data by requiring the devices on the network to disclose certain information.
   Devices can also inform **NMS** about problems they are experiencing by sending **SNMP** alert (called a trap).
   **NMS** uses UDP port 162.
 
@@ -16,3 +16,4 @@ An **SNMP**-managed network consists of two components:
   **SNMP Agent** use UDP port 161.
 
 [[Wikipedia - Simple Network Management Protocol](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)]<br>
+[[Study CCNA - SNMP (Simple Network Management Protocol)](https://study-ccna.com/snmp-simple-network-management-protocol/)]

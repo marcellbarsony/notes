@@ -25,3 +25,5 @@ Finally, we are now going to configure the last step, which is an SNMP User.
 ```
 R1(config)# snmp-server user <username> <group_name> v3 auth {md5 | sha} <authentication_password> priv {3des | aes| des} {128 | 192 |256} <encryption_password>
 ```
+
+[[Study CCNA - SNMPv3 Overview and Configuration](https://study-ccna.com/snmpv3-overview-configuration/)]
