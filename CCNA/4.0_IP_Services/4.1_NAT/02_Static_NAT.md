@@ -40,4 +40,6 @@ The main configuration tasks for **Static NAT** are as follows:
 2. Configure the router's inside interface using the `ip nat inside` command.
 3. Configure the router's outside interface using the `ip nat outside` command.
 
-The NAT table can be viewed with the `ip nat translations` command.
+The NAT table can be viewed with the `show ip nat translations` command.<br>
+NAT statistics can bie viewed with the `show ip nat statistics` command.<br>
+Clear NAT table`clear nat ip translation *`.

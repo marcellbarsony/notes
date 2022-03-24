@@ -24,4 +24,4 @@ To configure **PAT**, the following commands are required:
 - Configure the router’s inside interface using the `ip nat inside` command.
 - Configure the router’s outside interface using the `ip nat outside` command.
 - Configure an access list that includes a list of the inside source addresses that should be translated.
-- Enable PAT with the `ip nat inside source list <acl_number> interface <type> overload` global configuration command.
+- Enable PAT with the `ip nat inside source list <acl_number> interface <interface> overload` global configuration command.
