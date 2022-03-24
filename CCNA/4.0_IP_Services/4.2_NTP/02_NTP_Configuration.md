@@ -35,3 +35,9 @@ Router1#show ntp status
   clock offset is 0.00 msec, root delay is 0.00 msec
   root dispersion is 0.02 msec, peer dispersion is 0.02 msec.
 ```
+
+To check the **NTP Associations**, use the `show ntp associations` command:
+
+```
+Router1#show ntp associations
+```

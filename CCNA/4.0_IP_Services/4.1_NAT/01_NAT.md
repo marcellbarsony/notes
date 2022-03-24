@@ -38,3 +38,11 @@ It’s not foolproof, but it often acts as the first means of defense for your d
 If an organization wants to protect its data, they’ll need to go further than just a **NAT firewall** — they’ll want to hire a cybersecurity professional.
 
 **NAT** also allows you to display a public IP address while on a local network, helping to keep data and user history private.
+
+## Public vs Private IPv4 Addresses
+
+| Class | Private Address Range          | Public Address Range                                            |
+| ----- | ------------------------------ | --------------------------------------------------------------- |
+| A     | 10.0.0.0 to 10.255.255.255     | 1.0.0.0 to 9.255.255.255 and 11.0.0.0 to 126.255.255.255        |
+| B     | 172.16.0.0 to 172.37.255.255   | 128.0.0.0 to 172.15.255.255 and 172.32.0.0 to 191.255.255.255   |
+| C     | 192.168.0.0 to 192.168.255.255 | 192.0.0.0 to 192.167.255.255 and 192.169.0.0 to 223.255.255.255 |

@@ -17,9 +17,10 @@
 
 ## Classful Routing
 
-- Classful Routing does not import subnet mask.
-- Subnet mask is provided after the route update.
+- Classful Routing does not include subnet mask with the network in subnet advertisements.
+- Withing the same network, consistency of the subnet mask is assumed (same subnet mask for the entire network).
 - Subnet mask is same throughout, does not vary for all devices.
+- Subnet mask is provided after the route update.
 - [VLSM(Variable Length Subnet Mask)](https://www.geeksforgeeks.org/introduction-of-variable-length-subnet-mask-vlsm/) is not supported.
 - CIDR is not supported.
 

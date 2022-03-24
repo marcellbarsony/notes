@@ -10,3 +10,17 @@ Implementations send and receive timestamps using UDP port 123.
 
 [[Wikipedia - Network Time Protocol](https://en.wikipedia.org/wiki/Network_Time_Protocol)]<br>
 [[Study CCNA - NTP (Network Time Protocol)](https://study-ccna.com/ntp-network-time-protocol/)]<br>
+
+## Configuration
+
+A router's time can be set with the following command
+
+```
+R1#clock set 23:16:45 16 August 2022
+```
+
+A router's time configuration can be checked with the following command
+
+```
+R1#show ntp status
+```

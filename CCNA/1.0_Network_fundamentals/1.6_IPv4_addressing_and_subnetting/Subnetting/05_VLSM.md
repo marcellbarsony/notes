@@ -10,5 +10,12 @@ One of the ways we can maximize the use of private IPv4 addresses in the organiz
 With **VLSM**, we can allot the closest required number of IP addresses into a subnetwork in our LAN.
 For example, we don't need to use a `/23` subnet mask in all of our subnets.
 
+**VLSM** has the following advantages:
+
+- More efficient use of IP address space
+- Fewer route updates
+- Topology changes are hidden
+- Hierarchical level for better route summarization
+
 [[Study CCNA - Understanding Variable Length Subnet Mask (VLSM)](https://study-ccna.com/variable-length-subnet-mask-vlsm/)]<br>
 [[GeeksforGeeks - Introduction of Variable Length Subnet Mask VLSM](https://www.geeksforgeeks.org/introduction-of-variable-length-subnet-mask-vlsm/)]
