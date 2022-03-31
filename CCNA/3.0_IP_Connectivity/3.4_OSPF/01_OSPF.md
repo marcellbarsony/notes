@@ -32,3 +32,12 @@ Cost factors may be: the distance of the router (round-trip time), data throughp
 **OSPF** divides the network into routing areas to simplify administration and optimize traffic and resource utilization.
 Areas are identified by 32-bit numbers, expressed either simply in decimal, or octet-based dot-decimal notation.
 By convention, Area 0, or `0.0.0.0` represents the core or backbone area of an **OSPF** network.
+
+## OSPF vs. EIGRP
+
+| Protocol  | Type of routing          | Metric                           | Manual summarization   | Load balancing                        | Administrative distance | Cisco proprietary | Multicast address    |
+| --------- | ------------------------ | -------------------------------- | ---------------------- | ------------------------------------- | ----------------------- | ----------------- | -------------------- |
+| **EIGRP** | Advanced distance vector | Composite of bandwidth and delay | On all routers         | Equal and unequal cost load balancing | 90                      | Yes               | 224.0.0.10           |
+| **OSPF**  | Link state               | Cost                             | Only on ABRs and ASBRs | Equal cost load balancing             | 110                     | No                | 224.0.0.5, 224.0.0.6 |
+
+[[Study CCNA - Differences between OSPF and EIGRP](https://study-ccna.com/differences-between-ospf-and-eigrp/)]<br>
