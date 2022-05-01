@@ -45,7 +45,7 @@ Order: `owner`/`group`/`world`
 ### Tar (Archive)
 
 | Command                            | Description                       |
-| ---------------------------------- | ----------------------------------|
+| ---------------------------------- | --------------------------------- |
 | cf                                 | Tar file                          |
 | xf                                 | UnTar file                        |
 | c                                  | Create archive                    |
@@ -61,6 +61,6 @@ Order: `owner`/`group`/`world`
 ### Gunzip (Compression)
 
 | Command                            | Description                       |
-| ---------------------------------- | ----------------------------------|
+| ---------------------------------- | --------------------------------- |
 | gzip                               | Compress file                     |
 | gzip -d                            | Decompress file                   |

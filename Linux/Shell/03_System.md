@@ -3,7 +3,7 @@
 ## General
 
 | Command                            | Description                       |
-| ---------------------------------- | ----------------------------------|
+| ---------------------------------- | --------------------------------- |
 | finger                             | User info                         |
 | hostname                           | hostname                          |
 | hostname -i                        | hostname IP                       |
