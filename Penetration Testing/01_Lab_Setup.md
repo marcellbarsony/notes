@@ -33,7 +33,7 @@ VMs must be placed onto the same internal network.
 ### DHCP Server
 
 ```
-vboxmanage dhcpserver add --network=<internal_network_name> --server-ip=10.38.1.1 --lower-ip=10.38.1.110 --upper-ip=10.38.1.120 --netmask=255.255.255.0 --enable
+vboxmanage dhcpserver add --network=intnet --server-ip=10.38.1.1 --lower-ip=10.38.1.110 --upper-ip=10.38.1.120 --netmask=255.255.255.0 --enable
 ```
 
 ### Test
