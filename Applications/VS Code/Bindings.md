@@ -56,6 +56,10 @@ Word wrap
 
 <kbd>Alt</kbd> + <kbd>Z</kbd>
 
+Comment
+
+<kbd>Ctrl</kbd> + <kbd>/</kbd>
+
 ## Terminal
 
 Terminal toggle
