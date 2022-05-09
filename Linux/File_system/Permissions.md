@@ -12,3 +12,12 @@
 |      5 | Read + Execute         | r-x  |  r-x  |  r-x   |
 |      6 | Read + Write           | rw-  |  rw-  |  rw-   |
 |      7 | Read + Write + Execute | rwx  |  rwx  |  rwx   |
+
+
+### Notes
+
+1. SUID permission
+2. SGID permission
+3. Sticky bit
+
+[The Geek Diary](https://www.thegeekdiary.com/what-is-suid-sgid-and-sticky-bit/)

@@ -9,4 +9,5 @@
 | cd ~           | Home Directory          |
 | cd -           | Previous Directory      |
 | history        | Command History         |
+| pushd          | Change to previous dir  |
 | pwd            | Print Working Directory |

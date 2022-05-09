@@ -9,7 +9,10 @@
 | dig                                | Get DNS for domain                |
 | ethtool                            | Network status                    |
 | ip addr                            | Network interfaces                |
+| ifconfig                           | Interface config                  |
+| iwconfig                           | Wireless interface config         |
 | netstat -tupl                      | Active listening ports            |
+| nslookup                           | DNS records for domain name       |
 | ping                               | Send ICMP echo request            |
 | wget                               | Download file                     |
 | wget -c                            | Continue paused download          |

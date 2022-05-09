@@ -30,15 +30,8 @@
 | Command | Description             |
 | ------- | ----------------------- |
 | chmod   | Change file permissions |
-| chown   | Change fiel ownership   |
-
-| Octal | Permission |
-| :---: | ---------- |
-| 4     | Read       |
-| 2     | Write      |
-| 1     | Execute    |
-
-Order: `owner`/`group`/`world`
+| chown   | Change file ownership   |
+| chgrp   | Change group ownership  |
 
 ## Archive & Compression
 
