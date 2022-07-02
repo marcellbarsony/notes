@@ -13,7 +13,6 @@
 |      6 | Read + Write           | rw-  |  rw-  |  rw-   |
 |      7 | Read + Write + Execute | rwx  |  rwx  |  rwx   |
 
-
 ### Notes
 
 1. SUID permission
