@@ -50,7 +50,6 @@ a=rdpcap("/path/to/file.pcap")
 | pkt.pdfdump()             | Draw a PDF                                           |
 | pkt.command()             | Return a Scapy command that can generate the packet  |
 
-
 ## Injecting bytes
 
 ```py
@@ -66,4 +65,10 @@ pkt = IP(len=RawVal(b"NotAnInteger"), src="127.0.0.1")
 | prn                       | Callback function for each captured packet           |
 | store                     | Store packets (T/F)                                  |
 
+## Examples
 
+Access packet's layer
+
+```py
+packet[scapy.layer_to_access]
+```
