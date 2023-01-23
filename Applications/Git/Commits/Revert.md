@@ -13,3 +13,16 @@ Revert to the most recent commit
 ```
 git revert HEAD
 ```
+
+## Restore file from previous commit
+
+Find the right commit hash (SHA1)
+```
+git log path/to/file
+```
+
+Check out file
+```
+git checkout <commit_hash> path/to/file
+```
+
