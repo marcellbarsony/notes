@@ -24,15 +24,24 @@ sudo su
 nmcli connection import type wireguard file /etc/wireguard/wg0.conf
 ```
 
-### Delete profile
-
-```sh
-nmcli connection delete wg0
-```
-
 ### Enable/Disable connection
 
 ```sh
 nmcli connection up wg0
 nmcli connection down wg0
+```
+
+### Delete profile
+
+```sh
+nmcli connection delete wg0
+nmcli device delete ipv6leakintrf0
+```
+
+### Autoconnect
+
+Prevent autoconnect
+
+```sh
+nmcli connection modify <profile> connection.autoconnect no
 ```
