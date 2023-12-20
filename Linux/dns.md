@@ -18,19 +18,23 @@ The glibc resolver reads `/etc/resolv.conf`.
 
 [NetworkManager - Unmanaged /etc/resolv.conf](https://wiki.archlinux.org/title/NetworkManager#Unmanaged_/etc/resolv.conf)
 
-Stop NetworkManager from touching `/etc/resolv.conf`
+Stop NetworkManager from modifying `/etc/resolv.conf`
 ```sh
-/etc/NetworkManager/conf.d/dns.conf
+# /etc/NetworkManager/conf.d/dns.conf
 
 [main]
 dns=none
 ```
 
-## Systemd
+## Service
 
-Service
+Systemd
 ```sh
+# Status
 stemctl status systemd-resolved.service
+
+# Start
+stemctl start systemd-resolved.service
 ```
 
 Config
@@ -38,20 +42,19 @@ Config
 systemd_resolved_service = "sudo systemctl start systemd-resolved.service"
 ```
 
-## Flush cache
+## Cache
 
-Systemd resolved
+Flush cache (Systemd resolved)
 ```sh
-sudo systemd-resolve --flush-caches"
+sudo systemd-resolve --flush-caches
 ```
 
-Firefox
-```
+Browsers
+```sh
+# Firefox
 about:networking#dns
-```
 
-Chromium
-```
+# Chromium
 chrome://net-internals/#dns
 ```
 
