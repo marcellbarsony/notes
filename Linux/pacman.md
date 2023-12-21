@@ -1,9 +1,14 @@
 ## Pacman
 
-`pacman-key --refresh-keys`
+```sh
+# Update GPG key database
+pacman-key --refresh-keys # Trusted keys only
+pacman-key --refresh # Untrusted keys
 
-`pacman-key --populate`
-`pacman-key --refresh`
+# Initialize GPG key database
+pacman-key --init
 
-`pacman-key --init`
-`pacman-key --populate archlinux`
+# Add GPG keys to local keyring
+pacman-key --populate archlinux # master signing keys
+pacman-key --populate # all keys
+```

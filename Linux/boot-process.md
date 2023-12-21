@@ -121,7 +121,7 @@ It is a good place to display your Terms of Service to remind users of your loca
 Once the user's shell is started, it will typically run a runtime configuration file, such as [bashrc](https://wiki.archlinux.org/title/Bash#Configuration_files), before presenting a prompt to the user.
 If the account is configured to Start X at login, the runtime configuration will call `startx` or `xinit`.
 
-## Gui
+## GUI
 
 [Xinit](https://wiki.archlinux.org/title/Xinit) (or [Wayland](https://wiki.archlinux.org/title/wayland)) runs the user's [xinitrc](https://wiki.archlinux.org/title/Xinit#xinitrc) runtime configuration file, which normally starts a window manager.
 When the user is finished and exits the window manager, xinit, startx, the shell, and login will terminate in that order, returning to getty.

@@ -1,8 +1,8 @@
 ## Installation
 
-[packettracer](https://aur.archlinux.org/packages/packettracer/) (AUR) cannot be installed using automated methods (e.g. AUR helper) as the software's tarball must be installed first before building the package.
-
 [[ArchWiki](https://wiki.archlinux.org/title/PacketTracer)]
+
+[packettracer](https://aur.archlinux.org/packages/packettracer/) <sup>(AUR)</sup> cannot be installed using automated methods (e.g. AUR helper) as the software's tarball must be installed first before building the package.
 
 ### 1. Acquire build files
 
@@ -19,8 +19,6 @@ git clone https://aur.archlinux.org/packettracer.git
 3. Place the _.deb_ file where the build files are located
 
 ### 3. Build & Install
-
-1. Make the package
 
 ```sh
 makepkg -si

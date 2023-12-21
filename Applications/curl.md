@@ -1,6 +1,6 @@
 ## Curl
 
-```
+```sh
 curl [Options] <url>
 ```
 
