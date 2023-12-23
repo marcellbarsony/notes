@@ -4,18 +4,23 @@
 [Rust - tuple](https://doc.rust-lang.org/std/primitive.tuple.html)
 
 - **Sequence:** Fixed-size
-- **Memory allocation:** Stack or heap
+- **Memory allocation:** Stack or Heap
 - **Data types:** Any type (heterogenous)
 - **Indexing syntax:** `.` operator
 
-## Destructuring
+## Declare
 
 ```rs
 let tup = ("Lorem ipsum", 100_000);
+```
 
-let (string, number) = tup;
+## Methods
 
-// Destructure by Index
+```rs
+// Indexing (starts at 0)
 let string = tup.0;
 let number = tup.1;
+
+// Destructuring
+let (string, number) = tup;
 ```

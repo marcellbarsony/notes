@@ -3,10 +3,12 @@
 [Rust By Example - Arrays and Slices](https://doc.rust-lang.org/rust-by-example/primitives/array.html)<br>
 [Rust - array](https://doc.rust-lang.org/std/primitive.array.html)<br>
 
-- Fixed-size sequence
+- **Sequence:** Fixed-size
 - **Memory allocation:** Stack
 - **Data types:** Same type
-- **Indexing syntax:** `.`
+- **Indexing syntax:** `.` operator
+
+## Declare
 
 ```rs
 // Repeat expression [expr; N]
@@ -21,7 +23,7 @@ let byte: [u8; 8] = [0, 1, 2, 3, 4, 5, 6, 7];
 ```rs
 let error_codes = [200, 404, 500];
 
-// Access by index (starts at 0)
+// Indexing (starts at 0)
 let not_found = error_codes[1];
 
 // Access by slice

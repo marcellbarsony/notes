@@ -4,6 +4,6 @@
 
 ## Ownership rules
 
-- Each value has an owner.
-- There can only be one owner at a time.
-- When the owner goes out of scope, the value will be dropped.
+1. Each value has an owner.
+2. There can only be one owner at a time.
+3. When the owner goes out of scope, the value will be dropped.

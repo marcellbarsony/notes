@@ -95,7 +95,6 @@ fn main() {
 }
 ```
 
-
 #### `expect`
 
 Call `panic!` with custom error message
