@@ -38,3 +38,7 @@ let sum  = x.unwrap_or(0) + y.unwrap_or(0);
 ## Match expression
 
 ## If-let syntax
+
+## Use
+
+[use](https://doc.rust-lang.org/stable/rust-by-example/custom_types/enum/enum_use.html)

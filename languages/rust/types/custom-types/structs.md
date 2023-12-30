@@ -1,5 +1,7 @@
 # Structs
 
+[Structs - Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/custom_types/structs.html)<br>
+
 Structs are a fundamental building block for creating custom data types<br>
 Structs are used to group related data together
 

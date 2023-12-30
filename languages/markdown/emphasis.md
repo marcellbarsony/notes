@@ -45,4 +45,3 @@ This text is ___bold and italic___ at the same time.
 ```html
 This text is <strong><em>bold and italic</strong></em> at the same time.
 ```
-

@@ -1,7 +1,5 @@
 ## Ordered list
 
-To create an ordered list, add a line items with numbers followed by periods.
-
 ```md
 1. First item
 2. Second item
@@ -29,12 +27,18 @@ To create an ordered list, add a line items with numbers followed by periods.
 
 ## Unordered list
 
-To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items
-
 ```md
 - First item
 - Second item
 - Third item
+
+* First item
+* Second item
+* Third item
+
++ First item
++ Second item
++ Third item
 ```
 
 ### HTML syntax

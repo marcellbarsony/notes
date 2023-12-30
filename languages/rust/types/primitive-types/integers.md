@@ -1,10 +1,4 @@
-# Data Types
-
-## Scalar
-
-### Integers
-
-#### Integer types
+# Integers
 
 | Length  | Signed | Unsigned |
 | ------- | ------ | -------- |
@@ -14,8 +8,6 @@
 | 64-bit  | i64    | u64      |
 | 128-bit | i128   | u128     |
 | arch    | isize  | usize    |
-
-#### Declaration
 
 ```rs
 let a: i32 = 98_222; // Decimal
@@ -51,22 +43,3 @@ let f: f64 = 2.0;
 let g: f32 = 3.0;
 ```
 
-### Booleans
-
-```rs
-let t: bool = true;
-let f: bool = false;
-```
-
-### Character
-
-```rs
-let c: char = 'a';
-```
-
-## Compound
-
-```rs
-// Tuple
-let tup: (&str, i32) = ("This is a string", 100_000);
-```

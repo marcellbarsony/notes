@@ -61,8 +61,3 @@ Blockquotes can contain other Markdown formatted elements. Note that not all ele
 > - This is the second unordered list item.
 >
 >  This text is _italic_ and **bold**.
-
-
-
-
-
