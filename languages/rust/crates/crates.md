@@ -1,0 +1,37 @@
+# Crates
+
+## Resources
+
+- [Crates.io -  Crate registry](https://crates.io/)
+- [Docs.rs - Crate documentation](https://docs.rs/)
+- [Lib.rs](https://lib.rs/)
+
+1. A package must have at least 1 crate
+2. A package can have either 0 or 1 library crates
+3. A package can have any number of binary crates
+
+## Dependencies
+
+Dependencies added to `Cargo.toml` are available globally to all modules.
+
+```toml
+// Cargo.toml
+[dependencies]
+module = "0.10.1"
+```
+
+```rs
+pub fn random_number() {
+  let random_number: u8 = rand::random();
+  println!("{}", random_number);
+}
+```
+
+```rs
+use rand::random;
+
+pub fn random_number() {
+  let random_number: u8 = random();
+  println!("{}", random_number);
+}
+```

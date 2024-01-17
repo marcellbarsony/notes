@@ -22,5 +22,3 @@ sudo mount -t ntfs-3g /dev/sdaX /mnt/windows
 sudo dislocker -v -V /dev/sdX -u -- /mnt/tmp
 sudo mount -o loop,rw /mnt/tmp/dislocker-file /media/dislocker/
 ```
-
-

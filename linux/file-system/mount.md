@@ -6,6 +6,14 @@ Get disk
 lsblk
 ```
 
+## Mount drive
+
+```sh
+sudo mount /dev/<drive_name> /mnt/<dir>
+```
+
+## LuksDrive
+
 Unlock drive
 
 ```sh

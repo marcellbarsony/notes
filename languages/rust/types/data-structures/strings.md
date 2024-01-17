@@ -83,6 +83,7 @@ It is similar to CStr but may have platform-specific limitations.
 ### OsString
 
 It is similar to Vec<u8> but is specifically designed for platform-specific strings.
+They are typically ised to represent file paths, environment variables, or other OS-related strings.
 
 - Storage: Heap
 - Ownership: Owned
