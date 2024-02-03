@@ -2,6 +2,9 @@
 
 The **Filesystem Hierarchy Standard** ([FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)) defines the directory structure and directory contents in Linux distributions.
 
+<!-- {{{ ## Directories -->
+## Directories
+
 | Directory        | Description                                                                                                                                                                                                                                                                                                          |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **/**            | Primary hierarchy root - Root directory of the entire file system hierarchy                                                                                                                                                                                                                                          |
@@ -43,7 +46,10 @@ The **Filesystem Hierarchy Standard** ([FHS](https://en.wikipedia.org/wiki/Files
 | /var/run         | Run-time variable data. This directory contains system information data describing the system since it was booted. In FHS 3.0, `/var/run` is replaced by `/run`; a system should either continue to provide a `/var/run` directory or provide a symbolic link from `/var/run` to `/run` for backwards compatibility. |
 | /var/spool       | [Spool](https://en.wikipedia.org/wiki/Spooling) for tasks waiting to be processed (e.g., print queues, outgoing e-mail queue).                                                                                                                                                                                       |
 | /var/tmp         | Temporary files to be preserved between reboots.                                                                                                                                                                                                                                                                     |
+<!-- }}} -->
 
+<!-- {{{ ## FHS compliance -->
 ## FHS compliance
 
 Most Linux distributions follow the **Filesystem Hierarchy Standard** and declare it their own policy to maintain FHS compliance.
+<!-- }}} -->

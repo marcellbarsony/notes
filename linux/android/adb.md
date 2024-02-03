@@ -2,7 +2,8 @@
 
 [Arch Wiki - Android Debug Bridge](https://wiki.archlinux.org/title/Android_Debug_Bridge)
 
-## Dependencies
+<!-- {{{ ## Installation -->
+## Installation
 
 ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/android-tools/) package
 
@@ -11,9 +12,12 @@ ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/a
 ```
 
 [lsusb(8)](https://man.archlinux.org/man/lsusb.8.en) is provided by [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/)
+<!-- }}} -->
 
+<!-- {{{ ## Usage -->
 ## Usage
 
+<!-- {{{ 1. Enable USB debugging on the phone -->
 1. Enable USB debugging on the phone
 
 **Settings > Developer options > USB debugging**
@@ -21,7 +25,9 @@ ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/a
 **Allow USB Debugging?** dialog should be presented when the device is physically connected.<br>
 Select **Always Allow**, then tap **OK**.<br>
 If the dialog was never presented, try **Settings > Developer Options > Revoke USB Debugging Authorizations**
+<!-- }}} -->
 
+<!-- {{{ 2. Figure out device IDs -->
 2. Figure out device IDs
 
 ```sh
@@ -31,7 +37,9 @@ Bus 004 Device 009: ID 04e8:6860 Samsung Electronics Co., Ltd Galaxy series, mis
 ...
 ```
 Where vendor id is **04e8** and product id is **6860**
+<!-- }}} -->
 
+<!-- {{{ 3. Add udev rules -->
 3. Add udev rules
 
 Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]` in the template
@@ -42,7 +50,9 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", MODE="0660", GROUP="adbusers", 
 SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]", SYMLINK+="android_adb"
 SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]", SYMLINK+="android_fastboot"
 ```
+<!-- }}} -->
 
+<!-- {{{ 4. Reload udev rules -->
 4. Reload udev rules
 
 udev automatically detects changes to rules files.<br>
@@ -54,7 +64,9 @@ Hot-pluggable devices, such as USB devices, have to be reconnected for the new r
  udevadm control --reload
  udevadm trigger
 ```
+<!-- }}} -->
 
+<!-- {{{ 5. Detect the device -->
 5. Detect the device
 
 ```sh
@@ -62,9 +74,12 @@ Hot-pluggable devices, such as USB devices, have to be reconnected for the new r
 List of devices attached
 RFCNC09BXGE     device
 ```
+<!-- }}} -->
+<!-- }}} -->
 
+<!-- {{{ ## Dumpsys -->
 ## Dumpsys
 
 [Android Developers - dumpsys](https://developer.android.com/tools/dumpsys)
 [ADB Shell - dumpsys](https://adbshell.com/commands/adb-shell-dumpsys)
-
+<!---->

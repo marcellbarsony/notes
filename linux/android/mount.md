@@ -6,17 +6,17 @@
 paru -S simple-mtpfs
 ```
 
-List devices
+1. List devices
 ```sh
 mtpfs -l
 ```
 
-Mount device to `/mnt/android`
+2. Mount device to `/mnt/android`
 ```sh
 sudo simple-mtpfs --device 1 /mnt/android
 ```
 
-Open directory with graphical file manager
+3. Open directory with graphical file manager
 ```sh
 sudo thunar /mnt/android
 ```

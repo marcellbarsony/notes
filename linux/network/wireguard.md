@@ -2,6 +2,9 @@
 
 [Arch Wiki - WireGuard](https://wiki.archlinux.org/title/WireGuard)
 
+<!-- {{{ ## Configuration -->
+## Configuration
+
 1. Switch to root
 
 ```sh
@@ -15,7 +18,9 @@ sudo su
 [root@arch] ls -al /etc/wireguard
 -rw-r--r-- 1 root root  337 Oct 23 18:00 wg0.conf
 ```
+<!-- }}} -->
 
+<!-- {{{ ## NetworkManager -->
 ## NetworkManager
 
 Manage WireGuard VPN connection with [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#Usage)
@@ -47,3 +52,4 @@ Prevent autoconnect
 ```sh
 nmcli connection modify <profile> connection.autoconnect no
 ```
+<!-- }}} -->

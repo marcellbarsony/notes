@@ -1,18 +1,23 @@
 # Mount
 
-Get disk
+<!-- {{{ ## Get disk -->
+## Get disk
 
 ```sh
 lsblk
 ```
+<!-- }}} -->
 
-## Mount drive
+<!-- {{{ ## Unencrypted -->
+## Unencrypted
 
 ```sh
 sudo mount /dev/<drive_name> /mnt/<dir>
 ```
+<!-- }}} -->
 
-## LuksDrive
+<!-- {{{ ## Encrypted -->
+## Encrypted
 
 Unlock drive
 
@@ -25,3 +30,4 @@ Mount drive
 ```sh
 sudo mount /dev/mapper/<drive_name> /mnt/<dir>
 ```
+<!-- }}} -->

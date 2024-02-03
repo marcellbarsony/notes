@@ -16,16 +16,15 @@
 ### Repository secrets
 
 1. [Settings](https://github.com/marcellbarsony/marcellbarsony.github.io/settings)
-2. Security > Secrets and variable > [Actions](https://github.com/marcellbarsony/marcellbarsony.github.io/settings/secrets/actions)
-3. [Actions secrets and variables](https://github.com/marcellbarsony/marcellbarsony.github.io/settings/secrets/actions)
-4. [New repository secrets](https://github.com/marcellbarsony/marcellbarsony.github.io/settings/secrets/actions/new)
-5. Name the secret `TOKEN` and paste the **PAT**
+2. Secrets and variable > [Actions](https://github.com/marcellbarsony/marcellbarsony.github.io/settings/secrets/actions)
+3. [New repository secrets](https://github.com/marcellbarsony/marcellbarsony.github.io/settings/secrets/actions/new)
+4. Name the secret `TOKEN` and paste the **PAT**
 
 ### GitHub Action
 
 1. [Actions](https://github.com/marcellbarsony/marcellbarsony.github.io/actions)
 2. [New workflow](https://github.com/marcellbarsony/marcellbarsony.github.io/actions/new)
-3. [set up a new worflow yourself]()
+3. set up a new worflow yourself
 4. Paste the following template script
 
 ```yml
@@ -56,7 +55,7 @@ jobs:
 ### Build and deployment
 
 1. Settings
-2. Code and automation > Pages
+2. Pages
 3. Build and deployment
 4. Source > **Deploy from a branch**
 5. Branch > **gh-pages**

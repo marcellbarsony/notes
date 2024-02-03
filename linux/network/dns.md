@@ -5,6 +5,7 @@
 
 The glibc resolver reads `/etc/resolv.conf`.
 
+<!-- {{{ ## Tools -->
 ## Tools
 
 ### [Bind9](https://github.com/isc-projects/bind9)
@@ -25,7 +26,9 @@ Stop NetworkManager from modifying `/etc/resolv.conf`
 [main]
 dns=none
 ```
+<!-- }}} -->
 
+<!-- {{{ ## Service -->
 ## Service
 
 Systemd
@@ -41,7 +44,9 @@ Config
 ```sh
 systemd_resolved_service = "sudo systemctl start systemd-resolved.service"
 ```
+<!-- }}} -->
 
+<!-- {{{ ## Cache -->
 ## Cache
 
 Flush cache (Systemd resolved)
@@ -57,7 +62,10 @@ about:networking#dns
 # Chromium
 chrome://net-internals/#dns
 ```
+<!-- }}} -->
 
+<!-- {{{ ## Security -->
 ## Security
 
 [DNSSEC](https://wiki.archlinux.org/title/DNSSEC)
+<!-- }}} -->
