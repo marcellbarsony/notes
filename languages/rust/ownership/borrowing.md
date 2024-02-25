@@ -22,4 +22,5 @@ Let’s recap what we’ve discussed about references:
 - References must always be valid.
 
 # Exclusive (Mutable)
+
 # Shared (Immutable)

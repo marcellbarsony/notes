@@ -17,7 +17,7 @@ let d: i32 = 0b1111_0000; // Binary
 let e: u8 = b'A'; // Byte (u8 only)
 ```
 
-#### Operations
+### Operations
 
 ```rs
 // Addition
@@ -36,10 +36,17 @@ let div: f64 = 56.7 / 32.3;
 let rem: i32 = 43 % 5;
 ```
 
+### Conversion
+
+```rs
+let a: u8 = 12;
+let b: u16 = 100;
+let c = a as u16 + b;
+```
+
 ### Floating-point numbers
 
 ```rs
 let f: f64 = 2.0;
 let g: f32 = 3.0;
 ```
-

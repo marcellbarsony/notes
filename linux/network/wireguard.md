@@ -14,8 +14,8 @@ sudo su
 2. Copy ProtonVPN [configuration](https://account.proton.me/u/0/vpn/WireGuard)
 
 ```sh
-[root@arch] cp /home/user/Downloads/vpn/wg0.conf /etc/wireguard
-[root@arch] ls -al /etc/wireguard
+cp /home/user/Downloads/wg0.conf /etc/wireguard
+ls -al /etc/wireguard
 -rw-r--r-- 1 root root  337 Oct 23 18:00 wg0.conf
 ```
 <!-- }}} -->

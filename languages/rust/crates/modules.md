@@ -1,5 +1,9 @@
 # Modules
 
+## Sources
+
+- [Medium - Rust modules and project structure](https://medium.com/codex/rust-modules-and-project-structure-832404a33e2e)
+
 ### Scenario 1
 
 Importing `config.rs` in `main.rs` (same directory)
@@ -140,7 +144,3 @@ fn hello() {
     println!{"Hello world"};
 }
 ```
-
-# Sources
-
-- [Medium - Rust modules and project structure](https://medium.com/codex/rust-modules-and-project-structure-832404a33e2e)
