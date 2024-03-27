@@ -15,7 +15,6 @@ sudo pacman -S zola
 zola init myblog
 ```
 
-
 ## Usage
 
 [Init](https://www.getzola.org/documentation/getting-started/cli-usage/#init)

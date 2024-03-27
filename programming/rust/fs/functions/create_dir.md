@@ -2,6 +2,8 @@
 
 ## create_dir
 
+[create_dir](https://doc.rust-lang.org/stable/std/fs/fn.create_dir.html)
+
 Create a new, empty directory
 
 ```rs
@@ -29,7 +31,7 @@ use std::fs;
 
 // Example 1
 match fs::create_dir("/path/to/dir") {
-    Ok(file) => file,
+    Ok(dir) => dir,
     Err(error) => panic!("[-] Cannot create directory {:?}", error),
 };
 
@@ -53,7 +55,7 @@ use std::fs;
 
 // Example 1
 match fs::create_dir("/path/to/dir") {
-    Ok(file) => file,
+    Ok(dir) => dir,
     Err(error) => panic!("[-] Cannot create directory {:?}", error),
 };
 

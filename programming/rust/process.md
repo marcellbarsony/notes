@@ -5,6 +5,8 @@
 ## Print stdout
 
 ```rs
+use std::process::Command;
+
 let output = Command::new("ls")
     .arg("-al")
     .output()
