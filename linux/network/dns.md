@@ -89,20 +89,18 @@ nmcli connection modify <connection_name> ipv6.method "disabled"
 
 - [ProtonVPN - Prevent IPv6 VPN Leaks](https://protonvpn.com/support/prevent-ipv6-vpn-leaks/)
 
-
 IPv6 traffic is disabled; any potential IPv6 traffic is routed to a black hole (null route) to ensure your device cannot make connections over IPv6.
-
 
 ### WebRTC
 
 - [BrowserLeaks - WebRTC](https://browserleaks.com/webrtc)
 
-Firefox
+#### Firefox
 
-To disable WebRTC in Firefox:
+To disable WebRTC in Firefox (`/* 7020: disable WebRTC (Web Real-Time Communication`)
 Type `about:config` in the address bar and press Enter.
 search bar, type `media.peerconnection.enabled` and to set its value to `false`.
 
-Chrome
+#### Chrome
 - [Chrome Store - WebRTC Network Limiter](https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia)
 <!-- }}}-->

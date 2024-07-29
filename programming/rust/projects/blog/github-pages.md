@@ -24,7 +24,7 @@
 
 1. [Actions](https://github.com/marcellbarsony/marcellbarsony.github.io/actions)
 2. [New workflow](https://github.com/marcellbarsony/marcellbarsony.github.io/actions/new)
-3. set up a new worflow yourself
+3. set up a new workflow yourself
 4. Paste the following template script
 
 ```yml

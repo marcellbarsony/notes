@@ -15,7 +15,7 @@ sudo btrfs subvolume list -p /home
 sudo btrfs subvolume delete </path/to/subvolume>
 
 # Example
-sudo btrfs subvolume list /home/.snapshots/1/snapshot
+sudo btrfs subvolume delete /home/.snapshots/1/snapshot
 ```
 
 Filesystem usage

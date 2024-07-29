@@ -5,7 +5,3 @@
 ## Usage
 
 ### Target
-
-Specifi target scope
-
-Settings > Project > Scope
