@@ -3,7 +3,6 @@
 ## Stage files
 
 Stage all files that have been modified.
-
 ```sh
 # Excluding new files
 git add .
@@ -17,7 +16,6 @@ git commit -A -m "Commit message"
 ## Reset & Revert
 
 Wipe all the changes on the local branch and replace them with the code from the main remote branch
-
 ```sh
 git reset --hard origin/main
 ```

@@ -8,11 +8,9 @@ A function is a block of reusable code that performs an action and returns an ex
 function function-name() {
   # Code goes here
 }
-```
 
-or
+# or
 
-```sh
 function-name() {
   # Code goes here
 }
@@ -29,12 +27,12 @@ hello
 ```
 
 Functions can call other functions
-
 ```sh
 hello() {
   echo "Hello!"
   now
 }
+
 now () {
   echo "It's $(date +%r)"
 }

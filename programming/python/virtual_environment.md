@@ -1,57 +1,44 @@
 # Virtual Environment
 
-A virutal environment is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a "system" Python, i.e., one which is installed as part of the operating system.
+A virutal environment is a Python environment such that the Python interpreter,
+libraries and scripts installed into it are isolated from those installed in other virtual environments,
+and (by default) any libraries installed in a "system" Python, i.e., one which is installed as part of the operating system.
 
 ## Initialize & Activate
 
-**Initialize venv**
-
 ```sh
+# Initialize venv
 python -m venv [project_dir]/[venv_name] --system-site-packages
-```
 
-**Activate venv**
-
-```sh
+# Activate venv
 source [project_dir]/[venv_name]/bin/activate
 ```
 
 ## Environment Info
 
-**Check active environment**
-
 ```sh
+# Check active environment
 which python
-```
 
-**List local (environment) packages**
-
-```sh
+# List local (environment) packages
 pip list --local
 ```
 
 ## Delete & Deactivate
 
-**Deactivate Environment**
-
 ```sh
+# Deactivate Environment
 deactivate
 ```
 
-**Delete Environment**
-
-Delete the environment folder
+To delete the virtual environment, simply delete the environment folder.
 
 ## Requirements
 
-**Generate Requirements**
-
-```
+```sh
+# Generate Requirements
 pip freeze > requirements.txt
-```
 
-**Install Requirements**
-
-```
+# Install Requirements
 pip install -r requirements.txt
 ```

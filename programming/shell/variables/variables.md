@@ -13,8 +13,7 @@ firstThreeLetters="ABC"
 _FIRST3LETTERS="ABC"
 ```
 
-**Example**
-
+Example
 ```sh
 MY_SHELL="bash"
 echo "I like the $VARIABLE_NAME shell"
@@ -53,7 +52,7 @@ Every variable is global by default.
 
 ```sh
 my_function() {
-	GLOBAL_VAR=1
+    GLOBAL_VAR=1
 }
 
 # GLOBAL_VAR is not available yet.

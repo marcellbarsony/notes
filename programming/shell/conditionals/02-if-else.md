@@ -1,12 +1,9 @@
-# If-Elif-Else Statement
+# If-Else Statement
 
 ## Syntax
 
 ```sh
 if [ condition-is-true ]
-then
-    command N
-elif [ condition-is-true ]
 then
     command N
 else
@@ -15,16 +12,12 @@ fi
 ```
 
 Example
-
 ```sh
 MY_SHELL="zsh"
 
 if [ "$MY_SHELL" = "bash" ]
 then
     echo "We're using the bash shell."
-elif [ "$MY_SHELL" = "fish" ]
-then
-    echo "We're using the fish shell."
 else
     echo "We're using some other shell."
 fi

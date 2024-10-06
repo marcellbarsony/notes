@@ -21,8 +21,7 @@ do
 done
 ```
 
-**Control the number of loops**
-
+Control the number of loops
 ```sh
 INDEX=1
 while [$INDEX -lt 6 ]
@@ -33,31 +32,27 @@ do
 done
 ```
 
-**Check user input**
-
+Check user input
 ```sh
 while [ "$CORRECT" != "y" ]
 do
-	read -p "Enter your name: " NAME
-	read -p "Is ${NAME} correct?" CORRECT
+    read -p "Enter your name: " NAME
+    read -p "Is ${NAME} correct?" CORRECT
 done
 ```
 
-**Read a file line-by-line**
-
-This example reads the fstab file line-by-line, printing the line number, following the actual line.
-
+Read a file line-by-line
 ```sh
+# This example reads the fstab file line-by-line, printing the line number, following the actual line.
 LINE_NUM=1
 while read LINE
 do
-	echo "${LINE_NUM}: ${LINE}"
-	((LINE_NUM++))
+    echo "${LINE_NUM}: ${LINE}"
+    ((LINE_NUM++))
 done < /etc/fstab
 ```
 
-**REad the output of a command, line-by-line**
-
+REad the output of a command, line-by-line
 ```sh
 grep xfs /etc/fstab | while read LINE
 do
@@ -68,7 +63,7 @@ FS_NUM=1
 grep xfs /etc/fstab | while read FS MP REST
 do
   echo "${FS_NUM}: file system: ${FS}"
-	echo "${FS_NUM}: mount point: ${MP}"
-	((FS_NUM++))
+    echo "${FS_NUM}: mount point: ${MP}"
+    ((FS_NUM++))
 done
 ```

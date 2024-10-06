@@ -10,7 +10,6 @@
 
 ### View settings
 
-
 ```sh
 localectl status
 ```

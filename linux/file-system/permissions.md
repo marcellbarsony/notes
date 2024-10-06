@@ -1,6 +1,5 @@
 # Permissions
 
-<!-- {{{ ## Octal permissions -->
 ## Octal permissions
 
 | Numeric | User  | Group | World |
@@ -33,5 +32,6 @@
 2. SGID permission
 3. Sticky bit
 
-[The Geek Diary](https://www.thegeekdiary.com/what-is-suid-sgid-and-sticky-bit/)
-<!-- }}} -->
+### Sources
+
+- [The Geek Diary](https://www.thegeekdiary.com/what-is-suid-sgid-and-sticky-bit/)

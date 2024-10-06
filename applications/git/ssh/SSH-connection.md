@@ -1,13 +1,11 @@
 # SSH connection
 
 Attempt to SSH to GitHub
-
 ```sh
 ssh -T git@github.com
 ```
 
 A warning like this should be visible:
-
 ```sh
 > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
 > RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
@@ -23,7 +21,6 @@ Verify that the fingerprint matches [GitHub's SSH public key fingerprints](https
 Change current working directory to the local project.
 
 List existing remotes in order to get the name of the remote we want to change.
-
 ```sh
 $ git remote -v
 > origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
@@ -31,7 +28,6 @@ $ git remote -v
 ```
 
 Change the remote's URL from HTTPS to SSH with the `git remote set-url` command
-
 ```sh
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```

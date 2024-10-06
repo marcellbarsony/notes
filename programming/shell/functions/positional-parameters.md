@@ -13,8 +13,7 @@ $2:"parameter2"
 $3:"parameter3"
 ```
 
-**Example**
-
+Example
 ```sh
 ./archive_user.sh elvis
 
@@ -30,6 +29,6 @@ passwd -l ${USER}
 tar cf /archives/${USER}.tar.gx /home/${USER}
 ```
 
-** All parameters**
+### All parameters
 
 Access all the positional parameters from `$1` to `$9` with `$@`

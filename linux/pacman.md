@@ -1,4 +1,4 @@
-## Pacman
+# Pacman
 
 ```sh
 # Update GPG key database

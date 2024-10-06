@@ -15,8 +15,7 @@ done
 - The second variable (`ITEM_2`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed again.
 - This happens for each itemn (`ITEM_N`) in the list.
 
-**Example**
-
+Example
 ```sh
 for COLOR in red green blue
 do
@@ -29,8 +28,7 @@ done
 # COLOR: blue
 ```
 
-**Example 2**
-
+Example 2
 ```sh
 COLORS="red green blue"
 
@@ -45,11 +43,9 @@ done
 # COLOR: blue
 ```
 
-**Example 3**
-
-Rename all files that end in _jpg_ by inserting today's date before the original filename.
-
+Example 3
 ```sh
+# Rename all files that end in _jpg_ by inserting today's date before the original filename.
 PICTURES=$(ls *jpg)
 DATE=$(date +%F)
 

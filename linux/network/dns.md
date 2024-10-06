@@ -5,7 +5,7 @@
 
 The glibc resolver reads `/etc/resolv.conf`.
 
-<!-- {{{ ## Tools -->
+<!-- ## Tools {{{ -->
 ## Tools
 
 ### NetworkManager
@@ -25,7 +25,7 @@ dns=none
 ### [ldns](https://github.com/NLnetLabs/ldns)
 <!-- }}} -->
 
-<!-- {{{ ## Service -->
+<!-- ## Service {{{ -->
 ## Service
 
 Systemd
@@ -46,7 +46,7 @@ systemd_resolved_service = "sudo systemctl start systemd-resolved.service"
 ```
 <!-- }}} -->
 
-<!-- {{{ ## Cache -->
+<!-- ## Cache {{{ -->
 ## Cache
 
 Flush cache 
@@ -66,13 +66,13 @@ chrome://net-internals/#dns
 ```
 <!-- }}} -->
 
-<!-- {{{ ## Security -->
+<!-- ## Security {{{ -->
 ## Security
 
 - [DNSSEC](https://wiki.archlinux.org/title/DNSSEC)
 <!-- }}} -->
 
-<!-- {{{ ## DNS Leaks -->
+<!-- ## DNS Leaks {{{ -->
 ## DNS Leaks
 
 ### Disable IPv6
@@ -102,5 +102,6 @@ Type `about:config` in the address bar and press Enter.
 search bar, type `media.peerconnection.enabled` and to set its value to `false`.
 
 #### Chrome
+
 - [Chrome Store - WebRTC Network Limiter](https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia)
 <!-- }}}-->
