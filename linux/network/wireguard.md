@@ -2,7 +2,7 @@
 
 [Arch Wiki - WireGuard](https://wiki.archlinux.org/title/WireGuard)
 
-<!-- ## Configuration {{{ -->
+<!-- Configuration {{{ -->
 ## Configuration
 
 1. Switch to root
@@ -20,7 +20,7 @@ ls -al /etc/wireguard
 ```
 <!-- }}} -->
 
-<!-- ## NetworkManager {{{ -->
+<!-- NetworkManager {{{ -->
 ## NetworkManager
 
 Manage WireGuard VPN connection with [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#Usage)

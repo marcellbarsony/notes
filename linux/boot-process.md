@@ -1,16 +1,18 @@
 # Boot process
 
-In order to boot Arch Linux, a Linux-capable [boot loader](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader) must be set up.
-The boot loader is responsible for loading the kernel and [initial ramdisk](https://wiki.archlinux.org/title/Arch_boot_process#initramfs) before initiating the boot process.
+In order to boot Arch Linux, a Linux-capable [boot loader](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
+must be set up. The boot loader is responsible for loading the kernel and [initial ramdisk](https://wiki.archlinux.org/title/Arch_boot_process#initramfs)
+before initiating the boot process.
 
-[[Arch Wiki - Arch boot process](https://wiki.archlinux.org/title/Arch_boot_process)]
+- [[Arch Wiki - Arch boot process](https://wiki.archlinux.org/title/Arch_boot_process)]
 
 ## System startup / Hardware initialization
 
 ### BIOS
 
 **BIOS** is the very first program (firmware) that is executed once the system is switched on.
-In most cases it is stored in flash memory in the motherboard itself and independent of the system storage.
+In most cases it is stored in flash memory in the motherboard itself and independent of the
+system storage.
 
 1. System switched on
 

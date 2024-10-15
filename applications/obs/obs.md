@@ -2,12 +2,12 @@
 
 ## Installation
 
+Install OBS Studio
 ```sh
-# OBS
-pacman -S obs-studio
+sudo pacman -S obs-studio
 ```
 
-### Pipewire audio capture
+### Pipewire Audio Capture
 
 - [PipeWire Audio Capture](https://obsproject.com/forum/resources/pipewire-audio-capture.1458/)
 - [Pipewire Audio Capture - GitHub](https://github.com/dimtpap/obs-pipewire-audio-capture)
