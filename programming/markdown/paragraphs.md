@@ -1,4 +1,4 @@
-## Paragraphs
+# Paragraphs
 
 Te create paragrapsh, use a blank line to separate one or more lines of text.
 

@@ -40,7 +40,6 @@
 ## Patching
 
 To patch the downloaded **YouTube APK**
-
 - Open **ReVanced Manager** from the app drawer
 - Go to the **Patcher** tab
 - Tap **Select an application**

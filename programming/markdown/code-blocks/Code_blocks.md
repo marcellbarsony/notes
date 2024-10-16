@@ -2,8 +2,8 @@
 
 ## Syntax
 
-Fenced code blocks are using three backticks (```) or three tildes (~~~), depending on the Markdown processor or editor.
-
+Fenced code blocks are using three backticks (```) or three tildes (~~~),
+depending on the Markdown processor or editor.
 ```
 {
   "firstName": "John",

@@ -1,15 +1,13 @@
-## Image
+# Image
 
 ## Relative path
 
 Specify the path of the image
-
 ```md
 ![alt text](./path/to/image.ext)
 ```
 
 If the picture is located at the same folder as the markdown file:
-
 ```md
 ![alt text](image.ext "Title")
 ```
@@ -27,7 +25,6 @@ If the picture is located at the same folder as the markdown file:
 ```
 
 HTML
-
 ```html
 <img src="https://server/path/to/image.ext" alt="network" class="inline" />
 ```

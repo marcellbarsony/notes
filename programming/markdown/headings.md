@@ -1,4 +1,4 @@
-## Headings
+# Headings
 
 To create a heading, add number signs (#) in front of a word or phrase.
 
@@ -13,7 +13,8 @@ To create a heading, add number signs (#) in front of a word or phrase.
 
 ## Alternate syntax
 
-Alternatively, on the line below the text, add any number of == characters for heading level 1 or -- characters for heading level 2.
+Alternatively, on the line below the text, add any number of == characters for
+heading level 1 or -- characters for heading level 2.
 
 ```
 Heading level 1
@@ -27,4 +28,5 @@ Heading level 2
 
 ## Best practices
 
-It is recommended to put a blank line before and after the heading, due to compatibility reasons.
+It is recommended to put a blank line before and after the heading, due to
+compatibility reasons.

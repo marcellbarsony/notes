@@ -1,8 +1,9 @@
-## Superscript
+# Superscript
 
 Some Markdown processors allows to use of **Subscript** and **Superscript**.
 
-To create a **superscript**, use one caret symbol (^) before and after the character.
+To create a **superscript**, use one caret symbol (^) before and after the
+character.
 
 ```
 X^2^

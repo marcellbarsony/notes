@@ -36,7 +36,6 @@ int main(void)
 ## Void
 
 The following function doesn't take any arguments and returns no value.
-
 ```c
 #include <stdio.h>
 

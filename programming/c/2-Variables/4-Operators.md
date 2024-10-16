@@ -1,6 +1,6 @@
 # Math
 
-### Arithmetic operators
+## Arithmetic operators
 
 ```c
 x + y // Addition
@@ -10,7 +10,7 @@ x / y // Division
 x % y // Modulus
 ```
 
-### Augmented assignment operators
+## Augmented assignment operators
 
 ```c
 x+=1; // x = x + 1;
@@ -20,7 +20,7 @@ x/=1; // x = x / 1;
 x%=1; // x = x % 1;
 ```
 
-### Math functions
+## Math functions
 
 ```c
 double A = sqrt(9);
@@ -35,11 +35,10 @@ double I = cos(45);
 double J = tan(45);
 ```
 
-### Ternary operators
+## Ternary operators
 
-Ternary operators are expressions whose value depends on the result of a conditional
-embedded in it.
-
+Ternary operators are expressions whose value depends on the result of a
+conditional embedded in it.
 ```c
 // If x > 10, add 17 to y. Otherwise add 37 to y.
 y += x > 10? 17: 37;

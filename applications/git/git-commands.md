@@ -15,12 +15,14 @@ git commit -A -m "Commit message"
 
 ## Reset & Revert
 
-Wipe all the changes on the local branch and replace them with the code from the main remote branch
+Wipe all the changes on the local branch and replace them with the code from the
+main remote branch
 ```sh
 git reset --hard origin/main
 ```
 
-Revert creates a new commit that undoes all the changes from the old commit to preserve history
+Revert creates a new commit that undoes all the changes from the old commit to
+preserve history
 ```sh
 # Undo a commit on the current branch
 git revert <commit_hash>

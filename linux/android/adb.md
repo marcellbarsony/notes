@@ -1,9 +1,9 @@
 # Android Debug Bridge
 
-[Arch Wiki - Android Debug Bridge](https://wiki.archlinux.org/title/Android_Debug_Bridge)<br>
-[Android](https://wiki.archlinux.org/title/Android)
+- [Arch Wiki - Android Debug Bridge](https://wiki.archlinux.org/title/Android_Debug_Bridge)<br>
+- [Android](https://wiki.archlinux.org/title/Android)
 
-<!-- {{{ Sources -->
+<!-- Sources {{{ -->
 ## Sources
 
 - [Android Developers - ADB](https://developer.android.com/tools/adb)
@@ -21,10 +21,11 @@
 - [YouTube - Change these settings](https://www.youtube.com/watch?v=qKC2tlsfBSg)
 <!-- }}} -->
 
-<!-- {{{ Installation -->
+<!-- Installation {{{ -->
 ## Installation
 
-ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/android-tools/) package
+ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/android-tools/)
+package
 
 ```sh
 sudo pacman -S android-tools usbutils
@@ -33,21 +34,23 @@ sudo pacman -S android-tools usbutils
 [lsusb(8)](https://man.archlinux.org/man/lsusb.8.en) is provided by [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/)
 <!-- }}} -->
 
-<!-- {{{ Setup -->
+<!-- Setup {{{ -->
 ## Setup
 
-<!-- {{{ 1. Enable USB debugging on the phone -->
+<!-- 1. Enable USB debugging on the phone {{{ -->
 ### 1. Enable USB debugging on the phone
 
-**Settings > Developer options > USB debugging**
+- **Settings > Developer options > USB debugging**
 
-**Allow USB Debugging?** dialog should be presented when the device is physically connected.<br>
-Select **Always Allow**, then tap **OK**.<br>
+- **Allow USB Debugging?** dialog should be presented when the device is
+  physically connected.<br>
+- Select **Always Allow**, then tap **OK**.<br>
+
 If the dialog was never presented, try **Settings > Developer Options > Revoke USB Debugging Authorizations**
 <!-- }}} -->
 
-<!-- {{{ 2. Figure out device IDs -->
-### 2. Figure out device IDs
+<!-- 2. Find the device IDs {{{ -->
+### 2. Find the device IDs
 
 ```sh
  lsusb
@@ -58,11 +61,11 @@ Bus 004 Device 009: ID 04e8:6860 Samsung Electronics Co., Ltd Galaxy series, mis
 Where vendor id is **04e8** and product id is **6860**
 <!-- }}} -->
 
-<!-- {{{ 3. Add udev rules -->
+<!-- 3. Add udev rules {{{ -->
 ### 3. Add udev rules
 
-Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]` in the template
-
+Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]` in the
+template
 ```
  sudoedit /etc/udev/rules.d/51-android.rules
 SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", MODE="0660", GROUP="adbusers", TAG+="uaccess"
@@ -71,13 +74,12 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]"
 ```
 <!-- }}} -->
 
-<!-- {{{ 4. Reload udev rules -->
+<!-- 4. Reload udev rules {{{ -->
 ### 4. Reload udev rules
 
-`udev` automatically detects changes to rules files.<br>
-However, the rules are not re-triggered automatically on already existing devices.<br>
-Hot-pluggable devices, such as USB devices, have to be reconnected for the new rules to take effect.
-
+`udev` automatically detects changes to rules files. However, the rules are not
+re-triggered automatically on already existing devices. Hot-pluggable devices,
+such as USB devices, have to be reconnected for the new rules to take effect.
 ```sh
  sudo su
  udevadm control --reload
@@ -85,7 +87,7 @@ Hot-pluggable devices, such as USB devices, have to be reconnected for the new r
 ```
 <!-- }}} -->
 
-<!-- {{{ 5. Detect the device -->
+<!-- 5. Detect the device {{{ -->
 ### 5. Detect the device
 
 ```sh
@@ -96,7 +98,7 @@ RFCNC09BXGE     device
 <!-- }}} -->
 <!-- }}} -->
 
-<!-- {{{ Pair & Connect -->
+<!-- Pair & Connect {{{ -->
 ## Pair & Connect
 
 Pair
@@ -110,7 +112,7 @@ adb connect <ip:port>
 ```
 <!-- }}} -->
 
-<!-- {{{ Packages -->
+<!-- Packages {{{ -->
 ## Packages
 
 [Call package manager (pm)](https://developer.android.com/tools/adb#pm)
@@ -142,7 +144,7 @@ adb shell "pm enable <package>"
 [reddit](https://www.reddit.com/r/GalaxyS9/comments/iv4p3n/adb_list_to_safely_disable_samsung_bloatware/)
 <!-- }}} -->
 
-<!-- {{{ Settings -->
+<!-- Settings {{{ -->
 ## Settings
 
 List settings
@@ -160,7 +162,7 @@ adb shell settings list system > adb_sys2.txt && adb shell settings list global 
 ```
 <!-- }}} -->
 
-<!-- {{{ Files -->
+<!-- Files {{{ -->
 ## Files
 
 [Copy files to and from a device](https://developer.android.com/tools/adb#copyfiles)
@@ -182,7 +184,7 @@ adb push ~/tmp/droid sdcard/DCIM/Camera/
 ```
 <!-- }}} -->
 
-<!-- {{{ Actions -->
+<!-- Actions {{{ -->
 ## Actions
 
 Notifications (send)
@@ -201,7 +203,7 @@ adb shell input keyevent 164
 ```
 <!-- }}} -->
 
-<!-- {{{ Dumpsys -->
+<!-- Dumpsys {{{ -->
 ## Dumpsys
 
 [Android Developers - dumpsys](https://developer.android.com/tools/dumpsys)

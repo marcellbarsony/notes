@@ -7,10 +7,10 @@ y--  // Decrement
 --y  // Pre-Decrement
 ```
 
-#### Pre-Increment
+## Pre-Increment
 
-The value is incremented first according to the precedence and then the less priority operations are done.
-
+The value is incremented first according to the precedence and then the less
+priority operations are done.
 ```c
 result = ++var;
 
@@ -18,10 +18,9 @@ result = ++var;
 var = var + 1;
 result = var;
 ```
-#### Post-Increment
+## Post-Increment
 
 The increment operation is performed after all the other operations are done.
-
 ```c
 result = var++;
 

@@ -1,6 +1,7 @@
-## Base syntax
+# Base syntax
 
-To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, add a pipe on either end of the row.
+To add a table, use three or more hyphens (---) to create each column’s header,
+and use pipes (|) to separate each column. For compatibility, add a pipe on either end of the row.
 
 ```md
 | Lorem | Ipsum | Dolor | Sit | Amet |
@@ -32,7 +33,8 @@ To add a table, use three or more hyphens (---) to create each column’s header
 
 ## Alignment
 
-The text can be aligned to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
+The text can be aligned to the left, right, or center by adding a colon (:) to
+the left, right, or on both side of the hyphens within the header row.
 
 ### Syntax
 
@@ -52,7 +54,8 @@ The text can be aligned to the left, right, or center by adding a colon (:) to t
 
 ## Escaping Pipe Characters in Tables
 
-You can display a pipe (|) character in a table by using its HTML character code (&#124;).
+You can display a pipe (|) character in a table by using its HTML character code
+(&#124;).
 
 ## Formatting text
 

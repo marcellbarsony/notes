@@ -1,4 +1,4 @@
-## Ordered list
+# Ordered list
 
 ```md
 1. First item

@@ -2,7 +2,7 @@
 
 The **Filesystem Hierarchy Standard** ([FHS](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)) defines the directory structure and directory contents in Linux distributions.
 
-<!-- {{{ ## Directories -->
+<!-- ## Directories {{{ -->
 ## Directories
 
 | Directory        | Description                                                                                                                                                                                                                                                                                                          |
@@ -48,8 +48,9 @@ The **Filesystem Hierarchy Standard** ([FHS](https://en.wikipedia.org/wiki/Files
 | /var/tmp         | Temporary files to be preserved between reboots.                                                                                                                                                                                                                                                                     |
 <!-- }}} -->
 
-<!-- {{{ ## FHS compliance -->
+<!-- ## FHS compliance {{{ -->
 ## FHS compliance
 
-Most Linux distributions follow the **Filesystem Hierarchy Standard** and declare it their own policy to maintain FHS compliance.
+Most Linux distributions follow the **Filesystem Hierarchy Standard** and
+declare it their own policy to maintain FHS compliance.
 <!-- }}} -->

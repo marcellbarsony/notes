@@ -1,7 +1,6 @@
 # Keyboard
 
 [Keyboard configuradion](https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration)
-
 ```sh
 /etc/X11/xorg.conf.d/00-keyboard.conf
 ```

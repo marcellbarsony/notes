@@ -1,4 +1,4 @@
-## Strikethrough
+# Strikethrough
 
 To strike through words, use two tile symbold (~~) before and after the words.
 

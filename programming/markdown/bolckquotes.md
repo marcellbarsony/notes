@@ -1,4 +1,4 @@
-## Blockquotes
+# Blockquotes
 
 To create a blockquote, add a > in front of a paragraph.
 
@@ -12,8 +12,8 @@ To create a blockquote, add a > in front of a paragraph.
 
 ## Blockquotes with multiple paragraphs
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
-
+Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines
+between the paragraphs.
 ```md
 > This is a paragraph.
 >
@@ -28,8 +28,8 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 
 ## Nested blockquotes
 
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
-
+Blockquotes can be nested. Add a `>>` in front of the paragraph you want to
+nest.
 ```md
 > This is a blockquote.
 >
@@ -42,8 +42,8 @@ Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest
 
 ## Blockquotes with other elements
 
-Blockquotes can contain other Markdown formatted elements. Note that not all elements are supported.
-
+Blockquotes can contain other Markdown formatted elements. Note that not all
+elements are supported.
 ```md
 > #### Header level 4
 >

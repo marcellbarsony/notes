@@ -1,23 +1,6 @@
-# Damn Vulnerable Web App (DVWA)
+# Configuration
 
-Ensure Network Adapter is set to **NAT**
-
-## Setup
-
-Clone the [repository](https://github.com/digininja/DVWA)
-```sh
-cd /var/www/html
-sudo git clone https://github.com/digininja/DVWA.git
-```
-
-Start Apache2
-```sh
-sudo service apache2 start
-```
-
-## Configuration
-
-### Config File
+## Config File
 
 Create a [config file](https://github.com/digininja/DVWA#configurations)
 ```sh
@@ -29,8 +12,7 @@ sudo cp config.inc.php.dist config.inc.php
 ```sh
 sudo service mariadb start
 ```
-
-### Database Setup
+## Database Setup
 
 Become root
 ```sh

@@ -1,6 +1,6 @@
 # Mount
 
-[Arch Wiki - Media Transfer Protocol](https://wiki.archlinux.org/title/Media_Transfer_Protocol#SIMPLE-MTPFS)
+- [Arch Wiki - Media Transfer Protocol](https://wiki.archlinux.org/title/Media_Transfer_Protocol#SIMPLE-MTPFS)
 
 ```sh
 paru -S simple-mtpfs
@@ -23,9 +23,9 @@ sudo dolphin /mnt/android
 
 ## Android File Transfer
 
-[Android File Transfer](https://wiki.archlinux.org/title/Media_Transfer_Protocol#Android_File_Transfer)
+- [Android File Transfer](https://wiki.archlinux.org/title/Media_Transfer_Protocol#Android_File_Transfer)
 
-https://whoozle.github.io/android-file-transfer-linux/ || android-file-transfer
+- [android-file-transfer](https://whoozle.github.io/android-file-transfer-linux/)
 
 Mount your device on ~/mnt:
 ```sh

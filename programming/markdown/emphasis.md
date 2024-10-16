@@ -1,4 +1,4 @@
-## Bold
+# Bold
 
 To bold text, add two asterisks (**) or underscores (__) befre and after a word or a phrase.
 

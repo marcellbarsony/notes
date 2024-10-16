@@ -1,9 +1,9 @@
 # Nushell
 
-[Arch Wiki](https://wiki.archlinux.org/title/Nushell)
-[GitHub](https://github.com/nushell/nushell)
-[Website](https://nushell.sh)
-[Website](https://nushell.sh)
+- [Arch Wiki](https://wiki.archlinux.org/title/Nushell)
+- [GitHub](https://github.com/nushell/nushell)
+- [Website](https://nushell.sh)
+- [Website](https://nushell.sh)
 
 <!-- Install {{{-->
 ## Install
@@ -26,6 +26,6 @@ cmd = "chsh -s /usr/bin/nu"
 ```
 <!-- }}} -->
 
-<!-- ## Limitations {{{ -->
+<!-- Limitations {{{ -->
 ## Limitations
 <!-- }}} -->

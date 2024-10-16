@@ -1,5 +1,6 @@
 # BTRFS
 
+<!-- Btrfs {{{ -->
 ## Btrfs
 
 [List snapshots (subvolumes)](https://wiki.archlinux.org/title/btrfs#Listing_subvolumes)
@@ -22,7 +23,9 @@ Filesystem usage
 ```sh
 sudo btrfs filesystem usage /
 ```
+<!-- }}} -->
 
+<!-- Snapper {{{ -->
 ## Snapper
 
 [Arch Wiki - Snapper](https://wiki.archlinux.org/title/Snapper)
@@ -49,3 +52,4 @@ sudo snapper -c home set-config <configuration>
 # Example
 sudo snapper -c home set-config "TIMELINE_CREATE=no"
 ```
+<!-- }}} -->

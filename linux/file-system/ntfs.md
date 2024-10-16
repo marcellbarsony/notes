@@ -12,11 +12,11 @@ sudo mount -t ntfs-3g /dev/sdaX /mnt/windows
 
 ## Bitlocker
 
-[dislocker](https://github.com/Aorimn/dislocker)<br>
+- [dislocker](https://github.com/Aorimn/dislocker)<br>
 
 ### Mount
 
-[Dislocker Wiki](https://github.com/Aorimn/dislocker/wiki/Mounting)<br>
+- [Dislocker Wiki](https://github.com/Aorimn/dislocker/wiki/Mounting)<br>
 
 ```sh
 sudo dislocker -v -V /dev/sdX -u -- /mnt/tmp

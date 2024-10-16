@@ -1,4 +1,4 @@
-## Highlight
+# Highlight
 
 Some Markdown processors allows text highlighting - GitHub does not!
 
@@ -14,7 +14,8 @@ These ==important words== must be highlighted.
 
 ## HTML syntax
 
-Alternatively, HTML tags (`<mark>`) can be used if the Markdown application supports them.
+Alternatively, HTML tags (`<mark>`) can be used if the Markdown application
+supports them.
 
 ```
 These <mark>important words</mark> must be highlighted.

@@ -18,12 +18,12 @@ switch (count) {
         break;
 }
 ```
+
 Switch statements accept `int` and `char` types only.
 
 ## Fall through
 
 If we don't `break` out of switch we are falling through.
-
 ```c
 int i = 1;
 
@@ -39,5 +39,5 @@ switch (i) {
         break;
 }
 ```
-If `i == 1`, this `switch` will first hit `case 1`, it'll print `1` and continues to the
-next line of code.
+If `i == 1`, this `switch` will first hit `case 1`, it'll print `1` and
+continues to the next line of code.

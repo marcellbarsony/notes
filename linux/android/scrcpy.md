@@ -1,7 +1,7 @@
 # SCRCPY
 
-[GitHub - scrcpy](https://github.com/Genymobile/scrcpy)
-[GitHub - scrcpy - connection.md](https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md)
+- [GitHub - scrcpy](https://github.com/Genymobile/scrcpy)
+- [GitHub - scrcpy - connection.md](https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md)
 
 ## Connection
 

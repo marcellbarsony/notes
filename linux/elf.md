@@ -1,8 +1,8 @@
 # ELF - Executable and Linkable Format
 
-Executable File Format (formerly Extensible Linking Format) is a standard file format for
-[executable](https://en.wikipedia.org/wiki/Executable) files, object code,
-[shared libraries](<https://en.wikipedia.org/wiki/Library_(computing)>)
+Executable File Format (formerly Extensible Linking Format) is a standard file
+format for [executable](https://en.wikipedia.org/wiki/Executable) files, object
+code, [shared libraries](<https://en.wikipedia.org/wiki/Library_(computing)>)
 and [core dumps](https://en.wikipedia.org/wiki/Core_dump).
 
 - [IBM](https://www.ibm.com/docs/en/ztpf/1.1.0.14?topic=linkage-executable-linking-format-elf)
@@ -15,15 +15,16 @@ and [core dumps](https://en.wikipedia.org/wiki/Core_dump).
 
 ## File layout
 
-Each ELF file is made up of one ELF header, followed by file data. The data can include:
-
+Each ELF file is made up of one ELF header, followed by file data. The data can
+include:
 - **Program header table**, describing zero or more memory segments
 - **Section header table**, describing zero or more sections
 - **Data** referred to by entries in the program header table or section header table
 
 ### Segments
 
-Segments contain information that is needed for [run time](<https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)>)
+Segments contain information that is needed for
+[run time](<https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)>)
 execution of the file.
 
 ### Sections
@@ -32,5 +33,5 @@ Sections contain data for linking and relocation.
 
 ## ELF Header
 
-The ELF file header is a structure that contains the metadata of the file.
-It defines whether to use 32- or 64-bit addresses.
+The ELF file header is a structure that contains the metadata of the file. It
+defines whether to use 32- or 64-bit addresses.

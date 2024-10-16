@@ -19,8 +19,8 @@ a >= b; // True if a >= b
 
 ## Sizeof operator
 
-The `sizeof` operator tells the size (in bytes) of a variable or data type uses in memory.
-
+The `sizeof` operator tells the size (in bytes) of a variable or data type uses
+in memory.
 ```c
 int x = 999;
 

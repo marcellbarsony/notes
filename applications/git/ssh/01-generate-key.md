@@ -34,10 +34,12 @@ ps aux | grep ssh-agent
 ```
 
 3. Add the SSH private key to the SSH agent.
-To add an existing key with a different name, replace `id_ed25519` in the command.
 ```sh
 ssh-add ~/.ssh/id_ed25519
 ```
+
+To add an existing key with a different name, replace `id_ed25519` in the
+command.
 
 ## Add public SSH key to GitHub account
 
@@ -47,7 +49,8 @@ ssh-add ~/.ssh/id_ed25519
 
 Settings **>** SSH and GPG keys **>** New SSH Key
 
-Paste the content of `~/.ssh/id_ed25519.pub`, click 'Add SSH key' and enter your GitHub password
+Paste the content of `~/.ssh/id_ed25519.pub`, click `Add SSH key` and enter the
+GitHub password
 
 ### CLI
 
