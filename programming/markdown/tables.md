@@ -1,8 +1,8 @@
 # Base syntax
 
 To add a table, use three or more hyphens (---) to create each column’s header,
-and use pipes (|) to separate each column. For compatibility, add a pipe on either end of the row.
-
+and use pipes (|) to separate each column. For compatibility, add a pipe on
+either end of the row.
 ```md
 | Lorem | Ipsum | Dolor | Sit | Amet |
 | ----- | ----- | ----- | --- | ---- |

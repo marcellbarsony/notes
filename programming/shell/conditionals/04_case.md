@@ -33,4 +33,5 @@ case "$1" in
 esac
 ```
 
-If the positional parameter (`$1`) equals to _start_, then `/usr/sbind/sshd` is executed.
+If the positional parameter (`$1`) equals to _start_, then `/usr/sbind/sshd` is
+executed.

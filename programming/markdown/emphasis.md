@@ -1,7 +1,7 @@
 # Bold
 
-To bold text, add two asterisks (**) or underscores (__) befre and after a word or a phrase.
-
+To bold text, add two asterisks (**) or underscores (__) befre and after a word
+or a phrase.
 ```md
 I just love **bold text**.
 ```
@@ -16,8 +16,8 @@ I just love <strong>bold text</strong>.
 
 ## Italic
 
-To italicize text, add one asterisk (*) or underscore (_) before and after a word or phrase.
-
+To italicize text, add one asterisk (*) or underscore (_) before and after a
+word or phrase.
 ```md
 I just love *italic text*.
 ```
@@ -32,8 +32,8 @@ I just love <em>italic text</em>.
 
 ## Bold and Italic
 
-To bold and italicize text at the same time, add three asterisk (***) or underscore (___) before and after a word or phrase.
-
+To bold and italicize text at the same time, add three asterisk (***) or
+underscore (___) before and after a word or phrase.
 ```md
 This text is ***bold and italic*** at the same time.
 ```

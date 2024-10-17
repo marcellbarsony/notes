@@ -1,4 +1,6 @@
-## Files
+# Files
+
+- [GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files)
 
 ## GitHub supported file formats
 
@@ -18,5 +20,3 @@
 - **10MB** for **videos** uploaded to a repository on a **free GitHub plan**
 - **100MB** for **videos** uploaded to a repository on a **paid GitHub plan**
 - **25MB** for **all other files**
-
-[[GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files)]

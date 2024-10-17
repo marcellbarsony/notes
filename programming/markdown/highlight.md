@@ -3,7 +3,6 @@
 Some Markdown processors allows text highlighting - GitHub does not!
 
 To highlight words, use two equal signs (==) before and after the words.
-
 ```
 These ==important words== must be highlighted.
 ```
@@ -16,7 +15,6 @@ These ==important words== must be highlighted.
 
 Alternatively, HTML tags (`<mark>`) can be used if the Markdown application
 supports them.
-
 ```
 These <mark>important words</mark> must be highlighted.
 ```

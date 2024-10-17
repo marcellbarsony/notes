@@ -26,5 +26,5 @@ If the picture is located at the same folder as the markdown file:
 
 HTML
 ```html
-<img src="https://server/path/to/image.ext" alt="network" class="inline" />
+<img src="https://server/path/to/image.ext" alt="network" class="inline"/>
 ```

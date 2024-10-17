@@ -1,12 +1,13 @@
 # Constants
 
 Constants are values that cannot be changed after they are declared.<br>
-Constants cannot be set as a return value of a function or any value calculated at runtime.
+Constants cannot be set as a return value of a function or any value calculated
+at runtime.
 
 ## Usage
 
-Constants are typically used in places where the value is known at compile-time, such as:
-
+Constants are typically used in places where the value is known at compile-time,
+such as:
 - Initializing variables
 - Defining struct fields
 - Passing values to functions

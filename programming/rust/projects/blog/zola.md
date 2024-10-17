@@ -36,4 +36,3 @@ zola check
 ```sh
 zola serve
 ```
-

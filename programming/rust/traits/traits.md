@@ -1,13 +1,13 @@
 # Traits
 
-[Traits-defining-shared-behavior - The Rust Book](https://doc.rust-lang.org/book/ch10-02-traits.html)<br>
+- [Traits-defining-shared-behavior - The Rust Book](https://doc.rust-lang.org/book/ch10-02-traits.html)<br>
 
-A Trait defines functionality a particular type has and can share with other types (share methods).
+A Trait defines functionality a particular type has and can share with other
+types (share methods).
 
 ## Define a Trait
 
 Define the `Summary` Trait with default implementation
-
 ```rs
 pub trait Summary {
     fn summarize(&self) -> String {
@@ -19,7 +19,6 @@ pub trait Summary {
 ## Implement a Trait
 
 Implement `Summary` Trait for `NewsArticle` Type
-
 ```rs
 pub struct NewsArticle {
     pub headline: String,

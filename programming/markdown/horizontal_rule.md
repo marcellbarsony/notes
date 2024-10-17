@@ -12,10 +12,6 @@ Syntax
 ___________________
 ```
 
-### Rendered output
-
-***
-
 ## Best practices
 
 For compatibility, put blank lines before and after horizontal rules.

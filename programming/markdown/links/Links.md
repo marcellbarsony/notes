@@ -1,4 +1,4 @@
-## Links
+# Links
 
 To create a link, enclose the link text in brackets and then follow it
 immediately with the URL in prentheses.

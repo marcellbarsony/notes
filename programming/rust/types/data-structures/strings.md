@@ -11,7 +11,8 @@ Strings are implemented as a collection of bytes.
 ### &str
 
 Rust has only one string type (`str`) in the core language.<br>
-A string slice is a reference to a portion of another string and it is usually seen in its borrowed form (`&str`).
+A string slice is a reference to a portion of another string and it is usually
+seen in its borrowed form (`&str`).
 
 - Storage: Stack
 - Ownership: Borrowed (read only)
@@ -83,7 +84,8 @@ It is similar to CStr but may have platform-specific limitations.
 ### OsString
 
 It is similar to Vec<u8> but is specifically designed for platform-specific strings.
-They are typically ised to represent file paths, environment variables, or other OS-related strings.
+They are typically ised to represent file paths, environment variables, or other
+OS-related strings.
 
 - Storage: Heap
 - Ownership: Owned
@@ -105,7 +107,8 @@ It can be constructed from raw strings or other Path objects.
 ### PathBuff
 
 A mutable buffer for building or modifying Path objects.<br>
-It provides efficient operations for adding, removing, and replacing segments of a path.
+It provides efficient operations for adding, removing, and replacing segments of
+a path.
 
 - Storage: Heap
 - Ownership: Owned

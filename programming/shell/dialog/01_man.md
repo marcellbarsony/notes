@@ -1,6 +1,7 @@
 ## Man
 
-dialog [[man](https://linux.die.net/man/1/dialog)] - display dialog boxes from shell scripts
+`dialog` [[man](https://linux.die.net/man/1/dialog)] - display dialog boxes from
+shell scripts
 
 ## Synopsis
 
@@ -12,13 +13,11 @@ dialog [[man](https://linux.die.net/man/1/dialog)] - display dialog boxes from s
 ## Installation
 
 **Arch-derived distributions**
-
 ```sh
 pacman -S dialog
 ```
 
 **Debian-derived distributions**
-
 ```sh
 apt-get install dialog
 ```
@@ -27,11 +26,13 @@ apt-get install dialog
 
 --ascii-lines
 
-> ather than draw graphics lines around boxes, draw ASCII "+" and "-" in the same place. See also "--no-lines".
+> ather than draw graphics lines around boxes, draw ASCII "+" and "-" in the
+same place. See also "--no-lines".
 
 --aspect ratio
 
-> This gives you some control over the box dimensions when using auto sizing (specifying 0 for height and width). It represents width / height. The default is 9, which means 9 characters wide to every 1 line high.
+> This gives you some control over the box dimensions when using auto sizing 
+specifying 0 for height and width). It represents width / height. The default is 9, which means 9 characters wide to every 1 line high.
 
 --backtitle backtitle
 

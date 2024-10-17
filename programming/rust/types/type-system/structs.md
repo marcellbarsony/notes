@@ -50,8 +50,8 @@ impl Person {
 
 ## Function constructors
 
-Constructors are creating objects (new struct instances) with the desired initial state
-
+Constructors are creating objects (new struct instances) with the desired
+initial state
 ```rs
 let user1 = create_user(
     email: String::from("mail@domain.com"),

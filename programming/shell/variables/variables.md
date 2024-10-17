@@ -39,8 +39,10 @@ echo "This script is running on ${SERVER_NAME}."
 
 **Single vs. double quotation marks**
 
-It's recommended to use single quotes when we want to make sure that nothing is changed in the output.<br>
-We have to use double quotes to evaluate variables between them and output the value of the variable.
+It's recommended to use single quotes when we want to make sure that nothing is
+changed in the output.<br>
+We have to use double quotes to evaluate variables between them and output the
+value of the variable.
 
 ## Variable scope
 

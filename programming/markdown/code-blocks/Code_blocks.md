@@ -1,4 +1,4 @@
-## Code blocks
+# Code blocks
 
 ## Syntax
 

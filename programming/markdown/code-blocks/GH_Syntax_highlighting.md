@@ -1,9 +1,11 @@
-## GitHub code syntax highlighting
+# GitHub code syntax highlighting
 
 GitHub is using [Linguist](https://github.com/github/linguist) to perform
-language detection and to select
-[third-party grammars](https://github.com/github/linguist/blob/master/vendor/README.md)
+language detection and to select [third-party grammars](https://github.com/github/linguist/blob/master/vendor/README.md)
 for syntax highlighting.
+
+- [GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+- [Markdown guide](https://www.markdownguide.org/extended-syntax/)
 
 ## Keywords
 
@@ -24,6 +26,3 @@ Highlight shell session command sequence with `console`:
 foo@bar:~$ whoami
 foo
 ```
-
-- [GitHub Docs](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
-- [Markdown guide](https://www.markdownguide.org/extended-syntax/)

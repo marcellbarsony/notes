@@ -23,4 +23,5 @@ do
 done
 ```
 
-If everything else than `1` and `2` is entered by the user, then the break statement is executed and ends the while loops.
+If everything else than `1` and `2` is entered by the user, then the break
+statement is executed and ends the while loops.

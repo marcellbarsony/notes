@@ -13,7 +13,6 @@
 ## Dependencies
 
 Dependencies added to `Cargo.toml` are available globally to all modules
-
 ```toml
 // Cargo.toml
 [dependencies]

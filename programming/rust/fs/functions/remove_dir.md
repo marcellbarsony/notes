@@ -44,7 +44,8 @@ Remove a non-empty directory
 
 ### Errors
 
-See [fs::remove_file](https://doc.rust-lang.org/stable/std/fs/fn.remove_file.html) and [fs::remove_dir](https://doc.rust-lang.org/stable/std/fs/fn.remove_dir.html)
+See [fs::remove_file](https://doc.rust-lang.org/stable/std/fs/fn.remove_file.html)
+and [fs::remove_dir](https://doc.rust-lang.org/stable/std/fs/fn.remove_dir.html)
 
 ### Example
 

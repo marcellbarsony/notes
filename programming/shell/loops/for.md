@@ -11,8 +11,10 @@ do
 done
 ```
 
-- The first variable (`ITEM_1`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed.
-- The second variable (`ITEM_2`) is assigned to the variable (`VARIABLE_NAME`) and the code block is executed again.
+- The first variable (`ITEM_1`) is assigned to the variable (`VARIABLE_NAME`)
+  and the code block is executed.
+- The second variable (`ITEM_2`) is assigned to the variable (`VARIABLE_NAME`)
+  and the code block is executed again.
 - This happens for each itemn (`ITEM_N`) in the list.
 
 Example

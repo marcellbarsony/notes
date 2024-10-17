@@ -2,7 +2,8 @@
 
 ## [ ]
 
-- Matches any of the characters included between the brackets. Matches exactly one character.
+- Matches any of the characters included between the brackets. Matches exactly
+  one character.
 - `[aeious]` - matches a one-character long filename that is a vowel
 - `ca[nt]`
   - can

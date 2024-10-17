@@ -12,9 +12,11 @@ use std:;fs::OpenOptions;
 
 Sets the option to create a new file, or open it if it already exists.
 
-In order for the file to be created, `OpenOptions::write` or `OpenOptions::append` access must be used.
+In order for the file to be created, `OpenOptions::write` or
+`OpenOptions::append` access must be used.
 
-See also `std::fs::write()` for a simple function to create a file with a given data.
+See also `std::fs::write()` for a simple function to create a file with a given
+data.
 
 ```rs
 let file = OpenOptions::new().write(true)

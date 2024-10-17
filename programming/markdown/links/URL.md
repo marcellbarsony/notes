@@ -1,4 +1,4 @@
-## URL
+# URL
 
 Turn a URL or e-mail address into a link.
 ```md

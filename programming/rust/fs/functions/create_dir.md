@@ -46,7 +46,8 @@ fs::create_dir("/path/to/dir");
 
 This function will return an error in the following situations:
 
-- If any directory in the path specified by path does not already exist and it could not be created otherwise
+- If any directory in the path specified by path does not already exist and it
+  could not be created otherwise
 
 ### Example
 

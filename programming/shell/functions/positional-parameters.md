@@ -1,6 +1,7 @@
 # Positional parameters
 
-Positional parameters are variables that contain the contents of the command line.
+Positional parameters are variables that contain the contents of the command
+line.
 
 ## Syntax
 

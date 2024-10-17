@@ -58,12 +58,12 @@ pkt = IP(len=RawVal(b"NotAnInteger"), src="127.0.0.1")
 
 ## Sniffing
 
-| Arguments                 | Effect                                               |
-| ------------------------- | ---------------------------------------------------- |
+| Arguments                 | Effect                                                                    |
+| ------------------------- | ------------------------------------------------------------------------- |
 | filter                    | Filter packets using [BPF syntax](https://www.biot.com/capstats/bpf.html) |
-| iface                     | Define interface                                     |
-| prn                       | Callback function for each captured packet           |
-| store                     | Store packets (T/F)                                  |
+| iface                     | Define interface                                                          |
+| prn                       | Callback function for each captured packet                                |
+| store                     | Store packets (T/F)                                                       |
 
 ## Examples
 

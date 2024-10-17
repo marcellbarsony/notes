@@ -1,6 +1,7 @@
 # Function
 
-A function is a block of reusable code that performs an action and returns an exit status.
+A function is a block of reusable code that performs an action and returns an
+exit status.
 
 ## Define a function
 
