@@ -5,7 +5,6 @@
 | Command                            | Description                       |
 | ---------------------------------- | --------------------------------- |
 | apropos                            | Search in Description             |
-| finger                             | User info                         |
 | hostname                           | hostname                          |
 | hostname -i                        | hostname IP                       |
 | last reboot                        | Last reboot                       |

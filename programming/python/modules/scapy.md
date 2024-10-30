@@ -22,11 +22,11 @@ Ether()/IP()/TCP()/UDP()
 
 ## Send packet
 
-`send()` - send packets at layer 3.
-`sendp()` - send packets at layer 2.
-`sr()` - send packets and receive answers.
-`sr1()` - return the answer packet.
-`srp()` - return layer 2 packet.
+- `send()` - send packets at layer 3.
+- `sendp()` - send packets at layer 2.
+- `sr()` - send packets and receive answers.
+- `sr1()` - return the answer packet.
+- `srp()` - return layer 2 packet.
 
 Return sent packet list by passing `return_packets=True`.
 
@@ -68,7 +68,6 @@ pkt = IP(len=RawVal(b"NotAnInteger"), src="127.0.0.1")
 ## Examples
 
 Access packet's layer
-
 ```py
 packet[scapy.layer_to_access]
 ```

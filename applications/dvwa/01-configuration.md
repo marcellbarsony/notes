@@ -2,24 +2,24 @@
 
 ## Config File
 
-Create a [config file](https://github.com/digininja/DVWA#configurations)
+1. Create a [config file](https://github.com/digininja/DVWA#configurations)
 ```sh
 cd DVWA/config
 sudo cp config.inc.php.dist config.inc.php
 ```
 
-[Database Setup](https://github.com/digininja/DVWA#database-setup)
+2. [Database Setup](https://github.com/digininja/DVWA#database-setup)
 ```sh
 sudo service mariadb start
 ```
 ## Database Setup
 
-Become root
+3. Become root
 ```sh
 sudo su
 ```
 
-Configure new database user
+4. Configure new database user
 ```sh
 mysql
 

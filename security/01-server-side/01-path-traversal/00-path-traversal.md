@@ -8,6 +8,28 @@ This might include:
 - Credentials for back-end systems
 - Sensitive operating system files
 
+<!-- Resources {{{ -->
+## Resources
+
+- [CVE-XXXX-XXXX](https://www.example.com/)
+
+<!-- }}} -->
+
+<!-- Description {{{ -->
+## Description
+
+
+
+<!-- }}} -->
+
+<!-- Impact {{{ -->
+## Impact
+
+
+
+<!-- }}} -->
+
+<!-- Exploitation {{{ -->
 ## Exploitation
 
 This application implements no defenses against path traversal attacks
@@ -24,3 +46,12 @@ This causes the application to read from the following path
 ```sh
 /var/www/images/../../../etc/passwd
 ```
+
+<!-- }}} -->
+
+<!-- Remediation {{{ -->
+## Remediation
+
+
+
+<!-- }}} -->

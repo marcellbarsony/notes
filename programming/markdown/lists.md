@@ -1,4 +1,7 @@
-# Ordered list
+# Lists
+
+<!-- Ordered list {{{ -->
+## Ordered list
 
 ```md
 1. First item
@@ -24,7 +27,9 @@
 2. Second item
 3. Third item
 4. Fourth item
+<!-- }}} -->
 
+<!-- Unordered list {{{ -->
 ## Unordered list
 
 ```md
@@ -56,3 +61,4 @@
 - First item
 - Second item
 - Third item
+<!-- }}} -->

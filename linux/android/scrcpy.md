@@ -5,7 +5,7 @@
 
 ## Connection
 
-[Wireless](https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md#tcpip-wireless) (WiFi)
+[Wireless connection](https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md#tcpip-wireless)
 ```sh
 scrcpy -e
 scrcpy --select-tcpip

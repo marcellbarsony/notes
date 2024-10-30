@@ -9,7 +9,8 @@
 - [Toyfox CSS](https://mrotherguy.github.io/ToyfoCSS/)
 - [Userchrome](https://www.userchrome.org/)
 
-## Live debugging theme
+## Live debugging a theme
 
-1. Allow `Enable remote debugging` from the *Web Developer Tools* settings
-2. `More tools` > `Browser Toolbox`
+1. Allow `Enable remote debugging` from the Web Developer Tools* settings
+2. Allow `Enable browser chrome and add-on debugging toolboxes` from the Web Developer Tools* settings
+3. `More tools` > `Browser Toolbox`

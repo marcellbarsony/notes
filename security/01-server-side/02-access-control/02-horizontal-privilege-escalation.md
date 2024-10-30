@@ -7,3 +7,38 @@ resources belonging to another user
 ```
 https://insecure-website.com/myaccount?id=123
 ```
+
+<!-- Resources {{{ -->
+## Resources
+
+- [CVE-XXXX-XXXX](https://www.example.com/)
+
+<!-- }}} -->
+
+<!-- Description {{{ -->
+## Description
+
+
+
+<!-- }}} -->
+
+<!-- Impact {{{ -->
+## Impact
+
+
+
+<!-- }}} -->
+
+<!-- Exploitation {{{ -->
+## Exploitation
+
+
+
+<!-- }}} -->
+
+<!-- Remediation {{{ -->
+## Remediation
+
+
+
+<!-- }}} -->

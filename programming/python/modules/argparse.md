@@ -1,6 +1,8 @@
-# Parse command line options
-# https://docs.python.org/3/library/argparse.html
+# Arparse
 
+- [Parse command line options](https://docs.python.org/3/library/argparse.html)
+
+```py
 import argparse
 
 # Initialize
@@ -19,3 +21,4 @@ parser.add_argument('-v', '--verbose',
 args = parser.parse_args()
 # Print arguments
 print(args.filename, args.count, args.verbose)
+```

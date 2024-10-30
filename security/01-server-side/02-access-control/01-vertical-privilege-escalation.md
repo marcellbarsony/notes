@@ -3,7 +3,7 @@
 If a user can gain access to functionality that they are not permitted to access
 then this is vertical privilege escalation.
 
-### Unprotected functionality
+## Unprotected functionality
 
 Sensitive website functionality is exposed
 ```
@@ -15,7 +15,7 @@ Administrative URLs might be exposed in `robots.txt`
 https://insecure-website.com/robots.txt
 ```
 
-### Parameter-based access control methods
+## Parameter-based access control methods
 
 Some applications determine the user's access rights or role at login, and then
 store this information in a user-controllable location:

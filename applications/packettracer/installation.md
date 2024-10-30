@@ -6,14 +6,14 @@
 cannot be installed using automated methods (e.g. AUR helper) as the software's
 tarball must be installed first before building the package.
 
-## 1. Acquire build files
+## 1. Build files
 
 Clone PacketTracer's git repository
 ```sh
 git clone https://aur.archlinux.org/packettracer.git
 ```
 
-## 2. Acquire PacketTracer deb package
+## 2. PacketTracer deb package
 
 1. Log into [Cisco Networking Academy](https://www.netacad.com/)
 2. Download Packet Tracer from _Resources_ > [Download Packet Tracer](https://www.netacad.com/portal/resources/packet-tracer)

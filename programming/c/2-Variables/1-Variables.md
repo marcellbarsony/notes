@@ -3,9 +3,9 @@
 Variable names can contain characters in the range [A-Z][0-9] and underscores.
 
 Variables cannot start with
-- a digit 0-9.
-- two underscores.
-- an underscore followed by a capital A-Z.
+- a digit 0-9
+- two underscores
+- an underscore followed by a capital A-Z
 
 ### Declaration & Initialization
 

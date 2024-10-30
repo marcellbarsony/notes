@@ -63,12 +63,13 @@ change `DEF BufferSize = 4096` in `netfilterqueue.pyx`, and rebuild.
 
 Not all information available from libnetfilter_queue is exposed:
 missing pieces include packet input/output network interface names, checksum
-offload flags, UID/GID and security context data associated with the packet (if any).
+offload flags, UID/GID and security context data associated with the packet
+(if any).
 
-Not all information available from the kernel is even processed by libnetfilter_queue:
-missing pieces include additional link-layer header data for some packets
-*including VLAN tags), connection-tracking state, and incoming packet length
-(if truncated for queueing).
+Not all information available from the kernel is even processed by
+libnetfilter_queue: missing pieces include additional link-layer header data
+for some packets (including VLAN tags), connection-tracking state, and incoming
+packet length (if truncated for queueing).
 
 We do not expose the libnetfilter_queue interface for changing queue flags.
 Most of these pertain to other features we don’t support (listed above), but

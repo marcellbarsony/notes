@@ -26,7 +26,8 @@ trust or block IPs / domains) for a given app.
 
 Exclude removes the app from Rethink's network namespace (tunnel) and so the
 app's requests are not monitored nor mucked with by Rethink at all. For example,
-some Chromecast apps don't like Rethink's tunnel... and need to be Excluded to work.
+some Chromecast apps don't like Rethink's tunnel... and need to be Excluded to
+work.
 
 ### If so, what should I toggle on for apps, bypass or exclude?
 

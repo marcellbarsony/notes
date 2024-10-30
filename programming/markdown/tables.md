@@ -31,6 +31,7 @@ either end of the row.
 | Header    | Title       |
 | Paragraph | Text        |
 
+<!-- Alignment {{{ -->
 ## Alignment
 
 The text can be aligned to the left, right, or center by adding a colon (:) to
@@ -51,6 +52,7 @@ the left, right, or on both side of the hyphens within the header row.
 | :-------- | :---------: | ----------: |
 | Header    |    Title    | Here's this |
 | Paragraph |    Text     |    And more |
+<!-- }}} -->
 
 ## Escaping Pipe Characters in Tables
 
