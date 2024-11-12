@@ -1,4 +1,4 @@
-# Pre-Incement & Post-Incement
+# Pre-Increment & Post-Increment
 
 ```c
 x++  // Increment
@@ -18,6 +18,7 @@ result = ++var;
 var = var + 1;
 result = var;
 ```
+
 ## Post-Increment
 
 The increment operation is performed after all the other operations are done.

@@ -1,11 +1,9 @@
 # Functions
 
-## Definition
+Functions can accept a variety of predeclared arguments and a return value.
+A function parameter is a local variable into which the arguments are copied.
 
-- This function accepts an `int` as argument.
-- The argument is stored (copy) in the parameter `n`.
-- This function returns an `int`.
-
+<!-- Example {{{ -->
 ```c
 #include <stdio.h>
 
@@ -13,6 +11,7 @@ int plus_one(int n) {
     return n + 1;
 }
 ```
+<!-- }}} -->
 
 ## Main
 
@@ -20,8 +19,8 @@ int plus_one(int n) {
 
 ### Command line parameters
 
-- `argc`: The number of command line parameters.
-- `argv`: Parameters as an array of strings.
+- `argc`: The number of command line parameters
+- `argv`: Parameters as an array of strings
 
 ```c
 int main(int argc, char *argv[])
@@ -47,7 +46,3 @@ int main(void) {
     hello();
 }
 ```
-
-## Variadic functions
-
-TODO: 2.20.2 Variadic Functions

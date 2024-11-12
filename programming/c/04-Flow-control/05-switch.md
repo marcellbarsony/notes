@@ -1,5 +1,7 @@
 # Switch statement
 
+In C, a switch statement allows you to execute different blocks of code
+based on the value of an expression.
 ```c
 int count = 2;
 
@@ -19,7 +21,11 @@ switch (count) {
 }
 ```
 
-Switch statements accept `int` and `char` types only.
+- Switch statements accept `int` and `char` types only
+- Every `case`, including `default`, is optional
+- Cases can occur in any order
+- `case` can only accept `int` and `enum` types
+- `case` cannot accept relational conditionals (`<`, `>=`)
 
 ## Fall through
 

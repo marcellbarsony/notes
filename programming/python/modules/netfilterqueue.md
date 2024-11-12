@@ -11,7 +11,7 @@ have:
 
 - A C compiler
 - Python development files
-- Libnetfilter_queue development files and associated dependecies
+- Libnetfilter_queue development files and associated dependencies
 
 ```sh
 pip install NetfilterQueue
@@ -58,7 +58,7 @@ The fields are:
 
 We use a fixed-size 4096-byte buffer for packets, so you are likely to see
 truncation on loopback and on Ethernet with jumbo packets. If this is a problem,
-either lower the MTU on your loopback, disable jumbo packets, or get Cython,
+either lower the MTU on your loopback, disable jumbo packets, or get Python,
 change `DEF BufferSize = 4096` in `netfilterqueue.pyx`, and rebuild.
 
 Not all information available from libnetfilter_queue is exposed:

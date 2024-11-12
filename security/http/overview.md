@@ -1,15 +1,17 @@
 # Overview
 
-HTTP is a stateless (but not sessionless) application layer protocol that is sent over [TCP](https://developer.mozilla.org/en-US/docs/Glossary/TCP),
-or over a [TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS)-encrypted TCP connection.
+HTTP is a stateless (but not sessionless) application layer protocol that is
+sent over [TCP](https://developer.mozilla.org/en-US/docs/Glossary/TCP),
+or over a [TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS)-encrypted
+TCP connection.
 
 <!-- Componets of HTTP-based systems{{{ -->
 ## [Componets of HTTP-based systems](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#components_of_http-based_systems)
 
 ### [Client: The user-agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#client_the_user-agent)
 
-The user-agent is any tool that acts on behalf of the user - this role is primarily
-performed by the Web browser.
+The user-agent is any tool that acts on behalf of the user - this role is
+primarily performed by the Web browser.
 
 ### [The Web Server](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#the_web_server)
 
@@ -19,10 +21,11 @@ The Web Server serves the document as requested by the client.
 
 Between the Client and the Server, numerous computers relay the HTTP messages.
 
-- **Transparent proxies** forward the requests they receive without altering them in any way.
+- **Transparent proxies** forward the requests they receive without altering
+them in any way.
 
-- **Non-transparent proxies** will change the requests in some way before passing it along
-to the Server.
+- **Non-transparent proxies** will change the requests in some way before
+passing it along to the Server.
 
 Proxies may perform numerous functions:
 - **Caching** - the cache can be public or private, like the browser cache
@@ -35,9 +38,9 @@ Proxies may perform numerous functions:
 <!-- HTTP flow{{{ -->
 ## [HTTP flow](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_flow)
 
-1. **Open a TCP connection**: The TCP connection is used to send requests, and receive a
-   response. The client may open a new connection, reuse an existing connection, or open
-   several connections to the servers.
+1. **Open a TCP connection**: The TCP connection is used to send requests, and
+   receive a response. The client may open a new connection, reuse an existing
+   connection, or open several connections to the servers.
 
 2. **Send a HTTP message**:
 
@@ -66,9 +69,9 @@ Content-Type: text/html
 
 ### HTTP pipelining
 
-If HTTP pipelining is activated, several requests can be sent without waiting for the
-first response to be fully received. HTTP pipelining has been superseded in HTTP/2 with more
-robust multiplexing requests within a frame. 
+If HTTP pipelining is activated, several requests can be sent without waiting
+for the first response to be fully received. HTTP pipelining has been
+superseded in HTTP/2 with more robust multiplexing requests within a frame. 
 <!--}}}-->
 
 <!-- What can be controlled by HTTP{{{-->

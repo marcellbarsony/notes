@@ -1,4 +1,4 @@
-# Boolean
+# Boolean types
 
 In C, `0` means `false` and non-zero means `true`
 ```c

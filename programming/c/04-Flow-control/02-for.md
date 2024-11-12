@@ -1,5 +1,7 @@
 # For loop
 
+In C, a for loop repeatedly executes a block of code a specific number of time,
+based on an initializer, a condition, and an increment expression.
 ```c
 for (initialization; condition; increment/decrement) {
     // code to be executed
@@ -15,6 +17,11 @@ for (i = 0; i < 5; i++) {
 
 ## For vs. While
 
+In C, both for and while loops allow you to repeat code, but they have
+different typical use cases:
+
+- **for** loop, if the number of iterations known ahead of time
+- **while** loop, if the number of iterations isn't known ahead of time
 ```c
 // Print numbers between 0 and 9 (inclusive)
 int i = 0;
