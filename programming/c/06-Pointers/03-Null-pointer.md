@@ -15,5 +15,5 @@ int *p = NULL;
 *p = 12;  // Undefined behavior
 ```
 
-The pointer points to garbage unless you explicitly assign it to point to an
+The pointer points to garbage unless explicitly assigned to point to an
 address or `NULL`

@@ -17,7 +17,7 @@ for (i = 0; i < 5; i++) {
 
 ## For vs. While
 
-In C, both for and while loops allow you to repeat code, but they have
+In C, both `for` and `while` loops allow code to be repeated, but they have
 different typical use cases:
 
 - **for** loop, if the number of iterations known ahead of time

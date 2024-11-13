@@ -15,7 +15,8 @@ char s[14] = "Hello, world!"; // Set size
 char s[] = "Hello, world!"; // Set size automatically
 ```
 
-We can use either array or pointer notation to access characters or loop over
+Either array or pointer notation can be used to access characters or to loop
+over them
 ```c
 #include <stdio.h>
 

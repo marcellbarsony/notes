@@ -2,6 +2,7 @@
 
 Pointers (just like every single argument) are also getting copied into
 function parameters and the function then uses the copy of the argument(s).
+
 ```c
 #include <stdio.h>
 
@@ -28,8 +29,9 @@ point to the same address. Dereferencing either will modify the original
 variable (`int i`).
 
 This can be written more concisely
+
 ```c
 printf("i is %d\n", i);  // prints "10"
 increment(&i);
-printf("i is %d\n", i);  // prints "11"
+printf("i is %d\n", i);  // prints "11"!
 ```

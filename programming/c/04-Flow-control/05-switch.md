@@ -1,6 +1,6 @@
 # Switch statement
 
-In C, a switch statement allows you to execute different blocks of code
+In C, a `switch` statement allows different blocks of code to be executed
 based on the value of an expression.
 ```c
 int count = 2;
@@ -29,7 +29,8 @@ switch (count) {
 
 ## Fall through
 
-If we don't `break` out of switch we are falling through.
+If a `switch` lacks a `break`, execution continues to the next case, resulting a
+fall-through.
 ```c
 int i = 1;
 
