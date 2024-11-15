@@ -14,7 +14,7 @@ int x[12];  // 12 ints
 printf("%zu\n", sizeof x);     // 48 total bytes
 printf("%zu\n", sizeof(int));  // 4 bytes per int
 
-printf("%zu\n", sizeof x / sizeof(int));  // 48/4 = 12 ints!
+printf("%zu\n", sizeof x / sizeof(int));  // 48/4 = 12 ints
 ```
 
 - The array consists of 12 integers
@@ -24,7 +24,7 @@ The size of an array with a fixed number of elements can also be obtained
 without declaring the array.
 
 ```c
-sizeof(double [48]); // 384
+sizeof(double [48]); // "384"
 ```
 
 ## Array of characters
