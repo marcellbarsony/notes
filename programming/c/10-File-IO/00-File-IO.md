@@ -2,6 +2,8 @@
 
 ## The `FILE*` data type
 
-Doing any kind of I/O in C is done through a piece of data ina form of a `FILE*`
-type. This `FILE*` holds all the information needed to communicate with the I/O
-subsystem.
+In C, doing any kind of I/O is done through a piece of data
+in a form of a `FILE*` type. This `FILE*` holds all the information needed
+to communicate with the I/O subsystem (opened file, position, etc).
+
+These streams are usually categorized as text and binary.
