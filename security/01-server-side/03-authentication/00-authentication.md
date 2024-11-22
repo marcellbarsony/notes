@@ -3,35 +3,35 @@
 Authentication vulnerabilities can allow attackers to gain access to sensitive
 data and functionality.
 
-<!-- Resources {{{ -->
+<!-- Resources {{{-->
 ## Resources
 
 - [CVE-XXXX-XXXX](https://www.example.com/)
 
 <!-- }}} -->
 
-<!-- Description {{{ -->
+<!-- Description {{{-->
 ## Description
 
 
 
 <!-- }}} -->
 
-<!-- Impact {{{ -->
+<!-- Impact {{{-->
 ## Impact
 
 
 
 <!-- }}} -->
 
-<!-- Exploitation {{{ -->
+<!-- Exploitation {{{-->
 ## Exploitation
 
 
 
 <!-- }}} -->
 
-<!-- Remediation {{{ -->
+<!-- Remediation {{{-->
 ## Remediation
 
 

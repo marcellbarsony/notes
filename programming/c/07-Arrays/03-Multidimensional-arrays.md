@@ -8,7 +8,7 @@ int b[2][7];
 int c[4][5][6];
 ```
 
-These are storyed in memory in a [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order):
+These are stored in memory in a [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order):
 In a 2D array, the first index indicates the row and the second the column.
 
 ## Initializers on multidimensional arrays

@@ -1,6 +1,6 @@
 # Lists
 
-<!-- Ordered list {{{ -->
+<!-- Ordered list {{{-->
 ## Ordered list
 
 ```md
@@ -29,7 +29,7 @@
 4. Fourth item
 <!-- }}} -->
 
-<!-- Unordered list {{{ -->
+<!-- Unordered list {{{-->
 ## Unordered list
 
 ```md

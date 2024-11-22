@@ -1,6 +1,6 @@
 # Structs
 
-In C, `struct` is a user-definable, composit data type that groups together
+In C, `struct` is a user-definable, composite data type that groups together
 variables under a single name, allowing different data types to be organized in
 a single unit.
 
@@ -16,11 +16,11 @@ struct car {
     int speed;
 };
 ```
-Declare uninitalized variable `saturn` of type `struct saturn`
+Declare uninitialized variable `saturn` of type `struct saturn`
 ```c
 struct car saturn;
 ```
-Declare ininitalized variables and access them
+Declare initialized variables and access them
 ```c
 saturn.name = "Saturn SL/2";
 saturn.price = 15999.99;

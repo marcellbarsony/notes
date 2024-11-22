@@ -7,35 +7,35 @@ action that they are attempting to perform.
 - **Session management** identifies which subsequent HTTP requests are being made
   by that same user.
 
-<!-- Resources {{{ -->
+<!-- Resources {{{-->
 ## Resources
 
 - [CVE-XXXX-XXXX](https://www.example.com/)
 
 <!-- }}} -->
 
-<!-- Description {{{ -->
+<!-- Description {{{-->
 ## Description
 
 
 
 <!-- }}} -->
 
-<!-- Impact {{{ -->
+<!-- Impact {{{-->
 ## Impact
 
 
 
 <!-- }}} -->
 
-<!-- Exploitation {{{ -->
+<!-- Exploitation {{{-->
 ## Exploitation
 
 
 
 <!-- }}} -->
 
-<!-- Remediation {{{ -->
+<!-- Remediation {{{-->
 ## Remediation
 
 

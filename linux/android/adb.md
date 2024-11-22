@@ -3,7 +3,7 @@
 - [Arch Wiki - Android Debug Bridge](https://wiki.archlinux.org/title/Android_Debug_Bridge)<br>
 - [Android](https://wiki.archlinux.org/title/Android)
 
-<!-- Sources {{{ -->
+<!-- Sources {{{-->
 ## Sources
 
 - [Android Developers - ADB](https://developer.android.com/tools/adb)
@@ -21,7 +21,7 @@
 - [YouTube - Change these settings](https://www.youtube.com/watch?v=qKC2tlsfBSg)
 <!-- }}} -->
 
-<!-- Installation {{{ -->
+<!-- Installation {{{-->
 ## Installation
 
 ADB is part of the [android-tools](https://archlinux.org/packages/extra/x86_64/android-tools/)
@@ -34,7 +34,7 @@ sudo pacman -S android-tools usbutils
 [lsusb(8)](https://man.archlinux.org/man/lsusb.8.en) is provided by [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/)
 <!-- }}} -->
 
-<!-- Setup {{{ -->
+<!-- Setup {{{-->
 ## Setup
 
 <!-- 1. Enable USB debugging on the phone {{{ -->
@@ -98,7 +98,7 @@ RFCNC09BXGE     device
 <!-- }}} -->
 <!-- }}} -->
 
-<!-- Pair & Connect {{{ -->
+<!-- Pair & Connect {{{-->
 ## Pair & Connect
 
 Pair
@@ -112,7 +112,7 @@ adb connect <ip:port>
 ```
 <!-- }}} -->
 
-<!-- Packages {{{ -->
+<!-- Packages {{{-->
 ## Packages
 
 [Call package manager (pm)](https://developer.android.com/tools/adb#pm)
@@ -144,7 +144,7 @@ adb shell "pm enable <package>"
 [reddit](https://www.reddit.com/r/GalaxyS9/comments/iv4p3n/adb_list_to_safely_disable_samsung_bloatware/)
 <!-- }}} -->
 
-<!-- Settings {{{ -->
+<!-- Settings {{{-->
 ## Settings
 
 List settings
@@ -162,7 +162,7 @@ adb shell settings list system > adb_sys2.txt && adb shell settings list global 
 ```
 <!-- }}} -->
 
-<!-- Files {{{ -->
+<!-- Files {{{-->
 ## Files
 
 [Copy files to and from a device](https://developer.android.com/tools/adb#copyfiles)
@@ -184,7 +184,7 @@ adb push ~/tmp/droid sdcard/DCIM/Camera/
 ```
 <!-- }}} -->
 
-<!-- Actions {{{ -->
+<!-- Actions {{{-->
 ## Actions
 
 Notifications (send)
@@ -203,7 +203,7 @@ adb shell input keyevent 164
 ```
 <!-- }}} -->
 
-<!-- Dumpsys {{{ -->
+<!-- Dumpsys {{{-->
 ## Dumpsys
 
 [Android Developers - dumpsys](https://developer.android.com/tools/dumpsys)

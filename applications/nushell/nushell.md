@@ -13,7 +13,7 @@ sudo pacman -S nushell
 ```
 <!-- }}} -->
 
-<!-- Login shell {{{ -->
+<!-- Login shell {{{-->
 ## Login shell
 
 [Docs](https://www.nushell.sh/book/default_shell.html#setting-nu-as-login-shell-linux-bsd-macos)
@@ -26,6 +26,6 @@ cmd = "chsh -s /usr/bin/nu"
 ```
 <!-- }}} -->
 
-<!-- Limitations {{{ -->
+<!-- Limitations {{{-->
 ## Limitations
 <!-- }}} -->

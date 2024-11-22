@@ -28,8 +28,7 @@
 
 ## Cookie wall
 
-##
-### Curl
+## Curl
 
 ```
 curl http://example.com --cookie "key=value"

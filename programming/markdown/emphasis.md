@@ -1,6 +1,6 @@
 # Emphasis
 
-<!-- Bold {{{ -->
+<!-- Bold {{{-->
 ## Bold
 
 To bold text, add two asterisks (**) or underscores (__) befre and after a word
@@ -18,7 +18,7 @@ I just love <strong>bold text</strong>.
 ```
 <-- }}} -->
 
-<!-- Italic {{{ -->
+<!-- Italic {{{-->
 ## Italic
 
 To italicize text, add one asterisk (*) or underscore (_) before and after a
@@ -36,7 +36,7 @@ I just love <em>italic text</em>.
 ```
 <!-- }}} -->
 
-<!-- Bold & Italic {{{ -->
+<!-- Bold & Italic {{{-->
 ## Bold and Italic
 
 To bold and italicize text at the same time, add three asterisk (***) or

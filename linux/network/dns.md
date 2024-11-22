@@ -5,7 +5,7 @@
 
 The glibc resolver reads `/etc/resolv.conf`.
 
-<!-- ## Tools {{{ -->
+<!-- Tools {{{-->
 ## Tools
 
 ### NetworkManager
@@ -25,7 +25,7 @@ dns=none
 ### [ldns](https://github.com/NLnetLabs/ldns)
 <!-- }}} -->
 
-<!-- ## Service {{{ -->
+<!-- Service {{{-->
 ## Service
 
 Systemd
@@ -46,7 +46,7 @@ systemd_resolved_service = "sudo systemctl start systemd-resolved.service"
 ```
 <!-- }}} -->
 
-<!-- ## Cache {{{ -->
+<!-- Cache {{{-->
 ## Cache
 
 Flush cache 
@@ -66,13 +66,13 @@ chrome://net-internals/#dns
 ```
 <!-- }}} -->
 
-<!-- ## Security {{{ -->
+<!-- Security {{{-->
 ## Security
 
 - [DNSSEC](https://wiki.archlinux.org/title/DNSSEC)
 <!-- }}} -->
 
-<!-- ## DNS Leaks {{{ -->
+<!-- DNS Leaks {{{-->
 ## DNS Leaks
 
 ### Disable IPv6
@@ -89,7 +89,8 @@ nmcli connection modify <connection_name> ipv6.method "disabled"
 
 - [ProtonVPN - Prevent IPv6 VPN Leaks](https://protonvpn.com/support/prevent-ipv6-vpn-leaks/)
 
-IPv6 traffic is disabled; any potential IPv6 traffic is routed to a black hole (null route) to ensure your device cannot make connections over IPv6.
+IPv6 traffic is disabled; any potential IPv6 traffic is routed to null route
+to ensure the device cannot make connections over IPv6.
 
 ### WebRTC
 
@@ -98,8 +99,7 @@ IPv6 traffic is disabled; any potential IPv6 traffic is routed to a black hole (
 #### Firefox
 
 To disable WebRTC in Firefox (`/* 7020: disable WebRTC (Web Real-Time Communication`)
-Type `about:config` in the address bar and press Enter.
-search bar, type `media.peerconnection.enabled` and to set its value to `false`.
+ret `media.peerconnection.enabled` to `false`.
 
 #### Chrome
 

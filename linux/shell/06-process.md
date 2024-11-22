@@ -18,16 +18,11 @@
 | service --status-all               | Service status                    |
 | top                                | All processes                     |
 
-## Cron Job
-
-| Command                            | Description                       |
-| ---------------------------------- | --------------------------------- |
-
 ## Kill Processes
-| Command           | Description        |
-| ----------------- | ------------------ |
-| kill -l           | List signals
-| kill -15 <pid>    | Send SIGTERM
-| kill -2  <pid>    | Send SIGINIT
-| kill -1  <pid>    | Send SIGHUP
-| kill -9  <pid>    | Send SIGKILL
+| Command           | Description  |
+| ----------------- | ------------ |
+| kill -l           | List signals |
+| kill -15 <pid>    | Send SIGTERM |
+| kill -2  <pid>    | Send SIGINIT |
+| kill -1  <pid>    | Send SIGHUP  |
+| kill -9  <pid>    | Send SIGKILL |

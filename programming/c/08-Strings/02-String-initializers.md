@@ -2,7 +2,7 @@
 
 ## String literal
 
-Trying to mutate a string literal result in undefined behavior as it's memmory
+Trying to mutate a string literal result in undefined behavior as it's memory
 automatically managed by the compiler.
 ```c
 char *s = "Hello, world!";

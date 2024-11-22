@@ -8,28 +8,28 @@ This might include:
 - Credentials for back-end systems
 - Sensitive operating system files
 
-<!-- Resources {{{ -->
+<!-- Resources {{{-->
 ## Resources
 
 - [CVE-XXXX-XXXX](https://www.example.com/)
 
 <!-- }}} -->
 
-<!-- Description {{{ -->
+<!-- Description {{{-->
 ## Description
 
 
 
 <!-- }}} -->
 
-<!-- Impact {{{ -->
+<!-- Impact {{{-->
 ## Impact
 
 
 
 <!-- }}} -->
 
-<!-- Exploitation {{{ -->
+<!-- Exploitation {{{-->
 ## Exploitation
 
 This application implements no defenses against path traversal attacks
@@ -49,7 +49,7 @@ This causes the application to read from the following path
 
 <!-- }}} -->
 
-<!-- Remediation {{{ -->
+<!-- Remediation {{{-->
 ## Remediation
 
 

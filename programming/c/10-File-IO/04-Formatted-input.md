@@ -5,7 +5,7 @@
 `scanf()`-style functions can be hazardous with untrusted input.
 If the field width is not specified, `%s` could overflow the buffer.
 Worse, invalid numeric conversion result in undefined behavior.
-The safe thing to do with untrusted input is to use `%s`with a field width,
+The safe thing to do with untrusted input is to use `%s` with a field width,
 then use functions like `strtol()` or `strtod()` to do the conversions.
 
 ## Formatted input
@@ -21,7 +21,7 @@ These could be read with `fgets()` and then parse the string with `sscanf()`
 and in that’s more resilient against corrupted files,
 but in this case, let’s just use `fscanf()` and pull it in directly
 
-The `fscanf()` function skips leading whitespace when reading,
+The `fscanf()` function skips leading white space when reading,
 and returns `EOF` on end-of-file or error.
 
 ```c

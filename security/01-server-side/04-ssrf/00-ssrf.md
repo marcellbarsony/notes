@@ -9,34 +9,34 @@ In other cases, they may be able to force the server to connect to arbitrary
 external systems. This could leak sensitive data, such as authorization
 credentials.
 
-<!-- Resources {{{ -->
+<!-- Resources {{{-->
 ## Resources
 
 - [CVE-XXXX-XXXX](https://www.example.com/)
 
 <!-- }}} -->
 
-<!-- Description {{{ -->
+<!-- Description {{{-->
 ## Description
 
 
 <!-- }}} -->
 
-<!-- Impact {{{ -->
+<!-- Impact {{{-->
 ## Impact
 
 
 
 <!-- }}} -->
 
-<!-- Exploitation {{{ -->
+<!-- Exploitation {{{-->
 ## Exploitation
 
 
 
 <!-- }}} -->
 
-<!-- Remediation {{{ -->
+<!-- Remediation {{{-->
 ## Remediation
 
 

@@ -2,17 +2,15 @@
 
 [Arch Wiki - WireGuard](https://wiki.archlinux.org/title/WireGuard)
 
-<!-- Configuration {{{ -->
+<!-- Configuration {{{-->
 ## Configuration
 
 1. Switch to root
-
 ```sh
 sudo su
 ```
 
 2. Copy [ProtonVPN configuration](https://account.proton.me/u/0/vpn/WireGuard)
-
 ```sh
 cp /home/user/Downloads/wg0.conf /etc/wireguard
 ls -al /etc/wireguard
@@ -20,7 +18,7 @@ ls -al /etc/wireguard
 ```
 <!-- }}} -->
 
-<!-- NetworkManager {{{ -->
+<!-- NetworkManager {{{-->
 ## NetworkManager
 
 Manage WireGuard VPN connection with [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#Usage)
