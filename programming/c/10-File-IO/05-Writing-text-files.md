@@ -15,7 +15,7 @@ int main(void) {
     fp = fopen("output.txt", "w");
 
     fputc('B', fp);
-    fputc('\n', fp);   // newline
+    fputc('\n', fp);  // newline
     fprintf(fp, "x = %d\n", x);
     fputs("Hello, world!\n", fp);
 
