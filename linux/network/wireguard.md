@@ -23,30 +23,19 @@ ls -al /etc/wireguard
 
 Manage WireGuard VPN connection with [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#Usage)
 
-### Import profile
-
 ```sh
+# Import profile
 nmcli connection import type wireguard file /etc/wireguard/wg0.conf
-```
 
-### Enable/Disable connection
-
-```sh
+# Enable/Disable connection
 nmcli connection up wg0
 nmcli connection down wg0
-```
 
-### Delete profile
-
-```sh
+# Delete profile
 nmcli connection delete wg0
 nmcli device delete ipv6leakintrf0
-```
 
-### Autoconnect
-
-Prevent autoconnect
-```sh
-nmcli connection modify <profile> connection.autoconnect no
+# Prevent autoconnect
+nmcli connection modify wg0 connection.autoconnect no
 ```
 <!-- }}} -->

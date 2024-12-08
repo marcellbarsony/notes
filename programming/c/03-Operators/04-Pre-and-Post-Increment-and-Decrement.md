@@ -9,8 +9,8 @@ y--  // Decrement
 
 ## Pre-Increment
 
-The value is incremented first according to the precedence and then the less
-priority operations are done.
+The value is incremented first according to the precedence
+and then the less priority operations are done.
 ```c
 result = ++var;
 

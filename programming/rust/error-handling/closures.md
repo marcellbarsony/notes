@@ -1,4 +1,4 @@
-# Error handling - Closures
+# Closures
 
 Helper methods for [Result<T, E>](https://doc.rust-lang.org/std/result/) type
 
