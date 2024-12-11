@@ -1,9 +1,9 @@
 # Traits
 
-- [Traits-defining-shared-behavior - The Rust Book](https://doc.rust-lang.org/book/ch10-02-traits.html)<br>
+- [Traits-defining-shared-behavior - The Rust Book](https://doc.rust-lang.org/book/ch10-02-traits.html)
 
-A Trait defines functionality a particular type has and can share with other
-types (share methods).
+A Trait defines functionality a particular type has
+and can share with other types (share methods).
 
 ## Define a Trait
 
@@ -41,7 +41,6 @@ impl Summary for NewsArticle {
 ## Traits as parameters
 
 Use Traits to define functions that accept many different types
-
 ```rs
 pub fn notify(item: &impl Summary) {
     println!("Breaking news! {}", item.summarize());

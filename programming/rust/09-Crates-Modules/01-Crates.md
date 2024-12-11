@@ -10,9 +10,16 @@
 2. A package can have either 0 or 1 library crates
 3. A package can have any number of binary crates
 
+
+## Binary crates
+
+If `main.rs` is defined in `src/`, a binary crate is created
+with the package's name. `main.rs` will be the crate root and the root module.
+
 ## Dependencies
 
 Dependencies added to `Cargo.toml` are available globally to all modules
+
 ```toml
 // Cargo.toml
 [dependencies]

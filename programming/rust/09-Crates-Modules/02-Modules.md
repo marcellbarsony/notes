@@ -1,12 +1,12 @@
 # Modules
 
-## Sources
-
 - [Medium - Rust modules and project structure](https://medium.com/codex/rust-modules-and-project-structure-832404a33e2e)
 
-### Scenario 1
+<!-- Scenario 1 {{{-->
+## Scenario 1
 
 Importing `config.rs` in `main.rs` (same directory)
+
 ```rs
 // File System Tree
 project_root
@@ -19,6 +19,7 @@ project_root
 crate
 └─ config
 ```
+
 ```rs
 // main.rs
 mod config;
@@ -27,14 +28,17 @@ fn main() {
     config::hello();
 }
 ```
+
 ```rs
 // config.rs
 pub fn hello() {
     println!("Hello world");
 }
 ```
+<!--}}}-->
 
-### Scenario 2
+<!-- Scenario 2 {{{-->
+## Scenario 2
 
 Importing modules in `main.rs` (different directory)
 
@@ -92,8 +96,10 @@ fn main() {
     hello();
 }
 ```
+<!--}}}-->
 
-### Scenario 3
+<!-- Scenario 3 {{{-->
+## Scenario 3
 
 Importing modules from another module
 
@@ -144,3 +150,4 @@ fn hello() {
     println!{"Hello world"};
 }
 ```
+<!--}}}-->

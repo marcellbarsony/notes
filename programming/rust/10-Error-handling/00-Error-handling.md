@@ -2,7 +2,8 @@
 
 [Error Handling - The Rust Book](https://doc.rust-lang.org/book/ch09-00-error-handling.html)<br>
 
-### Backtrace
+<!-- Backtrace {{{-->
+## Backtrace
 
 Display backtrace in error message
 
@@ -10,6 +11,9 @@ Display backtrace in error message
 # note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 $ RUST_BACKTRACE=1 cargo run
 ```
+<!-- }}} -->
+
+<!-- Unrecoverable errors {{{-->
 
 ## Unrecoverable errors
 
@@ -18,7 +22,9 @@ Unrecoverable errors with `panic!` macro
 ```rs
 panic!("Panic!");
 ```
+<!-- }}} -->
 
+<!-- Recoverable errors {{{-->
 ## Recoverable errors
 
 Recoverable errors with [Result<T, E>](https://doc.rust-lang.org/std/result/)
@@ -59,3 +65,4 @@ let file = match file_result {
     },
 };
 ```
+<!-- }}} -->

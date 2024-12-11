@@ -54,8 +54,8 @@ fn read_username_from_file() -> Result<String, io::Error> {
 
 ## Read to string
 
-[read_to_string](https://doc.rust-lang.org/std/fs/fn.read_to_string.html) reads
-the entire contents of a file into a string
+[read_to_string](https://doc.rust-lang.org/std/fs/fn.read_to_string.html)
+reads the entire contents of a file into a string
 
 ```rs
 use std::fs::{self, File};
