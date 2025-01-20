@@ -98,8 +98,9 @@ to ensure the device cannot make connections over IPv6.
 
 #### Firefox
 
-To disable WebRTC in Firefox (`/* 7020: disable WebRTC (Web Real-Time Communication`)
-ret `media.peerconnection.enabled` to `false`.
+To disable WebRTC in Firefox
+(`/* 7020: disable WebRTC (Web Real-Time Communication`)
+set `media.peerconnection.enabled` to `false`.
 
 #### Chrome
 

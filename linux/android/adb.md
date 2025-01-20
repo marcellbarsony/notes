@@ -64,9 +64,9 @@ Where vendor id is **04e8** and product id is **6860**
 <!-- 3. Add udev rules {{{ -->
 ### 3. Add udev rules
 
-Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]` in the
-template
-```
+Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]`
+in the template
+```sh
  sudoedit /etc/udev/rules.d/51-android.rules
 SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", MODE="0660", GROUP="adbusers", TAG+="uaccess"
 SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]", SYMLINK+="android_adb"
@@ -77,9 +77,11 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]"
 <!-- 4. Reload udev rules {{{ -->
 ### 4. Reload udev rules
 
-`udev` automatically detects changes to rules files. However, the rules are not
-re-triggered automatically on already existing devices. Hot-pluggable devices,
-such as USB devices, have to be reconnected for the new rules to take effect.
+`udev` automatically detects changes to rules files.
+However, the rules are not re-triggered automatically
+on already existing devices. Hot-pluggable devices,
+such as USB devices, have to be reconnected
+for the new rules to take effect.
 ```sh
  sudo su
  udevadm control --reload
