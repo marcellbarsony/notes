@@ -1,6 +1,6 @@
 # BTRFS
 
-<!-- Btrfs {{{ -->
+<!-- Btrfs {{{-->
 ## Btrfs
 
 [List snapshots (subvolumes)](https://wiki.archlinux.org/title/btrfs#Listing_subvolumes)
@@ -25,7 +25,7 @@ sudo btrfs filesystem usage /
 ```
 <!-- }}} -->
 
-<!-- Snapper {{{ -->
+<!-- Snapper {{{-->
 ## Snapper
 
 [Arch Wiki - Snapper](https://wiki.archlinux.org/title/Snapper)

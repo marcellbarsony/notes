@@ -12,6 +12,7 @@ for number in 1..10 {
 
 The `for in` consturct is able to interact with an `Iterator` in several ways
 
+<!-- Iter {{{-->
 ### Iter
 
 `iter` borrows each element of the collection through each iteration
@@ -29,7 +30,9 @@ fn main() {
     println!("names: {:?}", names);
 }
 ```
+<!--}}}-->
 
+<!-- Into iter {{{-->
 ### Into iter
 
 `into iter` consumes the collection so that on each iteration
@@ -48,7 +51,9 @@ fn main() {
     println!("names: {:?}", names); // Error! Collection is moved
 }
 ```
+<!--}}}-->
 
+<!-- Iter mut {{{-->
 ### Iter mut
 
 `iter mut` mutably borrows each element of the collection,
@@ -67,3 +72,4 @@ fn main() {
     println!("names: {:?}", names);
 }
 ```
+<!--}}}-->

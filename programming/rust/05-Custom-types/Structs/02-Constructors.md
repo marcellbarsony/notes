@@ -12,10 +12,9 @@ let user1 = create_user(
 fn create_user(email: String, username: String) -> User {
     User {
         email: email,
-        username, // Field init shorthand syntax
-        active: true, // Default value
+        username,         // Field init shorthand syntax
+        active: true,     // Default value
         sign_in_count: 1, // Default value
     }
 }
 ```
-

@@ -1,5 +1,6 @@
 # From and Into
 
+<!-- From {{{-->
 ## From
 
 The `From` trait allows for a type to define how to create itself
@@ -30,7 +31,9 @@ fn main() {
     println!("My number is {:?}", num);
 }
 ```
+<!--}}}-->
 
+<!-- Into {{{-->
 ## Into
 
 The `Into` trait is the reciprocal of the `From` trait.
@@ -55,3 +58,4 @@ fn main() {
     println!("My number is {:?}", num);
 }
 ```
+<!--}}}-->

@@ -1,6 +1,6 @@
 # Shared folder
 
-## Dependencies
+## Dependencies (Host)
 
 1. Install `virtualbox-guest-utils`
 2. Add user to `vboxsf` group

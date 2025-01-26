@@ -19,17 +19,17 @@ struct Point {
 let point_1: Point = Point { x: 5.2, y: 0.4 };
 let point_2: Point = Point { x: 10.3, y: 0.2 };
 
-// Create a new point  using struct update syntax
-let point_3 = Point { x: 10.3, ..another_point };
+// Struct update syntax
+let point_3 = Point { x: 10.3, ..point1 };
 
-// Accessing fields
+// Access fields
 println!("Points: {}, {}", point_1.x, point_1.y);
 println!("Points: {}, {}", point_2.x, point_2.y);
 
 // Destructuring
 let Point { x, y } = point;
 
-// Create a struct with field init shorthand
+// Field init shorthand
 let name = String::from("Peter");
 let age = 27;
 let peter = Person { name, age };
@@ -48,7 +48,7 @@ struct Pair(i32, f32);
 // Instantiate
 let pair = Pair(1, 0.1);
 
-// Access the fields
+// Access fields
 println!("pair contains {:?} and {:?}", pair.0, pair.1);
 
 // Destructure

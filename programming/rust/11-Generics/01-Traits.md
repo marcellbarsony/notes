@@ -2,8 +2,8 @@
 
 - [Traits-defining-shared-behavior - The Rust Book](https://doc.rust-lang.org/book/ch10-02-traits.html)
 
-A Trait defines functionality a particular type has
-and can share with other types (share methods).
+A Trait (shared method) defines functionality a particular type has
+and can share with other types.
 
 ## Define a Trait
 

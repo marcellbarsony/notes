@@ -17,7 +17,7 @@ let d: i32 = 0b1111_0000; // Binary
 let e: u8 = b'A'; // Byte (u8 only)
 ```
 
-### Operations
+### Arithmetic operations
 
 ```rs
 // Addition
