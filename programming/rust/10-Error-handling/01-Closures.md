@@ -2,6 +2,7 @@
 
 Helper methods for [Result<T, E>](https://doc.rust-lang.org/std/result/) type
 
+<!-- unwrap_or_else {{{-->
 ## `unwrap_or_else`
 
 ```rs
@@ -20,7 +21,9 @@ fn main() {
     });
 }
 ```
+<!-- }}} -->
 
+<!-- unwrap {{{-->
 ## `unwrap`
 
 Call `panic!` without error message
@@ -32,7 +35,9 @@ fn main() {
     let greeting_file = File::open("file.txt").unwrap();
 }
 ```
+<!-- }}}-->
 
+<!-- expect {{{-->
 ## `expect`
 
 Call `panic!` with custom error message
@@ -45,3 +50,4 @@ fn main() {
         .expect("file.txt should be included in this project");
 }
 ```
+<!-- }}} -->

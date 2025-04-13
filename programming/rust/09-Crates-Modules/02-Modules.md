@@ -7,15 +7,15 @@
 
 Importing `config.rs` in `main.rs` (same directory)
 
-```rs
-// File System Tree
+```sh
+# File System Tree
 project_root
 ├─ cargo.toml
 └─┬─ /src
   ├─ main.rs
   └─ config.rs
 
-// Module System Tree
+# Module System Tree
 crate
 └─ config
 ```
@@ -42,8 +42,8 @@ pub fn hello() {
 
 Importing modules in `main.rs` (different directory)
 
-```rs
-// File System Tree
+```sh
+# File System Tree
 project_root
 ├─ cargo.toml
 └─┬─ /src
@@ -52,17 +52,19 @@ project_root
     ├─ mod.rs
     └─ file.rs
 
-// Module System Tree
+# Module System Tree
 crate
 └─ module
      └─ file
 ```
+
 ```rs
 // module/file.rs
 pub fn hello() {
   println!("Hello world");
 }
 ```
+
 ```rs
 // module/mod.rs
 // Version A
@@ -70,8 +72,9 @@ pub mod file;
 
 // Version B
 mod file;
-pub use file::hello;    // Add `use` to map hello() to module
+pub use file::hello;    // Add `use` to map `hello()` to module
 ```
+
 ```rs
 // main.rs - Version A/1
 mod module;
@@ -103,8 +106,8 @@ fn main() {
 
 Importing modules from another module
 
-```rs
-// File System Tree
+```sh
+# File System Tree
 project_root
 ├─ cargo.toml
 └─┬─ /src
@@ -116,7 +119,7 @@ project_root
     ├─ mod.rs
     └─ file2.rs
 
-// Module System Tree
+# Module System Tree
 crate
 ├─ module1
 │   └─ file1

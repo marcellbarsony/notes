@@ -8,7 +8,7 @@ Vectors are re-sizable arrays.
 - **Sequence:** Growable
 - **Memory allocation:** Heap
 
-## Declare
+## Declaration
 
 ```rs
 // Explicit

@@ -1,6 +1,6 @@
 # Lifetimes
 
-A lifetime is a construct the borrow checker uses to ensure al borrows are
+A lifetime is a construct the borrow checker uses to ensure all borrows are
 valid.
 
 - A lifetime begins when a variable is created (initilized)

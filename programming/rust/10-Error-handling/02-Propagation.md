@@ -21,6 +21,7 @@ fn read_username_from_file() -> Result<String, io::Error> {
 }
 ```
 
+<!-- ? operator {{{-->
 ## ? operator
 
 The `?` operator is used to unwrap `Result<T,E>` and `Option<T>` values
@@ -38,7 +39,9 @@ fn read_username_from_file() -> Result<String, io::Error> {
     Ok(username)
 }
 ```
+<!-- }}} -->
 
+<!-- Method call chaining {{{-->
 ## Method call chaining
 
 ```rs
@@ -51,7 +54,9 @@ fn read_username_from_file() -> Result<String, io::Error> {
     Ok(s)
 }
 ```
+<!-- }}} -->
 
+<!-- read_to_string {{{-->
 ## Read to string
 
 [read_to_string](https://doc.rust-lang.org/std/fs/fn.read_to_string.html)
@@ -65,3 +70,4 @@ fn read_username_from_file() -> Result<String, io::Error> {
     fs::read_to_string("file.txt");
 }
 ```
+<!-- }}} -->
