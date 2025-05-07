@@ -8,7 +8,7 @@ paru -S simple-mtpfs
 
 1. List devices
 ```sh
-mtpfs -l
+simple-mtpfs -l
 ```
 
 2. Mount device to `/mnt/android`
@@ -27,7 +27,7 @@ sudo dolphin /mnt/android
 
 - [android-file-transfer](https://whoozle.github.io/android-file-transfer-linux/)
 
-Mount your device on ~/mnt:
 ```sh
-$ aft-mtp-mount ~/mnt
+sudo pacman -S gvfs-mtf thunar
+paru -S jmtpfs
 ```

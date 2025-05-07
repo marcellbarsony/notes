@@ -37,7 +37,7 @@ sudo pacman -S android-tools usbutils
 <!-- Setup {{{ -->
 ## Setup
 
-<!-- 1. Enable USB debugging on the phone {{{ -->
+<!-- 1. Enable USB debugging on the phone {{{-->
 ### 1. Enable USB debugging on the phone
 
 - **Settings > Developer options > USB debugging**
@@ -50,7 +50,7 @@ If the dialog was never presented, try
 **Settings > Developer Options > Revoke USB Debugging Authorizations**
 <!-- }}} -->
 
-<!-- 2. Find the device IDs {{{ -->
+<!-- 2. Find the device IDs {{{-->
 ### 2. Find the device IDs
 
 ```sh
@@ -62,7 +62,7 @@ Bus 004 Device 009: ID 04e8:6860 Samsung Electronics Co., Ltd Galaxy series, mis
 Where vendor id is **04e8** and product id is **6860**
 <!-- }}} -->
 
-<!-- 3. Add udev rules {{{ -->
+<!-- 3. Add udev rules {{{-->
 ### 3. Add udev rules
 
 Create a custom udev rule by replacing `[VENDOR ID]` and `[PRODUCT ID]` in the
@@ -75,7 +75,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="[VENDOR ID]", ATTR{idProduct}=="[PRODUCT ID]"
 ```
 <!-- }}} -->
 
-<!-- 4. Reload udev rules {{{ -->
+<!-- 4. Reload udev rules {{{-->
 ### 4. Reload udev rules
 
 `udev` automatically detects changes to rules files. However, the rules are not
@@ -88,14 +88,22 @@ such as USB devices, have to be reconnected for the new rules to take effect.
 ```
 <!-- }}} -->
 
-<!-- 5. Detect the device {{{ }}}-->
+<!-- 5. Detect the device {{{-->
+
 ### 5. Detect the device
+
+Restart the adb server (optional)
+```sh
+> adb kill-server                                                       /etc/udev/rules.d  as su
+> adb start-server
+```
 
 ```sh
  adb devices
 List of devices attached
 RFCNC09BXGE     device
 ```
+
 <!-- }}} -->
 <!-- }}} -->
 
